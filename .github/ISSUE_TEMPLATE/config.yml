@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Token360 docs
+    url: https://www.token360.ai/docs
+    about: Questions about the Token360 API itself.

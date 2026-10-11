@@ -1,0 +1,1206 @@
+{
+  "fetched_at": "2026-10-11",
+  "source": "GET https://api.token360.ai/v1/models (unauthenticated, public)",
+  "models": [
+    {
+      "id": "berry-1.0",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "id": "berry-1.0-pro",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "id": "berry-1.0-pro-turbo",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "id": "berry-1.0-turbo",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "id": "claude-fable-5",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-fable-5-1",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-opus-4-5-20251101",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-opus-4-6",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-opus-4-7",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-opus-4-8",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-opus-5",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-opus-5-5",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-sonnet-5",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "owned_by": "Anthropic",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "cogvideox-3",
+      "owned_by": "Z.AI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "owned_by": "DeepSeek",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "deepseek-v4-flash-0731",
+      "owned_by": "DeepSeek",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "owned_by": "DeepSeek",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "owned_by": "DeepSeek",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "deepseek-v4-pro-0813",
+      "owned_by": "DeepSeek",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "owned_by": "DeepSeek",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "dola-seed-2.0-pro",
+      "owned_by": "Bytedance",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "dola-seed-2.1-pro",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "dola-seedream-5.0-lite",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "dola-seedream-5.0-pro",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-2.5-flash-image",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5",
+      "owned_by": "Z.AI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5.1",
+      "owned_by": "Z.AI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5.2",
+      "owned_by": "Z.AI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5.3",
+      "owned_by": "Z.AI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5.3-flash",
+      "owned_by": "Z.AI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5.3-flashx",
+      "owned_by": "Z.AI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-5v-turbo",
+      "owned_by": "Z.AI",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "file"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-asr-2512",
+      "owned_by": "Z.AI",
+      "input": [
+        "audio"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "glm-image",
+      "owned_by": "Z.AI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "gpt-5-mini",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-5.4",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-5.5",
+      "owned_by": "OpenAI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-6-astra",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-6-luna",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-6-sol",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "images"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-image-1.5",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "gpt-image-2",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "gpt-image-2.5-flare",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "gpt-image-2.5-sunburst",
+      "owned_by": "OpenAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "grok-4.3",
+      "owned_by": "xAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "grok-4.5",
+      "owned_by": "xAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "grok-4.6",
+      "owned_by": "xAI",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "happy-horse-1.1",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "hy3",
+      "owned_by": "Tencent",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "hy4-preview",
+      "owned_by": "Tencent",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "kimi-k2.5",
+      "owned_by": "Moonshot AI",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "kimi-k2.6",
+      "owned_by": "Moonshot AI",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "kimi-k2.7-code",
+      "owned_by": "Moonshot AI",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "owned_by": "Moonshot AI",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "minimax-h3",
+      "owned_by": "MiniMax",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "minimax-h3-fast",
+      "owned_by": "MiniMax",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "minimax-h3-max",
+      "owned_by": "MiniMax",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "minimax-h3-max-turbo",
+      "owned_by": "MiniMax",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "minimax-m2.5",
+      "owned_by": "MiniMax",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "minimax-m2.7",
+      "owned_by": "MiniMax",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "minimax-m3",
+      "owned_by": "MiniMax",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "nano-banana-2",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "nano-banana-pro",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "qwen3.5-flash",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen3.5-plus",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen3.6-flash",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen3.6-plus",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen3.7-max",
+      "owned_by": "Alibaba",
+      "input": [
+        "image",
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen3.8-flash",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen3.8-max",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    {
+      "id": "seed-audio-1.0",
+      "owned_by": "Bytedance",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "audio"
+      ]
+    },
+    {
+      "id": "seedance-1.5-pro",
+      "owned_by": "Bytedance",
+      "input": [
+        "image",
+        "text"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "seedance-2.0",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "seedance-2.0-fast",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "seedance-2.0-mini",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "seedance-2.5",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "seedream-4.0",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "seedream-4.5",
+      "owned_by": "Bytedance",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "veo-3.1-fast-generate-001",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "veo-3.1-generate-001",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "veo-3.1-lite-generate-001",
+      "owned_by": "Google DeepMind",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "viduq1-image",
+      "owned_by": "Shengshu Technology",
+      "input": [
+        "image",
+        "text"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "viduq1-text",
+      "owned_by": "Shengshu Technology",
+      "input": [
+        "text"
+      ],
+      "output": [
+        "video"
+      ]
+    },
+    {
+      "id": "wan2.6-image",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "wan2.7-image",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "wan2.7-image-pro",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "image"
+      ]
+    },
+    {
+      "id": "wan3.0-video",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "id": "wan3.0-video-prime",
+      "owned_by": "Alibaba",
+      "input": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "output": [
+        "video"
+      ]
+    }
+  ]
+}

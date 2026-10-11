@@ -1,0 +1,59 @@
+name: Suggest an entry
+description: Propose a repo, skill, MCP server, ComfyUI node, post or person for the list.
+title: "[Suggest] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Please check the [inclusion bar](https://github.com/token360-community/awesome-video-audio-hacks/blob/main/CONTRIBUTING.md#inclusion-bar) first. Sections are capped, so a strong suggestion may replace an existing entry.
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Repo, Skill, MCP, Node, Plugin, Web, Post, Person, List]
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Video generation & prompting
+        - Short drama & storytelling
+        - Editing & motion agents
+        - Voice, TTS & music
+        - Dubbing & subtitles
+        - Lip-sync & digital humans
+        - ComfyUI & MCP connectors
+        - Workflow breakdowns (posts)
+        - People to follow
+        - Related lists
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and why does it beat what is already listed?
+      description: One or two sentences. Any language is fine.
+    validations:
+      required: true
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Bar check
+      options:
+        - label: It meets the numeric bar for its type (stars / activity / engagement / followers).
+          required: true
+        - label: It has a clear license (or I flagged that it is non-commercial / unlicensed).
+          required: true
+        - label: It is not a competitor platform, an ad, or a "comment/retweet to get it" post.
+          required: true
+        - label: I am affiliated with this project (tick only if true).

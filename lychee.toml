@@ -1,0 +1,12 @@
+# Link check config (lycheeverse/lychee). x.com blocks anonymous crawlers, so X links are
+# verified through the X API by maintainers instead (see CONTRIBUTING.md, last_checked).
+max_retries = 3
+timeout = 30
+accept = ["200..=299", "429"]
+exclude = [
+  '^https://x\.com/',
+  '^https://twitter\.com/',
+  '^https://img\.shields\.io/',
+  '^https://api\.token360\.ai/', # API routes need a key; covered by --live-models
+]
+exclude_path = []

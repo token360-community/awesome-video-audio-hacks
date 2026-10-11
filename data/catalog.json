@@ -1,0 +1,1623 @@
+{
+  "name": "awesome-video-audio-hacks",
+  "repo": "https://github.com/token360-community/awesome-video-audio-hacks",
+  "updated": "2026-10-11",
+  "langs": [
+    "en",
+    "zh-CN",
+    "ja"
+  ],
+  "max_age_days": 30,
+  "max_link_only_per_section": 2,
+  "utm": "utm_source=github&utm_medium=awesome&utm_campaign=avah",
+  "token360": {
+    "base_url": "https://api.token360.ai/v1",
+    "models_snapshot": "data/token360-models.json",
+    "verified_note": {
+      "en": "Model ids from the public `GET /v1/models` on {date}. Routes answer with an auth error without a key; nothing in this list has been run end to end on Token360 yet.",
+      "zh-CN": "模型 id 取自 {date} 公开的 `GET /v1/models`。不带 key 请求时这些路由返回鉴权错误；本列表里的项目都还没在 Token360 上端到端跑过。",
+      "ja": "モデル ID は {date} 時点の公開 `GET /v1/models` から取得。キーなしのリクエストには認証エラーを返すことを確認済みですが、このリストの項目はまだ Token360 上でエンドツーエンドに試していません。"
+    },
+    "endpoints": [
+      {
+        "modality": "text",
+        "method": "POST",
+        "path": "/chat/completions",
+        "models": [
+          "claude-sonnet-5-5",
+          "gpt-6-sol",
+          "deepseek-v4.1-flash"
+        ],
+        "status": "documented"
+      },
+      {
+        "modality": "image",
+        "method": "POST",
+        "path": "/images/generations",
+        "models": [
+          "gpt-image-2",
+          "dola-seedream-5.0-pro",
+          "nano-banana-2"
+        ],
+        "status": "documented"
+      },
+      {
+        "modality": "video",
+        "method": "POST",
+        "path": "/videos → GET /videos/{id}",
+        "models": [
+          "seedance-2.5",
+          "veo-3.1-generate-001",
+          "wan3.0-video",
+          "minimax-h3"
+        ],
+        "status": "documented"
+      },
+      {
+        "modality": "audio",
+        "method": null,
+        "path": null,
+        "models": [
+          "seed-audio-1.0",
+          "glm-asr-2512"
+        ],
+        "status": "pending"
+      }
+    ],
+    "chat_example_model": "deepseek-v4.1-flash",
+    "video_example_model": "seedance-2.5"
+  },
+  "sections": [
+    {
+      "id": "video-gen",
+      "title": {
+        "en": "Video generation & prompting",
+        "zh-CN": "视频生成与提示词",
+        "ja": "動画生成とプロンプト"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "hkuds--vimax",
+          "type": "repo",
+          "title": "HKUDS/ViMax",
+          "url": "https://github.com/HKUDS/ViMax",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 12629,
+          "last_commit": "2026-09-30",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "github.com/hkuds/vimax"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agentic video generation in one pipeline: idea → script → storyboard → shots, with director, screenwriter and producer agents.",
+            "zh-CN": "Agent 化的视频生成流水线：创意 → 剧本 → 分镜 → 镜头，导演、编剧、制片多个 Agent 分工协作。",
+            "ja": "アイデア → 脚本 → 絵コンテ → ショットまでを 1 本でつなぐエージェント型動画生成。監督・脚本・プロデューサー役のエージェントが分担します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "emily2040--seedance-2.0",
+          "type": "skill",
+          "title": "Emily2040/seedance-2.0",
+          "url": "https://github.com/Emily2040/seedance-2.0",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 7587,
+          "last_commit": "2026-09-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/bkdgiffug/status/2086741593143509066"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Production-pipeline skill for Seedance 2.0 filmmaking across text, image, video and audio inputs.",
+            "zh-CN": "面向 Seedance 2.0 的制作流程 Skill，覆盖文本、图像、视频、音频四种输入的 AI 影片制作。",
+            "ja": "Seedance 2.0 での映像制作向けスキル。テキスト・画像・動画・音声の 4 種類の入力を扱う制作パイプラインです。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "zhouwei713--seedance-prompt",
+          "type": "skill",
+          "title": "zhouwei713/seedance-prompt",
+          "url": "https://github.com/zhouwei713/seedance-prompt",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 327,
+          "last_commit": "2026-08-03",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "github.com/zhouwei713/seedance-prompt (+ x.com/zhouluobo/status/2074643296828481841)"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill that writes realistic-looking video prompts for Seedance and other text-to-video models.",
+            "zh-CN": "为 Seedance 等文生视频模型编写写实风格视频提示词的 Agent Skill。",
+            "ja": "Seedance などのテキスト→動画モデル向けに、実写風の動画プロンプトを書くエージェントスキル。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "liyue-aigc--seedance-2-5-video-director",
+          "type": "skill",
+          "title": "liyue-aigc/seedance-2-5-video-director",
+          "url": "https://github.com/liyue-aigc/seedance-2-5-video-director",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 616,
+          "last_commit": "2026-08-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/liyue_ai/status/2093592225162960982"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Seedance 2.5 \"video director\" skill: prompts, scripts, character locking, continuation, edits and transitions.",
+            "zh-CN": "Seedance 2.5 视频导演 Skill：提示词、脚本、诊断、人物锁定、续写、编辑与转场。",
+            "ja": "Seedance 2.5 の「動画ディレクター」スキル。プロンプト、脚本、人物の固定、続きの生成、編集、トランジションに対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "s1dashu--director",
+          "type": "skill",
+          "title": "s1dashu/director",
+          "url": "https://github.com/s1dashu/director",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 801,
+          "last_commit": "2026-08-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/s1dashu/status/2083194631546871925"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Skill that directs a complete video end to end: research, script, visual development, shot design, media generation and delivery.",
+            "zh-CN": "从调研、脚本、视觉设定、镜头设计、素材生成到交付，端到端“导演”一条完整视频的 Skill。",
+            "ja": "リサーチ、脚本、ビジュアル開発、ショット設計、素材生成、納品まで、1 本の動画を通しで「監督」するスキル。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "short-drama",
+      "title": {
+        "en": "Short drama & storytelling",
+        "zh-CN": "短剧与叙事",
+        "ja": "ショートドラマとストーリー"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "hbai-ltd--toonflow-app",
+          "type": "repo",
+          "title": "HBAI-Ltd/Toonflow-app",
+          "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 17246,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Self-hostable short-drama and motion-comic tool: script writing, storyboards, character/scene assets and image/video generation on an infinite canvas with agents.",
+            "zh-CN": "可本地部署的短剧/漫剧制作工具：剧本、智能分镜、角色与场景资产、图像和视频生成，基于无限画布与 Agent。",
+            "ja": "セルフホストできるショートドラマ／モーションコミック制作ツール。無限キャンバス上で脚本、絵コンテ、キャラクター・シーン素材、画像・動画生成をエージェントと進めます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "memecalculate--moyin-creator",
+          "type": "repo",
+          "title": "MemeCalculate/moyin-creator",
+          "url": "https://github.com/MemeCalculate/moyin-creator",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4695,
+          "last_commit": "2026-08-27",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "item inside a bookmarked roundup post"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Batch script-to-final-cut production tool for AI drama, with Seedance 2.0 support.",
+            "zh-CN": "AI 影视生产工具：剧本到成片全流程批量化，支持 Seedance 2.0。",
+            "ja": "脚本から完成映像までをバッチで回す AI 映像制作ツール。Seedance 2.0 に対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "xuanyustudio--localminidrama",
+          "type": "repo",
+          "title": "xuanyustudio/LocalMiniDrama",
+          "url": "https://github.com/xuanyustudio/LocalMiniDrama",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2017,
+          "last_commit": "2026-10-02",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Local-first short-drama maker: story → storyboard → video, with project data kept on your machine.",
+            "zh-CN": "本地优先的 AI 短剧/漫剧工具：故事 → 分镜 → 成片，项目数据留在本机。",
+            "ja": "ローカル優先のショートドラマ制作ツール。ストーリー → 絵コンテ → 動画まで、プロジェクトデータは手元のマシンに残ります。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "zenstory-ai--drama-skills",
+          "type": "skill",
+          "title": "zenstory-ai/drama-skills",
+          "url": "https://github.com/zenstory-ai/drama-skills",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2735,
+          "last_commit": "2026-10-03",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Skill set for AI micro-dramas in Claude Code and Codex: script, character assets, storyboard, image/video prompts and review.",
+            "zh-CN": "适配 Claude Code 与 Codex 的 AI 短剧 Skill 合集：剧本、角色资产、分镜、图片/视频提示词与审查。",
+            "ja": "Claude Code / Codex 向けの AI ショートドラマ用スキル集。脚本、キャラクター素材、絵コンテ、画像・動画プロンプト、レビューまで。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "eternityspring--shuohao-skills",
+          "type": "skill",
+          "title": "eternityspring/shuohao-skills",
+          "url": "https://github.com/eternityspring/shuohao-skills",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4392,
+          "last_commit": "2026-10-08",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "x-search",
+            "ref": "x.com/eternityspring"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skills for short-drama pre-production: character bibles, adaptation outlines, art bibles, screenplays and storyboards.",
+            "zh-CN": "AI 短剧前期制作 Skill：拆角色、排大纲、场景与道具设定、写剧本、切分镜。",
+            "ja": "ショートドラマのプリプロダクション向けエージェントスキル。キャラクター設定、構成案、美術設定、脚本、絵コンテ。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "editing",
+      "title": {
+        "en": "Editing & motion agents",
+        "zh-CN": "剪辑与动效 Agent",
+        "ja": "編集・モーションエージェント"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "calesthio--openmontage",
+          "type": "repo",
+          "title": "calesthio/OpenMontage",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 66947,
+          "last_commit": "2026-10-03",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/NFTCPS/status/2081703214857302044"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agentic video production system that turns an AI coding assistant into a production pipeline, with many ready-made pipelines and tools.",
+            "zh-CN": "Agent 化的视频制作系统：把 AI 编程助手变成完整的视频生产流水线，内置多条现成流程和工具。",
+            "ja": "AI コーディングアシスタントを動画制作パイプラインに変えるエージェント型システム。既製のパイプラインとツールを多数収録。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "heygen-com--hyperframes",
+          "type": "repo",
+          "title": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 60942,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "github.com/heygen-com/hyperframes"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Write HTML, render video: a motion framework designed to be driven by agents.",
+            "zh-CN": "写 HTML 就能渲染视频的动效框架，专为 Agent 调用设计。",
+            "ja": "HTML を書けば動画にレンダリングできるモーションフレームワーク。エージェントから扱う前提で設計されています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "vincentwei1021--video-shotcraft",
+          "type": "skill",
+          "title": "Vincentwei1021/video-shotcraft",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 11297,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "vincentwei1021.github.io/video-shotcraft"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Claude Code / Codex skill for cinematic product videos with Remotion: shot recipe cards, motion previews and a production template.",
+            "zh-CN": "用 Remotion 做电影感产品视频的 Claude Code / Codex Skill：镜头配方卡、动效预览和生产模板。",
+            "ja": "Remotion でシネマティックな製品動画を作る Claude Code / Codex スキル。ショットのレシピカード、モーションプレビュー、制作用テンプレート付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Renders with Remotion, whose own license requires a paid company license for some commercial use.",
+            "zh-CN": "依赖 Remotion 渲染，Remotion 自身许可对部分公司商用场景要求付费授权。",
+            "ja": "レンダリングに Remotion を使用。Remotion 本体のライセンスは一部の企業利用で有償ライセンスが必要です。"
+          }
+        },
+        {
+          "id": "digitalsamba--claude-code-video-toolkit",
+          "type": "skill",
+          "title": "digitalsamba/claude-code-video-toolkit",
+          "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2201,
+          "last_commit": "2026-10-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "item inside a bookmarked roundup post"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "AI-native video production toolkit for Claude Code.",
+            "zh-CN": "面向 Claude Code 的 AI 原生视频制作工具包。",
+            "ja": "Claude Code 向けの AI ネイティブな動画制作ツールキット。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "luoluoluo22--jianying-editor-skill",
+          "type": "skill",
+          "title": "luoluoluo22/jianying-editor-skill",
+          "url": "https://github.com/luoluoluo22/jianying-editor-skill",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3900,
+          "last_commit": "2026-09-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "item inside a bookmarked roundup post"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill that automates editing in JianYing (the Chinese edition of CapCut) by writing its project drafts.",
+            "zh-CN": "让 Agent 自动操作剪映草稿、完成剪辑的 Skill。",
+            "ja": "剪映（CapCut 中国版）のプロジェクト下書きを書き換えて編集を自動化するエージェントスキル。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE file opened by hand on 2026-10-11 and is the MIT text."
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "title": {
+        "en": "Voice, TTS & music",
+        "zh-CN": "配音、TTS 与音乐",
+        "ja": "音声・TTS・音楽"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "rvc-boss--gpt-sovits",
+          "type": "repo",
+          "title": "RVC-Boss/GPT-SoVITS",
+          "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 62681,
+          "last_commit": "2026-10-08",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Few-shot voice cloning and TTS: about one minute of reference audio is enough to train a voice.",
+            "zh-CN": "少样本声音克隆与 TTS：约 1 分钟参考音频即可训练出可用的声音。",
+            "ja": "少量サンプルでの声のクローンと TTS。約 1 分の参照音声で声を学習できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "openbmb--voxcpm",
+          "type": "repo",
+          "title": "OpenBMB/VoxCPM",
+          "url": "https://github.com/OpenBMB/VoxCPM",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 38963,
+          "last_commit": "2026-10-07",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/Bytec99/status/2075372048994672994 (long-form post)"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Tokenizer-free multilingual TTS with voice design and voice cloning.",
+            "zh-CN": "无分词器的多语种 TTS，支持声音设计与声音克隆。",
+            "ja": "トークナイザー不要の多言語 TTS。ボイスデザインと声のクローンに対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "resemble-ai--chatterbox",
+          "type": "repo",
+          "title": "resemble-ai/chatterbox",
+          "url": "https://github.com/resemble-ai/chatterbox",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 26859,
+          "last_commit": "2026-07-21",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1 watchlist"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Open-source TTS model family from Resemble AI.",
+            "zh-CN": "Resemble AI 开源的 TTS 模型。",
+            "ja": "Resemble AI によるオープンソースの TTS モデル。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "qwenaudio--cosyvoice",
+          "type": "repo",
+          "title": "QwenAudio/CosyVoice",
+          "url": "https://github.com/QwenAudio/CosyVoice",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 23921,
+          "last_commit": "2026-05-25",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1 watchlist"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Multilingual voice generation model with inference, training and deployment code.",
+            "zh-CN": "多语种语音生成大模型，提供推理、训练和部署全套能力。",
+            "ja": "多言語の音声生成モデル。推論・学習・デプロイのコード一式付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "remsky--kokoro-fastapi",
+          "type": "repo",
+          "title": "remsky/Kokoro-FastAPI",
+          "url": "https://github.com/remsky/Kokoro-FastAPI",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5530,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Dockerized, OpenAI-compatible speech endpoint for Kokoro-82M on CPU or GPU, with caption timestamps.",
+            "zh-CN": "Kokoro-82M 的 Docker 化 OpenAI 兼容语音接口，支持 CPU/GPU，可输出字幕时间戳。",
+            "ja": "Kokoro-82M を OpenAI 互換の音声 API として Docker で動かすサーバー。CPU / GPU 対応、字幕タイムスタンプ出力付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dubbing",
+      "title": {
+        "en": "Dubbing & subtitles",
+        "zh-CN": "翻译配音与字幕",
+        "ja": "吹き替えと字幕"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "huanshere--videolingo",
+          "type": "repo",
+          "title": "Huanshere/VideoLingo",
+          "url": "https://github.com/Huanshere/VideoLingo",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 18751,
+          "last_commit": "2026-09-30",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Subtitle segmentation, translation, alignment and dubbing in one automated pipeline.",
+            "zh-CN": "字幕切分、翻译、对齐乃至配音，一条全自动流水线。",
+            "ja": "字幕の分割・翻訳・タイミング調整から吹き替えまでを自動でつなぐパイプライン。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "jianchang512--pyvideotrans",
+          "type": "repo",
+          "title": "jianchang512/pyvideotrans",
+          "url": "https://github.com/jianchang512/pyvideotrans",
+          "license": "GPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 19323,
+          "last_commit": "2026-10-07",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Translates a video into another language and adds dubbed audio and subtitles.",
+            "zh-CN": "把视频翻译成另一种语言，并嵌入配音和字幕。",
+            "ja": "動画を別の言語に翻訳し、吹き替え音声と字幕を付けます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "buxuku--smartsub",
+          "type": "repo",
+          "title": "buxuku/SmartSub",
+          "url": "https://github.com/buxuku/SmartSub",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5649,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Desktop app for local speech-to-text, subtitle translation, AI dubbing and burn-in, on Windows, macOS and Linux.",
+            "zh-CN": "跨 Windows / macOS / Linux 的桌面工具：本地转写、字幕翻译、AI 配音和字幕烧录。",
+            "ja": "Windows / macOS / Linux 対応のデスクトップアプリ。ローカル文字起こし、字幕翻訳、AI 吹き替え、字幕の焼き込み。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "m-bain--whisperx",
+          "type": "repo",
+          "title": "m-bain/whisperX",
+          "url": "https://github.com/m-bain/whisperX",
+          "license": "BSD-2-Clause",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 24478,
+          "last_commit": "2026-09-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1 watchlist"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Speech recognition with word-level timestamps and speaker diarization.",
+            "zh-CN": "带词级时间戳和说话人分离的语音识别。",
+            "ja": "単語単位のタイムスタンプと話者分離付きの音声認識。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lipsync",
+      "title": {
+        "en": "Lip-sync & digital humans",
+        "zh-CN": "对口型与数字人",
+        "ja": "リップシンクとデジタルヒューマン"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "meigen-ai--infinitetalk",
+          "type": "repo",
+          "title": "MeiGen-AI/InfiniteTalk",
+          "url": "https://github.com/MeiGen-AI/InfiniteTalk",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 8041,
+          "last_commit": "2026-05-21",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1 watchlist"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Audio-driven talking video of unlimited length, from an image or an existing video.",
+            "zh-CN": "音频驱动、不限时长的说话视频生成，支持图生视频和视频生视频。",
+            "ja": "音声駆動で長さ制限のないトーキング動画を生成。画像からも既存動画からも作れます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "klingairesearch--liveportrait",
+          "type": "repo",
+          "title": "KlingAIResearch/LivePortrait",
+          "url": "https://github.com/KlingAIResearch/LivePortrait",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 19206,
+          "last_commit": "2026-06-01",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Animates a still portrait from a driving video.",
+            "zh-CN": "用驱动视频让静态肖像动起来。",
+            "ja": "ドライビング動画に合わせて静止画のポートレートを動かします。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE file is MIT for the code plus a note that InsightFace models are non-commercial.",
+          "caveat": {
+            "en": "Code is MIT, but the bundled InsightFace detection models are non-commercial; swap them out for commercial use.",
+            "zh-CN": "代码是 MIT，但自带的 InsightFace 检测模型仅限非商用，商用需替换。",
+            "ja": "コードは MIT ですが、同梱の InsightFace 検出モデルは非商用限定です。商用利用では差し替えが必要です。"
+          }
+        },
+        {
+          "id": "jingyi-wu-richael--rachel-digital-human-production",
+          "type": "skill",
+          "title": "Jingyi-Wu-Richael/rachel-digital-human-production",
+          "url": "https://github.com/Jingyi-Wu-Richael/rachel-digital-human-production",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1050,
+          "last_commit": "2026-07-16",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/bit_sister/status/2079776222544900557"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Codex skill for authorized talking-head videos: asset checks, a short preview first, and an approval gate before the full render.",
+            "zh-CN": "制作经授权的数字人口播视频的 Codex Skill：先校验素材、先出短预览，确认后才生成完整视频。",
+            "ja": "許諾を得たトーキングヘッド動画を作る Codex スキル。素材チェック、短いプレビュー、承認後に本番レンダリングという流れです。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "title": {
+        "en": "ComfyUI & MCP connectors",
+        "zh-CN": "ComfyUI 与 MCP 连接器",
+        "ja": "ComfyUI と MCP コネクタ"
+      },
+      "cap": 5,
+      "items": [
+        {
+          "id": "comfy-org--comfyui",
+          "type": "repo",
+          "title": "Comfy-Org/ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "license": "GPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 136944,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Node-graph engine and GUI for image, video and audio diffusion workflows.",
+            "zh-CN": "节点式的图像、视频、音频扩散模型工作流引擎与界面。",
+            "ja": "画像・動画・音声の拡散モデルをノードグラフで組むエンジンと GUI。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "nikodemon80--comfyui-h3-motion-context",
+          "type": "node",
+          "title": "NikoDemon80/ComfyUI-H3-Motion-Context",
+          "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+          "license": "GPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1213,
+          "last_commit": "2026-09-06",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "x-search",
+            "ref": "x.com/eternityspring (search)"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "ComfyUI nodes that chain MiniMax H3 clips so motion and audio continue across joins; ships an example workflow.",
+            "zh-CN": "串联 MiniMax H3 片段的 ComfyUI 节点，让动作和声音在衔接处连贯；附示例工作流。",
+            "ja": "MiniMax H3 のクリップをつなぎ、つなぎ目でも動きと音声が続くようにする ComfyUI ノード。サンプルワークフロー付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "artokun--comfyui-mcp",
+          "type": "mcp",
+          "title": "artokun/comfyui-mcp",
+          "url": "https://github.com/artokun/comfyui-mcp",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 811,
+          "last_commit": "2026-10-01",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "MCP server plus sidebar agent that lets an LLM build, run and edit ComfyUI workflows for images, video and audio.",
+            "zh-CN": "MCP server 加侧边栏 Agent，让大模型搭建、运行和修改 ComfyUI 的图像/视频/音频工作流。",
+            "ja": "MCP サーバーとサイドバーエージェントで、LLM から ComfyUI の画像・動画・音声ワークフローを組み立て・実行・編集できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "README says the project is in limited maintenance (critical fixes only).",
+            "zh-CN": "README 写明目前为有限维护（只修关键问题）。",
+            "ja": "README によると現在は限定的なメンテナンス（重大な修正のみ）です。"
+          }
+        },
+        {
+          "id": "pireel--pireel",
+          "type": "mcp",
+          "title": "pireel/pireel",
+          "url": "https://github.com/pireel/pireel",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1277,
+          "last_commit": "2026-09-18",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Open-source video editor with canvas and timeline that AI agents can drive over MCP.",
+            "zh-CN": "带画布和时间轴的开源视频编辑器，可由 AI Agent 通过 MCP 驱动。",
+            "ja": "キャンバスとタイムラインを備えたオープンソースの動画エディター。AI エージェントから MCP で操作できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "posts",
+      "title": {
+        "en": "Workflow breakdowns (posts)",
+        "zh-CN": "工作流拆解（帖子）",
+        "ja": "ワークフロー解説（投稿）"
+      },
+      "cap": 4,
+      "items": [
+        {
+          "id": "x-2078488413045747814",
+          "type": "post",
+          "title": "Vox-style explainer in 4 steps",
+          "title_i18n": {
+            "zh-CN": "4 步做 Vox 风格解说视频",
+            "ja": "4 ステップで作る Vox 風解説動画"
+          },
+          "url": "https://x.com/GeekCatX/status/2078488413045747814",
+          "author": "GeekCatX",
+          "posted_at": "2026-07-18",
+          "likes": 1319,
+          "bookmarks": 1891,
+          "metrics_at": "2026-10-11",
+          "use_case": "video-gen",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "x.com/geekcatx/status/2078488413045747814"
+          },
+          "blurb": {
+            "en": "Four steps: a vox-style skill in Codex writes storyboard prompts, an image model renders the frames, a video model animates them, then an auto-edit pass.",
+            "zh-CN": "四步：Codex + vox-style skill 拆分镜写提示词，图像模型批量出图，视频模型逐镜生成，最后自动剪辑成片。",
+            "ja": "4 ステップ：Codex と vox-style スキルで絵コンテのプロンプトを作り、画像モデルでコマを生成、動画モデルで動かし、最後に自動編集。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2076530524110369070",
+          "type": "post",
+          "title": "Tang-dynasty paper-cut layered animation with Codex + Remotion",
+          "title_i18n": {
+            "zh-CN": "用 Codex + Remotion 做唐朝纸片分层动画",
+            "ja": "Codex + Remotion で作る唐代風切り絵アニメ"
+          },
+          "url": "https://x.com/newbeeyu/status/2076530524110369070",
+          "author": "newbeeyu",
+          "posted_at": "2026-07-12",
+          "likes": 1290,
+          "bookmarks": 2494,
+          "metrics_at": "2026-10-11",
+          "use_case": "editing",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "x.com/vbjby3/status/2076530524110369070"
+          },
+          "blurb": {
+            "en": "Long-form X article: layering, timing and per-layer sound effects for a paper-cut animation built in code with Codex and Remotion.",
+            "zh-CN": "X 长文：用 Codex + Remotion 以代码制作唐朝纸片分层动画，讲清分层、节奏和分层音效。",
+            "ja": "X の長文記事。Codex と Remotion でコードから作る唐代風の切り絵レイヤーアニメ。レイヤー分け、タイミング、レイヤーごとの効果音を解説。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2082107255449919582",
+          "type": "post",
+          "title": "An AI video production pipeline in Claude Code",
+          "title_i18n": {
+            "zh-CN": "在 Claude Code 里搭一条 AI 视频制作流水线",
+            "ja": "Claude Code で組む AI 動画制作パイプライン"
+          },
+          "url": "https://x.com/EXM7777/status/2082107255449919582",
+          "author": "EXM7777",
+          "posted_at": "2026-07-28",
+          "likes": 882,
+          "bookmarks": 2881,
+          "metrics_at": "2026-10-11",
+          "use_case": "editing",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "x.com/exm7777/status/2082107255449919582"
+          },
+          "blurb": {
+            "en": "Long-form X article on setting up Claude Code as a video production pipeline, including the reference sources used for shot planning.",
+            "zh-CN": "X 长文：把 Claude Code 搭成一条视频制作流水线，并列出做镜头规划时参考的素材来源。",
+            "ja": "X の長文記事。Claude Code を動画制作パイプラインとして組む手順と、ショット設計で参照する資料サイトを紹介。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2081580929492131947",
+          "type": "post",
+          "title": "Codex + Hyperframes + HeyGen + voice cloning, end to end",
+          "title_i18n": {
+            "zh-CN": "Codex + Hyperframes + HeyGen + 声音克隆全流程",
+            "ja": "Codex + Hyperframes + HeyGen + 声のクローンの全工程"
+          },
+          "url": "https://x.com/Pluvio9yte/status/2081580929492131947",
+          "author": "Pluvio9yte",
+          "posted_at": "2026-07-26",
+          "likes": 841,
+          "bookmarks": 1619,
+          "metrics_at": "2026-10-11",
+          "use_case": "voice",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "x.com/pluvio9yte/status/2081580929492131947"
+          },
+          "blurb": {
+            "en": "Long-form X article (Chinese) on a short-video pipeline: Codex as the controller, Hyperframes for motion, HeyGen for avatars and IndexTTS for voice.",
+            "zh-CN": "X 长文：Codex 主控、Hyperframes 做动效、HeyGen 做数字人、IndexTTS 做配音的短视频全流程。",
+            "ja": "X の長文記事（中国語）。Codex を司令塔に、Hyperframes でモーション、HeyGen でアバター、IndexTTS で音声を作るショート動画の全工程。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": {
+        "en": "People to follow",
+        "zh-CN": "值得关注的作者",
+        "ja": "注目の作り手"
+      },
+      "cap": 4,
+      "items": [
+        {
+          "id": "x-user-heyabhishek",
+          "type": "person",
+          "title": "@HeyAbhishek",
+          "url": "https://x.com/HeyAbhishek",
+          "handle": "HeyAbhishek",
+          "followers": 110957,
+          "lang": "EN",
+          "focus": {
+            "en": "Seedance animation prompts",
+            "zh-CN": "Seedance 动画提示词",
+            "ja": "Seedance アニメのプロンプト"
+          },
+          "proof": {
+            "url": "https://x.com/HeyAbhishek/status/2106369769956065518",
+            "likes": 413,
+            "posted_at": "2026-10-03"
+          },
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "Bei handle list (EN)"
+          },
+          "blurb": {
+            "en": "Shares full prompts behind cinematic AI animation clips.",
+            "zh-CN": "分享电影感 AI 动画短片背后的完整提示词。",
+            "ja": "シネマティックな AI アニメ動画の完全なプロンプトを公開しています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-user-liyue_ai",
+          "type": "person",
+          "title": "@liyue_ai",
+          "url": "https://x.com/liyue_ai",
+          "handle": "liyue_ai",
+          "followers": 50230,
+          "lang": "中文",
+          "focus": {
+            "en": "Seedance director skills",
+            "zh-CN": "Seedance 导演 Skill",
+            "ja": "Seedance 監督スキル"
+          },
+          "proof": {
+            "url": "https://x.com/liyue_ai/status/2093592225162960982",
+            "likes": 424,
+            "posted_at": "2026-08-28"
+          },
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark",
+            "ref": "Bei handle list (CN)"
+          },
+          "blurb": {
+            "en": "Publishes open-source Seedance director skills on GitHub (liyue-aigc).",
+            "zh-CN": "在 GitHub（liyue-aigc）开源 Seedance 导演类 Skill。",
+            "ja": "GitHub（liyue-aigc）で Seedance 用の監督スキルをオープンソース公開しています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-user-pluvio9yte",
+          "type": "person",
+          "title": "@Pluvio9yte",
+          "url": "https://x.com/Pluvio9yte",
+          "handle": "Pluvio9yte",
+          "followers": 49414,
+          "lang": "中文",
+          "focus": {
+            "en": "Agent-driven video pipelines",
+            "zh-CN": "Agent 视频流水线",
+            "ja": "エージェント駆動の動画制作"
+          },
+          "proof": {
+            "url": "https://x.com/Pluvio9yte/status/2081648099680743554",
+            "likes": 1926,
+            "posted_at": "2026-07-27"
+          },
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "author of bookmarked posts"
+          },
+          "blurb": {
+            "en": "Long-form breakdowns of Codex + Hyperframes video pipelines and the skills behind them.",
+            "zh-CN": "长文拆解 Codex + Hyperframes 视频流水线及其背后的 Skill。",
+            "ja": "Codex + Hyperframes の動画パイプラインと、その裏のスキルを長文で解説しています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-user-geekcatx",
+          "type": "person",
+          "title": "@GeekCatX",
+          "url": "https://x.com/GeekCatX",
+          "handle": "GeekCatX",
+          "followers": 30576,
+          "lang": "中文",
+          "focus": {
+            "en": "Low-cost explainer workflows",
+            "zh-CN": "低成本解说视频流程",
+            "ja": "低コストの解説動画ワークフロー"
+          },
+          "proof": {
+            "url": "https://x.com/GeekCatX/status/2078488413045747814",
+            "likes": 1319,
+            "posted_at": "2026-07-18"
+          },
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "author of bookmarked post"
+          },
+          "blurb": {
+            "en": "Step-by-step workflows for low-cost explainer videos with agents and image/video models.",
+            "zh-CN": "用 Agent 加图像/视频模型做低成本解说视频的分步流程。",
+            "ja": "エージェントと画像・動画モデルで低コストに解説動画を作る手順を発信しています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "title": {
+        "en": "Related lists",
+        "zh-CN": "相关列表",
+        "ja": "関連リスト"
+      },
+      "cap": 3,
+      "items": [
+        {
+          "id": "learnprompt--awesome-seedance",
+          "type": "list",
+          "title": "LearnPrompt/awesome-seedance",
+          "url": "https://github.com/LearnPrompt/awesome-seedance",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1965,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "x.com/aiwarts/status/2102240456092626951"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Seedance 2.5 / 2.0 prompt library with cases traced to original posts, templates and installable video skills.",
+            "zh-CN": "Seedance 2.5 / 2.0 提示词库：案例可追溯到原帖，附模板和可安装的视频 Skill。",
+            "ja": "Seedance 2.5 / 2.0 のプロンプト集。元投稿をたどれる事例、テンプレート、インストールできる動画スキル付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "zerolu--awesome-seedance",
+          "type": "list",
+          "title": "ZeroLu/awesome-seedance",
+          "url": "https://github.com/ZeroLu/awesome-seedance",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2671,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Collection of Seedance 2.0 prompts, guides and video-generation workflows.",
+            "zh-CN": "Seedance 2.0 提示词、指南和视频生成工作流合集。",
+            "ja": "Seedance 2.0 のプロンプト、ガイド、動画生成ワークフローのまとめ。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "freestylefly--awesome-gpt-image-2",
+          "type": "list",
+          "title": "freestylefly/awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 34297,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "bei-bookmark-post",
+            "ref": "4 bookmarked posts point here"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "GPT Image 2 / 2.5 prompt and case library with templates; useful for keyframes and storyboards before video.",
+            "zh-CN": "GPT Image 2 / 2.5 提示词与案例库，附模板；适合做视频前的关键帧和分镜。",
+            "ja": "GPT Image 2 / 2.5 のプロンプトと事例集（テンプレート付き）。動画化前のキーフレームや絵コンテ作りに。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        }
+      ]
+    }
+  ]
+}
