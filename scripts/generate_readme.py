@@ -52,12 +52,12 @@ CHROME = {
     "en": {
         "generated": "GENERATED from data/catalog.json by scripts/generate_readme.py. Do not edit by hand.",
         "banner_alt": "Awesome Video & Audio Hacks, by Token360",
-        "tagline": "A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, dubbing, lip-sync and editing**. Every entry is re-checked against a written bar (see [CONTRIBUTING](./CONTRIBUTING.md)), and each section is capped at {cap} entries. Maintained by the [Token360]({site}) developer community.",
+        "tagline": "A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, dubbing, lip-sync and editing**. Every entry is re-checked against a written bar (see [Contributing](#contributing)), and each section is capped at {cap} entries. Maintained by the [Token360]({site}) developer community.",
         "legend": "**Tags:** {tags} · ⛔ link-only (non-commercial or source-available license) · ⚠️ read the note before using commercially",
         "legend_ready": "A ⚡ mark will mean \"verified to run on Token360 by changing `base_url` and key\". No entry carries it yet: nothing has been tested.",
         "qs_title": "Token360 quickstart",
         "qs_intro": "Token360 serves text, image and video models behind one OpenAI-compatible `base_url`.",
-        "qs_table": "| Modality | Endpoint | Example model ids |",
+        "qs_table": ["Modality", "Endpoint", "Example model ids"],
         "modality": {"text": "Text", "image": "Image", "video": "Video", "audio": "Audio"},
         "pending": "pending verification",
         "qs_models_link": "Full model list and per-model request examples: [token360.ai/models]({models_url}).",
@@ -67,7 +67,8 @@ CHROME = {
         "license_line": "List content is released under [CC0 1.0](./LICENSE). Linked projects, posts and trademarks belong to their owners; inclusion is not an endorsement by them or of Token360.",
         "ja_note": None,
         "stars": "⭐ {n}",
-        "via": "example",
+        "via": "Example",
+        "via_post": "post",
         "use_case": {"video-gen": "Video generation", "editing": "Editing & motion", "voice": "Voice & TTS",
                      "dubbing": "Dubbing", "short-drama": "Short drama", "lipsync": "Lip-sync"},
         "badge_entries": "entries", "badge_verified": "last verified",
@@ -76,12 +77,12 @@ CHROME = {
     "zh-CN": {
         "generated": "由 scripts/generate_readme.py 从 data/catalog.json 生成，请勿手改。",
         "banner_alt": "Awesome Video & Audio Hacks，Token360 出品",
-        "tagline": "一份严格筛选、逐条核验的 AI **视频、配音、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见 [CONTRIBUTING](./CONTRIBUTING.zh-CN.md)），每个分类最多 {cap} 条。由 [Token360]({site}) 开发者社区维护。",
+        "tagline": "一份严格筛选、逐条核验的 AI **视频、配音、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见[参与贡献](#参与贡献)），每个分类最多 {cap} 条。由 [Token360]({site}) 开发者社区维护。",
         "legend": "**标签：** {tags} · ⛔ 仅链接（非商用或 source-available 许可） · ⚠️ 商用前请先看备注",
         "legend_ready": "⚡ 表示“只改 `base_url` 和 key 就能在 Token360 上跑通，并已验证”。目前还没有任何条目带 ⚡：都还没测过。",
         "qs_title": "Token360 快速上手",
         "qs_intro": "Token360 用一个 OpenAI 兼容的 `base_url` 提供文本、图像和视频模型。",
-        "qs_table": "| 模态 | 接口 | 模型 id 示例 |",
+        "qs_table": ["模态", "接口", "模型 id 示例"],
         "modality": {"text": "文本", "image": "图像", "video": "视频", "audio": "音频"},
         "pending": "待验证",
         "qs_models_link": "完整模型列表和每个模型的请求示例：[token360.ai/models]({models_url})。",
@@ -92,6 +93,7 @@ CHROME = {
         "ja_note": None,
         "stars": "⭐ {n}",
         "via": "代表作",
+        "via_post": "帖子",
         "use_case": {"video-gen": "视频生成", "editing": "剪辑与动效", "voice": "配音与 TTS",
                      "dubbing": "翻译配音", "short-drama": "短剧", "lipsync": "对口型"},
         "badge_entries": "条目", "badge_verified": "最近核验",
@@ -100,12 +102,12 @@ CHROME = {
     "ja": {
         "generated": "data/catalog.json から scripts/generate_readme.py で生成。手で編集しないこと。",
         "banner_alt": "Awesome Video & Audio Hacks（Token360）",
-        "tagline": "AI の**動画・音声合成・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[CONTRIBUTING](./CONTRIBUTING.ja.md)）で再確認しており、各カテゴリは最大 {cap} 件です。メンテナンスは [Token360]({site}) 開発者コミュニティ。",
+        "tagline": "AI の**動画・音声合成・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）で再確認しており、各カテゴリは最大 {cap} 件です。メンテナンスは [Token360]({site}) 開発者コミュニティ。",
         "legend": "**タグ：** {tags} · ⛔ リンクのみ（非商用または source-available ライセンス） · ⚠️ 商用利用の前に注記を確認",
         "legend_ready": "⚡ は「`base_url` とキーを変えるだけで Token360 で動くことを確認済み」を表します。現時点では未検証のため、⚡ の付いた項目はありません。",
         "qs_title": "Token360 クイックスタート",
         "qs_intro": "Token360 は OpenAI 互換の `base_url` ひとつで、テキスト・画像・動画モデルを提供しています。",
-        "qs_table": "| モダリティ | エンドポイント | モデル ID の例 |",
+        "qs_table": ["モダリティ", "エンドポイント", "モデル ID の例"],
         "modality": {"text": "テキスト", "image": "画像", "video": "動画", "audio": "音声"},
         "pending": "検証待ち",
         "qs_models_link": "全モデルの一覧とモデルごとのリクエスト例：[token360.ai/models]({models_url})。",
@@ -115,7 +117,8 @@ CHROME = {
         "license_line": "リストの内容は [CC0 1.0](./LICENSE) で公開しています。リンク先のプロジェクト・投稿・商標は各権利者に帰属し、掲載は権利者や Token360 による推奨を意味しません。",
         "ja_note": "この日本語版は機械翻訳による下書きで、ネイティブスピーカーのレビュー前です。誤りに気づいたら Issue でお知らせください。",
         "stars": "⭐ {n}",
-        "via": "代表的な投稿",
+        "via": "例",
+        "via_post": "投稿",
         "use_case": {"video-gen": "動画生成", "editing": "編集・モーション", "voice": "音声・TTS",
                      "dubbing": "吹き替え", "short-drama": "ショートドラマ", "lipsync": "リップシンク"},
         "badge_entries": "entries", "badge_verified": "last verified",
@@ -271,27 +274,41 @@ def site(cat: dict, path: str = "") -> str:
 
 
 def entry_line(it: dict, lang: str, cat: dict) -> str:
+    """One line per entry, awesome-lint style: `- [name](url) - meta · description.`"""
     C = CHROME[lang]
     tag = f"`{TYPE_TAG[it['type']]}`"
     blurb = it["blurb"][lang].strip()
-    marks = ""
-    if it.get("link_only"):
-        marks += " ⛔"
-    if (it.get("token360") or {}).get("ready"):
-        marks += " ⚡"
     if it["type"] == "post":
         title = it["title"] if lang == "en" else it["title_i18n"][lang]
         uc = C["use_case"].get(it["use_case"], it["use_case"])
-        line = f"- [@{it['author']} — {title}]({it['url']}) {tag} · {it['posted_at'][:7]} · {uc} — {blurb}"
+        head = f"- [@{it['author']} — {title}]({it['url']}) - "
+        meta = [tag, it["posted_at"][:7], uc]
     elif it["type"] == "person":
-        line = (f"- [{it['title']}]({it['url']}) {tag} · {it['lang']} · {it['focus'][lang]} — {blurb} "
-                f"([{C['via']}]({it['proof']['url']}))")
+        head = f"- [{it['title']}]({it['url']}) - "
+        meta = [tag, it["lang"], it["focus"][lang]]
     else:
-        meta = [C["stars"].format(n=fmt_stars(it["stars"])), it["license"]]
-        line = f"- [{it['title']}]({it['url']}) {tag}{marks} · " + " · ".join(meta) + f" — {blurb}"
+        head = f"- [{it['title']}]({it['url']}) - "
+        marks = (" ⛔" if it.get("link_only") else "") + (" ⚡" if (it.get("token360") or {}).get("ready") else "")
+        meta = [tag + marks, C["stars"].format(n=fmt_stars(it["stars"])), it["license"]]
+    line = head + " · ".join(meta) + " · " + blurb
+    if it["type"] == "person":
+        sep = " " if lang == "en" else ""
+        line += f"{sep}{C['via']}: [{C['via_post']}]({it['proof']['url']})" + ("." if lang == "en" else "。")
     if it.get("caveat"):
         line += f" ⚠️ {it['caveat'][lang]}"
     return line
+
+
+def table(rows: list[list[str]]) -> list[str]:
+    """Markdown table with padded, aligned pipes (remark-lint table rules). Width counts East Asian chars as 2."""
+    import unicodedata
+    def w(s: str) -> int:
+        return sum(2 if unicodedata.east_asian_width(c) in "WF" else 1 for c in s)
+    widths = [max(w(r[i]) for r in rows) for i in range(len(rows[0]))]
+    def fmt(r):
+        return "| " + " | ".join(c + " " * (widths[i] - w(c)) for i, c in enumerate(r)) + " |"
+    sep = "| " + " | ".join("-" * widths[i] for i in range(len(widths))) + " |"
+    return [fmt(rows[0]), sep] + [fmt(r) for r in rows[1:]]
 
 
 def lang_switcher(lang: str) -> str:
@@ -318,10 +335,11 @@ def render(cat: dict, lang: str) -> str:
     zh = lang == "zh-CN"
     site_path = "/zh-CN" if zh else ""
     models_url = site(cat, f"{site_path}/models")
-    out = [f"<!-- {C['generated']} -->",
-           '<h1 align="center">',
+    out = ['<h1 align="center">',
            f'  <img src="./assets/banner.png" alt="{C["banner_alt"]}" width="800" />',
-           "</h1>", "", lang_switcher(lang), "",
+           "  <br />",
+           "  Awesome Video &amp; Audio Hacks",
+           "</h1>", "", f"<!-- {C['generated']} -->", "", lang_switcher(lang), "",
            '<p align="center">',
            '  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>',
            f'  <img src="{badge(C["badge_entries"], str(n), "9633af")}" alt="{C["badge_entries"]}: {n}" />',
@@ -351,11 +369,13 @@ def render(cat: dict, lang: str) -> str:
             '  -H "Authorization: Bearer $TOKEN360_API_KEY" -H "Content-Type: application/json" \\',
             f"  -d '{{\"model\": \"{t['video_example_model']}\", \"prompt\": \"A paper-cut crane takes off over a misty lake\"}}'",
             "```", "",
-            C["qs_table"], "|---|---|---|"]
+            ]
+    rows = [C["qs_table"]]
     for ep in t["endpoints"]:
         mod = C["modality"][ep["modality"]]
         endpoint = f"`{ep['method']} {ep['path']}`" if ep["status"] != "pending" else f"_{C['pending']}_"
-        out.append(f"| {mod} | {endpoint} | " + ", ".join(f"`{m}`" for m in ep["models"]) + " |")
+        rows.append([mod, endpoint, ", ".join(f"`{m}`" for m in ep["models"])])
+    out += table(rows)
     out += ["", "<sub>" + t["verified_note"][lang].format(date=json.loads((ROOT / t["models_snapshot"]).read_text())["fetched_at"]) + "</sub>",
             "", C["qs_models_link"].format(models_url=models_url), ""]
     # TOC
@@ -363,7 +383,6 @@ def render(cat: dict, lang: str) -> str:
     for s in secs:
         title = s["title"][lang]
         out.append(f"- [{title}](#{slug(title)}) ({len(s['items'])})")
-    out.append(f"- [{C['contributing']}](#{slug(C['contributing'])})")
     out.append("")
     for s in secs:
         out += [f"## {s['title'][lang]}", ""]
