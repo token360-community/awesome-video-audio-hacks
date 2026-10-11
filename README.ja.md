@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
-> AI の**動画・音声合成・音楽・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）で再確認しており、各カテゴリは最大 5 件です。メンテナンスは [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) 開発者コミュニティ。
+> AI の**動画・音声合成・音楽・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）を満たす必要があり、少なくとも 30 日ごとに再確認しています。メンテナンスは [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) 開発者コミュニティ。
 
 **タグ：** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ リンクのみ（非商用または source-available ライセンス） · ⚠️ 商用利用の前に注記を確認
 

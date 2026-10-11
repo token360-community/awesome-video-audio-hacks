@@ -3,7 +3,6 @@
 - Section: <!-- e.g. Dubbing & subtitles -->
 - Type: <!-- Repo / Skill / MCP / Node / Plugin / Web / Post / Person / List -->
 - [Name](URL): one sentence.
-- Replaces (if the section is full): <!-- entry id + why the new one is stronger -->
 
 ## Checklist
 

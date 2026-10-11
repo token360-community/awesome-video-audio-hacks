@@ -8,7 +8,6 @@
     "ja"
   ],
   "max_age_days": 30,
-  "max_link_only_per_section": 2,
   "utm": "utm_source=github&utm_medium=awesome&utm_campaign=avah",
   "token360": {
     "base_url": "https://api.token360.ai/v1",
@@ -75,7 +74,6 @@
         "zh-CN": "视频生成与提示词",
         "ja": "動画生成とプロンプト"
       },
-      "cap": 5,
       "items": [
         {
           "id": "hkuds--vimax",
@@ -256,7 +254,6 @@
         "zh-CN": "短剧与叙事",
         "ja": "ショートドラマとストーリー"
       },
-      "cap": 5,
       "items": [
         {
           "id": "hbai-ltd--toonflow-app",
@@ -437,7 +434,6 @@
         "zh-CN": "剪辑与动效 Agent",
         "ja": "編集・モーションエージェント"
       },
-      "cap": 5,
       "items": [
         {
           "id": "calesthio--openmontage",
@@ -624,7 +620,6 @@
         "zh-CN": "配音、TTS 与音乐",
         "ja": "音声・TTS・音楽"
       },
-      "cap": 5,
       "items": [
         {
           "id": "rvc-boss--gpt-sovits",
@@ -811,7 +806,6 @@
         "zh-CN": "翻译配音与字幕",
         "ja": "吹き替えと字幕"
       },
-      "cap": 5,
       "items": [
         {
           "id": "huanshere--videolingo",
@@ -958,7 +952,6 @@
         "zh-CN": "对口型与数字人",
         "ja": "リップシンクとデジタルヒューマン"
       },
-      "cap": 5,
       "items": [
         {
           "id": "meigen-ai--infinitetalk",
@@ -1077,7 +1070,6 @@
         "zh-CN": "ComfyUI 与 MCP 连接器",
         "ja": "ComfyUI と MCP コネクタ"
       },
-      "cap": 5,
       "items": [
         {
           "id": "comfy-org--comfyui",
@@ -1229,7 +1221,6 @@
         "zh-CN": "工作流拆解（帖子）",
         "ja": "ワークフロー解説（投稿）"
       },
-      "cap": 4,
       "items": [
         {
           "id": "x-2078488413045747814",
@@ -1368,7 +1359,6 @@
         "zh-CN": "值得关注的作者",
         "ja": "注目の作り手"
       },
-      "cap": 4,
       "items": [
         {
           "id": "x-user-heyabhishek",
@@ -1519,7 +1509,6 @@
         "zh-CN": "相关列表",
         "ja": "関連リスト"
       },
-      "cap": 3,
       "items": [
         {
           "id": "learnprompt--awesome-seedance",

@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
-> A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, music, dubbing, lip-sync and editing**. Every entry is re-checked against a written bar (see [Contributing](#contributing)), and each section is capped at 5 entries. Maintained by the [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) developer community.
+> A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, music, dubbing, lip-sync and editing**. Every entry must meet a written bar (see [Contributing](#contributing)) and is re-checked at least every 30 days. Maintained by the [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) developer community.
 
 **Tags:** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ link-only (non-commercial or source-available license) · ⚠️ read the note before using commercially
 

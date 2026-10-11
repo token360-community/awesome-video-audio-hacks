@@ -2,7 +2,7 @@
 
 **EN** · [简体中文](./CONTRIBUTING.zh-CN.md) · [日本語](./CONTRIBUTING.ja.md)
 
-This list is small on purpose. Each section is capped (5 per tool section, 4 posts, 4 people, 3 related lists at launch). A new entry either fills an open slot or **replaces the weakest entry** in its section, and the PR must say which one and why.
+There is no limit on entries per section: if a resource meets the bar below, it gets added. Entries that go stale or fall below the bar are removed. The bar is the filter, so please check every rule for your entry's type before opening a PR.
 
 ## How to add an entry
 
@@ -22,7 +22,7 @@ Every rule must hold. `scripts/generate_readme.py` enforces the numeric ones; re
 - No competitor platforms or their promotional posts (hosted model resellers and aggregators).
 - No projects that break a third party's terms of service or rely on reverse-engineered private APIs.
 - One resource, one entry. If a post only links to a repo that qualifies, list the repo.
-- Non-commercial, source-available or unlicensed repos may appear **link-only (⛔)**, only with ≥ 5,000★ and only if they are the reference project in their category; at most 2 per section.
+- Non-commercial, source-available or unlicensed repos may appear **link-only (⛔)**, only with ≥ 5,000★ and only if they are the reference project in their category.
 - `last_checked` must be within the last **30 days**. Entries that are not re-checked fail CI until refreshed or removed.
 - ⚡ ("runs on Token360") only with a published, tested guide (`token360.guide`). Never on assumption.
 

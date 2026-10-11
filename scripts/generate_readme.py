@@ -52,7 +52,7 @@ CHROME = {
     "en": {
         "generated": "GENERATED from data/catalog.json by scripts/generate_readme.py. Do not edit by hand.",
         "banner_alt": "Awesome Video & Audio Hacks, by Token360",
-        "tagline": "A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, music, dubbing, lip-sync and editing**. Every entry is re-checked against a written bar (see [Contributing](#contributing)), and each section is capped at {cap} entries. Maintained by the [Token360]({site}) developer community.",
+        "tagline": "A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, music, dubbing, lip-sync and editing**. Every entry must meet a written bar (see [Contributing](#contributing)) and is re-checked at least every 30 days. Maintained by the [Token360]({site}) developer community.",
         "legend": "**Tags:** {tags} · ⛔ link-only (non-commercial or source-available license) · ⚠️ read the note before using commercially",
         "legend_ready": "A ⚡ mark will mean \"verified to run on Token360 by changing `base_url` and key\". No entry carries it yet: nothing has been tested.",
         "qs_title": "Token360 quickstart",
@@ -77,7 +77,7 @@ CHROME = {
     "zh-CN": {
         "generated": "由 scripts/generate_readme.py 从 data/catalog.json 生成，请勿手改。",
         "banner_alt": "Awesome Video & Audio Hacks，Token360 出品",
-        "tagline": "一份严格筛选、逐条核验的 AI **视频、配音、音乐、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见[参与贡献](#参与贡献)），每个分类最多 {cap} 条。由 [Token360]({site}) 开发者社区维护。",
+        "tagline": "一份严格筛选、逐条核验的 AI **视频、配音、音乐、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见[参与贡献](#参与贡献)），并且至少每 30 天复查一次。由 [Token360]({site}) 开发者社区维护。",
         "legend": "**标签：** {tags} · ⛔ 仅链接（非商用或 source-available 许可） · ⚠️ 商用前请先看备注",
         "legend_ready": "⚡ 表示“只改 `base_url` 和 key 就能在 Token360 上跑通，并已验证”。目前还没有任何条目带 ⚡：都还没测过。",
         "qs_title": "Token360 快速上手",
@@ -102,7 +102,7 @@ CHROME = {
     "ja": {
         "generated": "data/catalog.json から scripts/generate_readme.py で生成。手で編集しないこと。",
         "banner_alt": "Awesome Video & Audio Hacks（Token360）",
-        "tagline": "AI の**動画・音声合成・音楽・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）で再確認しており、各カテゴリは最大 {cap} 件です。メンテナンスは [Token360]({site}) 開発者コミュニティ。",
+        "tagline": "AI の**動画・音声合成・音楽・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）を満たす必要があり、少なくとも 30 日ごとに再確認しています。メンテナンスは [Token360]({site}) 開発者コミュニティ。",
         "legend": "**タグ：** {tags} · ⛔ リンクのみ（非商用または source-available ライセンス） · ⚠️ 商用利用の前に注記を確認",
         "legend_ready": "⚡ は「`base_url` とキーを変えるだけで Token360 で動くことを確認済み」を表します。現時点では未検証のため、⚡ の付いた項目はありません。",
         "qs_title": "Token360 クイックスタート",
@@ -144,7 +144,6 @@ def norm_url(u: str) -> str:
 def validate(cat: dict, today: str, models_snapshot: set[str] | None) -> list[str]:
     errs: list[str] = []
     max_age = cat.get("max_age_days", 30)
-    max_lo = cat.get("max_link_only_per_section", 2)
     seen_urls: dict[str, str] = {}
     seen_ids: set[str] = set()
     for key in ("name", "repo", "langs", "sections", "token360"):
@@ -158,13 +157,6 @@ def validate(cat: dict, today: str, models_snapshot: set[str] | None) -> list[st
             if not (sec.get("title") or {}).get(lang):
                 errs.append(f"[{sid}] section title missing '{lang}'")
         items = sec.get("items", [])
-        cap = sec.get("cap")
-        if not isinstance(cap, int):
-            errs.append(f"[{sid}] section has no integer cap")
-        elif len(items) > cap:
-            errs.append(f"[{sid}] {len(items)} entries exceeds cap {cap}")
-        if sum(1 for i in items if i.get("link_only")) > max_lo:
-            errs.append(f"[{sid}] more than {max_lo} link-only entries")
         for it in items:
             iid = it.get("id", "?")
             where = f"[{sid}/{iid}]"
@@ -329,7 +321,6 @@ def render(cat: dict, lang: str) -> str:
     secs = cat["sections"]
     n = sum(len(s["items"]) for s in secs)
     verified = min(i["last_checked"] for s in secs for i in s["items"])
-    cap = max(s["cap"] for s in secs)
     t = cat["token360"]
     tags = " ".join(f"`{TYPE_TAG[k]}`" for k in sorted({i["type"] for s in secs for i in s["items"]}, key=list(TYPE_TAG).index))
     zh = lang == "zh-CN"
@@ -346,7 +337,7 @@ def render(cat: dict, lang: str) -> str:
            f'  <img src="{badge(C["badge_verified"], verified, "informational")}" alt="{C["badge_verified"]}: {verified}" />',
            f'  <img src="{badge("license", "CC0-1.0", "lightgrey")}" alt="License: CC0-1.0" />',
            "</p>", "",
-           "> " + C["tagline"].format(cap=cap, site=site(cat, site_path)), "",
+           "> " + C["tagline"].format(site=site(cat, site_path)), "",
            C["legend"].format(tags=tags), "",
            C["legend_ready"], "",
            f"<sub>{C['count_line'].format(n=n, s=len(secs), date=verified)}</sub>", ""]

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks! Please check the [inclusion bar](https://github.com/token360-community/awesome-video-audio-hacks/blob/main/CONTRIBUTING.md#inclusion-bar) first. Sections are capped, so a strong suggestion may replace an existing entry.
+        Thanks! Please check the [inclusion bar](https://github.com/token360-community/awesome-video-audio-hacks/blob/main/CONTRIBUTING.md#inclusion-bar) first. There is no limit per section: anything that meets the bar is added.
   - type: input
     id: url
     attributes:
@@ -41,7 +41,7 @@ body:
   - type: textarea
     id: why
     attributes:
-      label: What does it do, and why does it beat what is already listed?
+      label: What does it do, and which part of the bar does it meet?
       description: One or two sentences. Any language is fine.
     validations:
       required: true
