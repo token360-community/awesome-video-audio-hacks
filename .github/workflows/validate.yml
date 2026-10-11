@@ -1,0 +1,48 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 16 * * 1" # weekly, Monday 16:17 UTC: catches stale last_checked and dead links
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate catalog and check READMEs are in sync
+        run: python3 scripts/generate_readme.py --check
+      - name: Quickstart model ids still exist on the live API
+        run: python3 scripts/generate_readme.py --check --live-models
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml README.md README.zh-CN.md README.ja.md CONTRIBUTING.md CONTRIBUTING.zh-CN.md CONTRIBUTING.ja.md
+          fail: true
+
+  awesome-lint:
+    # awesome-lint's repo checks need the GitHub remote; everything else passes locally.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npx --yes awesome-lint
