@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
-> AI の**動画・音声合成・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）で再確認しており、各カテゴリは最大 5 件です。メンテナンスは [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) 開発者コミュニティ。
+> AI の**動画・音声合成・音楽・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）で再確認しており、各カテゴリは最大 5 件です。メンテナンスは [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) 開発者コミュニティ。
 
 **タグ：** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ リンクのみ（非商用または source-available ライセンス） · ⚠️ 商用利用の前に注記を確認
 
@@ -75,8 +75,8 @@ curl https://api.token360.ai/v1/videos \
 ## 動画生成とプロンプト
 
 - [HKUDS/ViMax](https://github.com/HKUDS/ViMax) - `Repo` · ⭐ 12.6k · MIT · アイデア → 脚本 → 絵コンテ → ショットまでを 1 本でつなぐエージェント型動画生成。監督・脚本・プロデューサー役のエージェントが分担します。
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - `Repo` · ⭐ 129.7k · MIT · テーマやキーワードからショート動画を自動生成。台本、素材、ナレーション、字幕、BGM までを 1 つのワークフローで仕上げます。
 - [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) - `Skill` · ⭐ 7.6k · MIT · Seedance 2.0 での映像制作向けスキル。テキスト・画像・動画・音声の 4 種類の入力を扱う制作パイプラインです。
-- [zhouwei713/seedance-prompt](https://github.com/zhouwei713/seedance-prompt) - `Skill` · ⭐ 327 · MIT · Seedance などのテキスト→動画モデル向けに、実写風の動画プロンプトを書くエージェントスキル。
 - [liyue-aigc/seedance-2-5-video-director](https://github.com/liyue-aigc/seedance-2-5-video-director) - `Skill` · ⭐ 616 · MIT · Seedance 2.5 の「動画ディレクター」スキル。プロンプト、脚本、人物の固定、続きの生成、編集、トランジションに対応。
 - [s1dashu/director](https://github.com/s1dashu/director) - `Skill` · ⭐ 801 · MIT · リサーチ、脚本、ビジュアル開発、ショット設計、素材生成、納品まで、1 本の動画を通しで「監督」するスキル。
 
@@ -93,7 +93,7 @@ curl https://api.token360.ai/v1/videos \
 - [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) - `Repo` · ⭐ 66.9k · AGPL-3.0 · AI コーディングアシスタントを動画制作パイプラインに変えるエージェント型システム。既製のパイプラインとツールを多数収録。
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) - `Repo` · ⭐ 60.9k · Apache-2.0 · HTML を書けば動画にレンダリングできるモーションフレームワーク。エージェントから扱う前提で設計されています。
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - `Skill` · ⭐ 11.3k · Apache-2.0 · Remotion でシネマティックな製品動画を作る Claude Code / Codex スキル。ショットのレシピカード、モーションプレビュー、制作用テンプレート付き。 ⚠️ レンダリングに Remotion を使用。Remotion 本体のライセンスは一部の企業利用で有償ライセンスが必要です。
-- [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) - `Skill` · ⭐ 2.2k · MIT · Claude Code 向けの AI ネイティブな動画制作ツールキット。
+- [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - `Repo` · ⭐ 93.6k · MIT · Web・デスクトップ・モバイルで使える無料のオープンソース動画エディター。CapCut の代替として開発されています。
 - [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) - `Skill` · ⭐ 3.9k · MIT · 剪映（CapCut 中国版）のプロジェクト下書きを書き換えて編集を自動化するエージェントスキル。
 
 ## 音声・TTS・音楽
@@ -102,7 +102,7 @@ curl https://api.token360.ai/v1/videos \
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) - `Repo` · ⭐ 39k · Apache-2.0 · トークナイザー不要の多言語 TTS。ボイスデザインと声のクローンに対応。
 - [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - `Repo` · ⭐ 26.9k · MIT · Resemble AI によるオープンソースの TTS モデル。
 - [QwenAudio/CosyVoice](https://github.com/QwenAudio/CosyVoice) - `Repo` · ⭐ 23.9k · Apache-2.0 · 多言語の音声生成モデル。推論・学習・デプロイのコード一式付き。
-- [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) - `Repo` · ⭐ 5.5k · Apache-2.0 · Kokoro-82M を OpenAI 互換の音声 API として Docker で動かすサーバー。CPU / GPU 対応、字幕タイムスタンプ出力付き。
+- [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) - `Repo` · ⭐ 11.6k · Apache-2.0 · 歌詞からボーカル入りのフルソングを生成するオープンな音楽生成モデル。カバーや楽曲編集にも対応。 ⚠️ コードは Apache-2.0 ですが、モデル重みは CC BY-NC 4.0（個人ユーザー・ミュージシャン向けの追加許諾あり）です。企業の商用利用には別途商用ライセンスが必要です。
 
 ## 吹き替えと字幕
 

@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
-> 一份严格筛选、逐条核验的 AI **视频、配音、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见[参与贡献](#参与贡献)），每个分类最多 5 条。由 [Token360](https://www.token360.ai/zh-CN?utm_source=github&utm_medium=awesome&utm_campaign=avah) 开发者社区维护。
+> 一份严格筛选、逐条核验的 AI **视频、配音、音乐、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见[参与贡献](#参与贡献)），每个分类最多 5 条。由 [Token360](https://www.token360.ai/zh-CN?utm_source=github&utm_medium=awesome&utm_campaign=avah) 开发者社区维护。
 
 **标签：** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ 仅链接（非商用或 source-available 许可） · ⚠️ 商用前请先看备注
 
@@ -75,8 +75,8 @@ curl https://api.token360.ai/v1/videos \
 ## 视频生成与提示词
 
 - [HKUDS/ViMax](https://github.com/HKUDS/ViMax) - `Repo` · ⭐ 12.6k · MIT · Agent 化的视频生成流水线：创意 → 剧本 → 分镜 → 镜头，导演、编剧、制片多个 Agent 分工协作。
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - `Repo` · ⭐ 129.7k · MIT · 输入主题或关键词，一键生成高清短视频：文案、素材、配音、字幕和背景音乐全自动完成。
 - [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) - `Skill` · ⭐ 7.6k · MIT · 面向 Seedance 2.0 的制作流程 Skill，覆盖文本、图像、视频、音频四种输入的 AI 影片制作。
-- [zhouwei713/seedance-prompt](https://github.com/zhouwei713/seedance-prompt) - `Skill` · ⭐ 327 · MIT · 为 Seedance 等文生视频模型编写写实风格视频提示词的 Agent Skill。
 - [liyue-aigc/seedance-2-5-video-director](https://github.com/liyue-aigc/seedance-2-5-video-director) - `Skill` · ⭐ 616 · MIT · Seedance 2.5 视频导演 Skill：提示词、脚本、诊断、人物锁定、续写、编辑与转场。
 - [s1dashu/director](https://github.com/s1dashu/director) - `Skill` · ⭐ 801 · MIT · 从调研、脚本、视觉设定、镜头设计、素材生成到交付，端到端“导演”一条完整视频的 Skill。
 
@@ -93,7 +93,7 @@ curl https://api.token360.ai/v1/videos \
 - [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) - `Repo` · ⭐ 66.9k · AGPL-3.0 · Agent 化的视频制作系统：把 AI 编程助手变成完整的视频生产流水线，内置多条现成流程和工具。
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) - `Repo` · ⭐ 60.9k · Apache-2.0 · 写 HTML 就能渲染视频的动效框架，专为 Agent 调用设计。
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - `Skill` · ⭐ 11.3k · Apache-2.0 · 用 Remotion 做电影感产品视频的 Claude Code / Codex Skill：镜头配方卡、动效预览和生产模板。 ⚠️ 依赖 Remotion 渲染，Remotion 自身许可对部分公司商用场景要求付费授权。
-- [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) - `Skill` · ⭐ 2.2k · MIT · 面向 Claude Code 的 AI 原生视频制作工具包。
+- [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - `Repo` · ⭐ 93.6k · MIT · 免费开源的视频编辑器，支持网页、桌面和移动端，定位为 CapCut（剪映）的开源替代。
 - [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) - `Skill` · ⭐ 3.9k · MIT · 让 Agent 自动操作剪映草稿、完成剪辑的 Skill。
 
 ## 配音、TTS 与音乐
@@ -102,7 +102,7 @@ curl https://api.token360.ai/v1/videos \
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) - `Repo` · ⭐ 39k · Apache-2.0 · 无分词器的多语种 TTS，支持声音设计与声音克隆。
 - [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - `Repo` · ⭐ 26.9k · MIT · Resemble AI 开源的 TTS 模型。
 - [QwenAudio/CosyVoice](https://github.com/QwenAudio/CosyVoice) - `Repo` · ⭐ 23.9k · Apache-2.0 · 多语种语音生成大模型，提供推理、训练和部署全套能力。
-- [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) - `Repo` · ⭐ 5.5k · Apache-2.0 · Kokoro-82M 的 Docker 化 OpenAI 兼容语音接口，支持 CPU/GPU，可输出字幕时间戳。
+- [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) - `Repo` · ⭐ 11.6k · Apache-2.0 · 开源音乐生成模型：歌词生成带人声的完整歌曲，并支持翻唱和音乐编辑。 ⚠️ 代码为 Apache-2.0，但模型权重为 CC BY-NC 4.0（个人用户和音乐人另有许可）；公司商用需单独取得商业授权。
 
 ## 翻译配音与字幕
 

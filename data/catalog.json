@@ -112,6 +112,40 @@
           }
         },
         {
+          "id": "harry0703--moneyprinterturbo",
+          "type": "repo",
+          "title": "harry0703/MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 129735,
+          "last_commit": "2026-10-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "plan-v1",
+            "ref": "plan v1"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Generates a finished short video from a topic or keyword: script, stock footage, voice-over, subtitles and music in one automated workflow.",
+            "zh-CN": "输入主题或关键词，一键生成高清短视频：文案、素材、配音、字幕和背景音乐全自动完成。",
+            "ja": "テーマやキーワードからショート動画を自動生成。台本、素材、ナレーション、字幕、BGM までを 1 つのワークフローで仕上げます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
           "id": "emily2040--seedance-2.0",
           "type": "skill",
           "title": "Emily2040/seedance-2.0",
@@ -138,40 +172,6 @@
             "en": "Production-pipeline skill for Seedance 2.0 filmmaking across text, image, video and audio inputs.",
             "zh-CN": "面向 Seedance 2.0 的制作流程 Skill，覆盖文本、图像、视频、音频四种输入的 AI 影片制作。",
             "ja": "Seedance 2.0 での映像制作向けスキル。テキスト・画像・動画・音声の 4 種類の入力を扱う制作パイプラインです。"
-          },
-          "blurb_status": {
-            "en": "machine-draft",
-            "zh-CN": "machine-draft",
-            "ja": "machine-draft"
-          }
-        },
-        {
-          "id": "zhouwei713--seedance-prompt",
-          "type": "skill",
-          "title": "zhouwei713/seedance-prompt",
-          "url": "https://github.com/zhouwei713/seedance-prompt",
-          "license": "MIT",
-          "license_class": "osi",
-          "link_only": false,
-          "stars": 327,
-          "last_commit": "2026-08-03",
-          "archived": false,
-          "model_weights": false,
-          "last_checked": "2026-10-11",
-          "added_at": "2026-10-11",
-          "source": {
-            "kind": "bei-bookmark",
-            "ref": "github.com/zhouwei713/seedance-prompt (+ x.com/zhouluobo/status/2074643296828481841)"
-          },
-          "token360": {
-            "ready": false,
-            "status": "untested",
-            "guide": null
-          },
-          "blurb": {
-            "en": "Agent skill that writes realistic-looking video prompts for Seedance and other text-to-video models.",
-            "zh-CN": "为 Seedance 等文生视频模型编写写实风格视频提示词的 Agent Skill。",
-            "ja": "Seedance などのテキスト→動画モデル向けに、実写風の動画プロンプトを書くエージェントスキル。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -547,22 +547,22 @@
           }
         },
         {
-          "id": "digitalsamba--claude-code-video-toolkit",
-          "type": "skill",
-          "title": "digitalsamba/claude-code-video-toolkit",
-          "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+          "id": "opencut-app--opencut",
+          "type": "repo",
+          "title": "OpenCut-app/OpenCut",
+          "url": "https://github.com/OpenCut-app/OpenCut",
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2201,
-          "last_commit": "2026-10-10",
+          "stars": 93610,
+          "last_commit": "2026-09-24",
           "archived": false,
           "model_weights": false,
           "last_checked": "2026-10-11",
           "added_at": "2026-10-11",
           "source": {
-            "kind": "bei-bookmark-post",
-            "ref": "item inside a bookmarked roundup post"
+            "kind": "plan-v1",
+            "ref": "plan v1"
           },
           "token360": {
             "ready": false,
@@ -570,9 +570,9 @@
             "guide": null
           },
           "blurb": {
-            "en": "AI-native video production toolkit for Claude Code.",
-            "zh-CN": "面向 Claude Code 的 AI 原生视频制作工具包。",
-            "ja": "Claude Code 向けの AI ネイティブな動画制作ツールキット。"
+            "en": "Free, open-source video editor for web, desktop and mobile, built as a CapCut alternative.",
+            "zh-CN": "免费开源的视频编辑器，支持网页、桌面和移动端，定位为 CapCut（剪映）的开源替代。",
+            "ja": "Web・デスクトップ・モバイルで使える無料のオープンソース動画エディター。CapCut の代替として開発されています。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -763,17 +763,17 @@
           }
         },
         {
-          "id": "remsky--kokoro-fastapi",
+          "id": "multimodal-art-projection--yue",
           "type": "repo",
-          "title": "remsky/Kokoro-FastAPI",
-          "url": "https://github.com/remsky/Kokoro-FastAPI",
+          "title": "multimodal-art-projection/YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE",
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5530,
-          "last_commit": "2026-10-11",
+          "stars": 11614,
+          "last_commit": "2026-10-06",
           "archived": false,
-          "model_weights": false,
+          "model_weights": true,
           "last_checked": "2026-10-11",
           "added_at": "2026-10-11",
           "source": {
@@ -786,14 +786,20 @@
             "guide": null
           },
           "blurb": {
-            "en": "Dockerized, OpenAI-compatible speech endpoint for Kokoro-82M on CPU or GPU, with caption timestamps.",
-            "zh-CN": "Kokoro-82M 的 Docker 化 OpenAI 兼容语音接口，支持 CPU/GPU，可输出字幕时间戳。",
-            "ja": "Kokoro-82M を OpenAI 互換の音声 API として Docker で動かすサーバー。CPU / GPU 対応、字幕タイムスタンプ出力付き。"
+            "en": "Music-generation model that turns lyrics into full songs with vocals, plus covers and music editing.",
+            "zh-CN": "开源音乐生成模型：歌词生成带人声的完整歌曲，并支持翻唱和音乐编辑。",
+            "ja": "歌詞からボーカル入りのフルソングを生成するオープンな音楽生成モデル。カバーや楽曲編集にも対応。"
           },
           "blurb_status": {
             "en": "machine-draft",
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
+          },
+          "license_note": "Repo LICENSE is Apache-2.0 (code); MODEL_LICENSE is CC BY-NC 4.0 + creator permission (weights). Checked by hand 2026-10-11.",
+          "caveat": {
+            "en": "Code is Apache-2.0, but the model weights are CC BY-NC 4.0 with an extra permission for individual users and musicians; companies need a commercial license.",
+            "zh-CN": "代码为 Apache-2.0，但模型权重为 CC BY-NC 4.0（个人用户和音乐人另有许可）；公司商用需单独取得商业授权。",
+            "ja": "コードは Apache-2.0 ですが、モデル重みは CC BY-NC 4.0（個人ユーザー・ミュージシャン向けの追加許諾あり）です。企業の商用利用には別途商用ライセンスが必要です。"
           }
         }
       ]

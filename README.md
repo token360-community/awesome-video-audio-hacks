@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
-> A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, dubbing, lip-sync and editing**. Every entry is re-checked against a written bar (see [Contributing](#contributing)), and each section is capped at 5 entries. Maintained by the [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) developer community.
+> A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, music, dubbing, lip-sync and editing**. Every entry is re-checked against a written bar (see [Contributing](#contributing)), and each section is capped at 5 entries. Maintained by the [Token360](https://www.token360.ai?utm_source=github&utm_medium=awesome&utm_campaign=avah) developer community.
 
 **Tags:** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ link-only (non-commercial or source-available license) · ⚠️ read the note before using commercially
 
@@ -75,8 +75,8 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 ## Video generation & prompting
 
 - [HKUDS/ViMax](https://github.com/HKUDS/ViMax) - `Repo` · ⭐ 12.6k · MIT · Agentic video generation in one pipeline: idea → script → storyboard → shots, with director, screenwriter and producer agents.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - `Repo` · ⭐ 129.7k · MIT · Generates a finished short video from a topic or keyword: script, stock footage, voice-over, subtitles and music in one automated workflow.
 - [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) - `Skill` · ⭐ 7.6k · MIT · Production-pipeline skill for Seedance 2.0 filmmaking across text, image, video and audio inputs.
-- [zhouwei713/seedance-prompt](https://github.com/zhouwei713/seedance-prompt) - `Skill` · ⭐ 327 · MIT · Agent skill that writes realistic-looking video prompts for Seedance and other text-to-video models.
 - [liyue-aigc/seedance-2-5-video-director](https://github.com/liyue-aigc/seedance-2-5-video-director) - `Skill` · ⭐ 616 · MIT · Seedance 2.5 "video director" skill: prompts, scripts, character locking, continuation, edits and transitions.
 - [s1dashu/director](https://github.com/s1dashu/director) - `Skill` · ⭐ 801 · MIT · Skill that directs a complete video end to end: research, script, visual development, shot design, media generation and delivery.
 
@@ -93,7 +93,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) - `Repo` · ⭐ 66.9k · AGPL-3.0 · Agentic video production system that turns an AI coding assistant into a production pipeline, with many ready-made pipelines and tools.
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) - `Repo` · ⭐ 60.9k · Apache-2.0 · Write HTML, render video: a motion framework designed to be driven by agents.
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - `Skill` · ⭐ 11.3k · Apache-2.0 · Claude Code / Codex skill for cinematic product videos with Remotion: shot recipe cards, motion previews and a production template. ⚠️ Renders with Remotion, whose own license requires a paid company license for some commercial use.
-- [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) - `Skill` · ⭐ 2.2k · MIT · AI-native video production toolkit for Claude Code.
+- [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - `Repo` · ⭐ 93.6k · MIT · Free, open-source video editor for web, desktop and mobile, built as a CapCut alternative.
 - [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) - `Skill` · ⭐ 3.9k · MIT · Agent skill that automates editing in JianYing (the Chinese edition of CapCut) by writing its project drafts.
 
 ## Voice, TTS & music
@@ -102,7 +102,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) - `Repo` · ⭐ 39k · Apache-2.0 · Tokenizer-free multilingual TTS with voice design and voice cloning.
 - [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - `Repo` · ⭐ 26.9k · MIT · Open-source TTS model family from Resemble AI.
 - [QwenAudio/CosyVoice](https://github.com/QwenAudio/CosyVoice) - `Repo` · ⭐ 23.9k · Apache-2.0 · Multilingual voice generation model with inference, training and deployment code.
-- [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) - `Repo` · ⭐ 5.5k · Apache-2.0 · Dockerized, OpenAI-compatible speech endpoint for Kokoro-82M on CPU or GPU, with caption timestamps.
+- [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) - `Repo` · ⭐ 11.6k · Apache-2.0 · Music-generation model that turns lyrics into full songs with vocals, plus covers and music editing. ⚠️ Code is Apache-2.0, but the model weights are CC BY-NC 4.0 with an extra permission for individual users and musicians; companies need a commercial license.
 
 ## Dubbing & subtitles
 

@@ -2,14 +2,12 @@
 
 | File | Size | Status |
 |---|---|---|
-| `banner.png` | 2048×1152 | **DRAFT mockup, carries a red "DRAFT MOCKUP · NOT APPROVED" stamp.** Used by the READMEs until Designer/Brand deliver the final. Repo URL on the banner was corrected to `github.com/token360-community/awesome-video-audio-hacks`. |
-| `banner-clean.png` | 2048×1152 | Same draft with the stamp painted out. **Still not approved**; only for previewing how an unstamped banner reads. Do not ship without Brand sign-off. |
+| `banner.png` | 2048×1152 | **Interim banner, pending Designer/Brand.** Built from the 2026-10-08 draft mockup with the DRAFT stamp removed, the eyebrow changed to "CURATED BY TOKEN360", and the subtitle changed to "Open-source AI video & audio workflows, curated." |
 
-## TODO (Designer / Brand), blocking public launch
+## TODO (Designer / Brand)
 
 - [ ] Final `banner.png` 2048×1152 (< 1 MB), plus `og.png` 1280×640 (GitHub social preview) and `mark.png` 512×512.
-- [ ] Real wordmark source. The draft's ring mark inside "Token360" is a composite: too small and off-position.
-- [ ] Confirm brand fonts (draft uses Inter + Geist Mono as stand-ins).
-- [ ] Eyebrow copy "OPEN-SOURCE · CURATED · TOKEN360-READY": "TOKEN360-READY" implies entries were run on Token360; none have been tested yet. Suggest "OPEN-SOURCE · CURATED · EN / 中文 / 日本語" until ⚡ entries exist.
-- [ ] Subtitle "… on one OpenAI-compatible API": Token360 serves text/image/video on one `base_url`, but the audio endpoint is still unverified.
+- [ ] Real wordmark source. The ring mark inside "Token360" on the interim banner is a composite: too small and off-position.
+- [ ] Confirm brand fonts (interim banner uses Inter + Geist Mono as stand-ins).
+- [ ] Final copy for the eyebrow and subtitle. Do not imply tested Token360 compatibility or audio support until entries carry ⚡.
 - [ ] Brand sign-off on the section name "People to follow" and the `Person` tag.
