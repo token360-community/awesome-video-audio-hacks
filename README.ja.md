@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./assets/banner.png" alt="Awesome Video & Audio Hacks（Token360）" width="800" />
+  <img src="./assets/banner.webp" alt="Awesome Video & Audio Hacks（Token360）" width="800" />
   <br />
   Awesome Video &amp; Audio Hacks
 </h1>

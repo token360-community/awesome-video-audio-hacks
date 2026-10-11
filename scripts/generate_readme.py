@@ -336,7 +336,7 @@ def render(cat: dict, lang: str) -> str:
     site_path = "/zh-CN" if zh else ""
     models_url = site(cat, f"{site_path}/models")
     out = ['<h1 align="center">',
-           f'  <img src="./assets/banner.png" alt="{C["banner_alt"]}" width="800" />',
+           f'  <img src="./assets/banner.webp" alt="{C["banner_alt"]}" width="800" />',
            "  <br />",
            "  Awesome Video &amp; Audio Hacks",
            "</h1>", "", f"<!-- {C['generated']} -->", "", lang_switcher(lang), "",
