@@ -117,7 +117,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 129735,
+          "stars": 129745,
           "last_commit": "2026-10-10",
           "archived": false,
           "model_weights": false,
@@ -185,7 +185,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 616,
+          "stars": 617,
           "last_commit": "2026-08-26",
           "archived": false,
           "model_weights": false,
@@ -244,6 +244,113 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "krillinai--opencreator",
+          "type": "repo",
+          "title": "krillinai/OpenCreator",
+          "url": "https://github.com/krillinai/OpenCreator",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 12700,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Desktop AI video studio that goes from script to generated, dubbed and localized video, with built-in agent skills.",
+            "zh-CN": "桌面端 AI 视频工作室：从脚本到生成、配音、本地化一条龙，内置 Agent Skills。",
+            "ja": "台本から生成・吹き替え・ローカライズまでを一つで行うデスクトップ AI 動画スタジオ。エージェントスキル内蔵。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "dexhunter--seedance2-skill",
+          "type": "skill",
+          "title": "dexhunter/seedance2-skill",
+          "url": "https://github.com/dexhunter/seedance2-skill",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4251,
+          "last_commit": "2026-09-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill that writes model-ready Seedance 2.x video prompts from a plain idea.",
+            "zh-CN": "把一句想法写成可直接投喂 Seedance 2.x 的视频提示词的 Agent Skill。",
+            "ja": "ざっくりしたアイデアから、そのまま使える Seedance 2.x 用の動画プロンプトを書くエージェントスキル。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "flashml-org--freevideo",
+          "type": "repo",
+          "title": "FlashML-org/FreeVideo",
+          "url": "https://github.com/FlashML-org/FreeVideo",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1703,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Runs the open MiniMax H3 audio-video model on consumer GPUs and Macs, with community speed reports per card.",
+            "zh-CN": "在消费级显卡和 Mac 上本地运行开源 MiniMax H3 音视频模型，附社区各型号显卡实测速度。",
+            "ja": "オープンな MiniMax H3 音声付き動画モデルを一般向け GPU や Mac で動かすローカル推論ツール。GPU ごとのコミュニティ実測あり。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Code is Apache-2.0, but the MiniMax H3 weights use the custom MiniMax H3 Community License (users in the US/EU/UK/South Korea must apply); read it before commercial use.",
+            "zh-CN": "代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。",
+            "ja": "コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。"
+          }
         }
       ]
     },
@@ -263,7 +370,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 17246,
+          "stars": 17249,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
@@ -399,7 +506,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4392,
+          "stars": 4391,
           "last_commit": "2026-10-08",
           "archived": false,
           "model_weights": false,
@@ -424,6 +531,143 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "arcreel--arcreel",
+          "type": "repo",
+          "title": "ArcReel/ArcReel",
+          "url": "https://github.com/ArcReel/ArcReel",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5433,
+          "last_commit": "2026-10-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Self-hosted agent workspace that turns a novel or script into character and scene assets, storyboards, consistent shots and a JianYing/CapCut draft, with cost tracking.",
+            "zh-CN": "可自部署的 AI 视频工作台：小说/剧本 → 角色与场景资产 → 分镜 → 跨镜头一致的视频 → 剪映草稿，并追踪费用。",
+            "ja": "小説や脚本からキャラクター・シーン素材、絵コンテ、一貫性のあるショット、剪映（CapCut）ドラフトまで作るセルフホスト型エージェントワークスペース。費用トラッキング付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "fireredteam--firered-openstoryline",
+          "type": "repo",
+          "title": "FireRedTeam/FireRed-OpenStoryline",
+          "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3476,
+          "last_commit": "2026-07-30",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Video editing agent that turns manual cutting into directing by natural language, with MCP and agent-skill integrations.",
+            "zh-CN": "AI 剪辑 Agent：用自然语言“导演”代替手动剪辑，支持 MCP 与 Agent Skills。",
+            "ja": "自然言語で指示するだけで手作業の編集を「演出」に変える動画編集エージェント。MCP とエージェントスキルに対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "alibaba--lumenx",
+          "type": "repo",
+          "title": "alibaba/lumenx",
+          "url": "https://github.com/alibaba/lumenx",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1351,
+          "last_commit": "2026-08-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Alibaba's open-source studio that turns novel text into animated short dramas: script analysis, character design, storyboards and video assembly.",
+            "zh-CN": "阿里开源的 AI 短漫剧一站式平台：小说文本 → 剧本分析 → 角色定制 → 分镜 → 视频合成。",
+            "ja": "小説のテキストをアニメ調ショートドラマにする Alibaba のオープンソーススタジオ。脚本分析、キャラクター設定、絵コンテ、動画合成まで対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "chatfire-ai--huobao-drama",
+          "type": "repo",
+          "title": "chatfire-AI/huobao-drama",
+          "url": "https://github.com/chatfire-AI/huobao-drama",
+          "license": "CC-BY-NC-SA-4.0",
+          "license_class": "non-commercial",
+          "link_only": true,
+          "stars": 16062,
+          "last_commit": "2026-10-05",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "The most-starred Chinese AI short-drama pipeline, from script to storyboard to generated episodes; listed as the category reference.",
+            "zh-CN": "中文 AI 短剧星数最高的项目：剧本 → 分镜 → 成片全流程，作为品类参考收录。",
+            "ja": "脚本から絵コンテ、生成エピソードまでを扱う、中国語圏で最もスターの多い AI ショートドラマ制作パイプライン。カテゴリの参照先として掲載。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE and README are CC BY-NC-SA 4.0 (commercial use prohibited). Checked by hand 2026-10-11."
         }
       ]
     },
@@ -443,7 +687,7 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 66947,
+          "stars": 66962,
           "last_commit": "2026-10-03",
           "archived": false,
           "model_weights": false,
@@ -477,7 +721,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 60942,
+          "stars": 60962,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
@@ -511,7 +755,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11297,
+          "stars": 11301,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
@@ -550,7 +794,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 93610,
+          "stars": 93619,
           "last_commit": "2026-09-24",
           "archived": false,
           "model_weights": false,
@@ -610,6 +854,210 @@
             "ja": "machine-draft"
           },
           "license_note": "GitHub reports NOASSERTION; LICENSE file opened by hand on 2026-10-11 and is the MIT text."
+        },
+        {
+          "id": "browser-use--video-use",
+          "type": "repo",
+          "title": "browser-use/video-use",
+          "url": "https://github.com/browser-use/video-use",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 28634,
+          "last_commit": "2026-10-08",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "From the browser-use team: lets coding agents cut raw footage into a finished edit from word-level transcripts, with burned-in subtitles.",
+            "zh-CN": "browser-use 团队出品：让编程 Agent 基于逐词转写把原始素材剪成成片，并烧录字幕。",
+            "ja": "browser-use チームによる、コーディングエージェントが単語単位の文字起こしから素材を完成動画に編集するツール。字幕の焼き込みにも対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "linyqh--narratoai",
+          "type": "repo",
+          "title": "linyqh/NarratoAI",
+          "url": "https://github.com/linyqh/NarratoAI",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 11361,
+          "last_commit": "2026-09-16",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "One-click film and TV commentary videos: the LLM writes the narration, then voice-over and cut are generated automatically.",
+            "zh-CN": "一键生成影视解说视频：大模型写解说文案，自动配音并剪辑成片。",
+            "ja": "映画やドラマの解説動画をワンクリックで作成。LLM がナレーション原稿を書き、音声と編集まで自動で仕上げます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "zhouxiaoka--autoclip",
+          "type": "repo",
+          "title": "zhouxiaoka/autoclip",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 9329,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Turns long podcasts, interviews and courses into short clips with subtitles, covers and post copy for Douyin, Xiaohongshu, TikTok, Reels and Shorts.",
+            "zh-CN": "把播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels、Shorts。",
+            "ja": "ポッドキャストやインタビュー、講座などの長尺動画を、字幕・サムネイル・投稿文付きのショート動画に自動で切り出します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "guanyixuan--pyjianyingdraft",
+          "type": "repo",
+          "title": "GuanYixuan/pyJianYingDraft",
+          "url": "https://github.com/GuanYixuan/pyJianYingDraft",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4528,
+          "last_commit": "2026-09-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Python library that generates and exports JianYing (CapCut China) drafts, the building block behind many automated editing pipelines.",
+            "zh-CN": "用 Python 生成并导出剪映草稿的轻量库，是许多全自动剪辑流水线的底层工具。",
+            "ja": "剪映（中国版 CapCut）のドラフトを Python で生成・書き出すライブラリ。多くの自動編集パイプラインの土台です。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "agentchengfeng--chengfeng-videocut-skills",
+          "type": "skill",
+          "title": "Agentchengfeng/chengfeng-videocut-skills",
+          "url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3053,
+          "last_commit": "2026-09-20",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Claude Code skills that act as a talking-head video editor: trims filler words and pauses, adds subtitles and exports the cut.",
+            "zh-CN": "用 Claude Code Skills 做的口播剪辑 Agent：去口癖和停顿、加字幕并导出成片。",
+            "ja": "Claude Code スキルで作るトーキングヘッド動画の編集エージェント。言いよどみや間を詰め、字幕を付けて書き出します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "geeklee--srt-whiteboard-animation",
+          "type": "skill",
+          "title": "geeklee/srt-whiteboard-animation",
+          "url": "https://github.com/geeklee/srt-whiteboard-animation",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4258,
+          "last_commit": "2026-07-27",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Skill that turns an SRT subtitle file into a hand-drawn whiteboard animation on warm paper, stroke by stroke.",
+            "zh-CN": "把 SRT 字幕做成暖米黄纸底、逐笔绘制的手绘白板动画的 Skill。",
+            "ja": "SRT 字幕ファイルから、温かみのある紙の上に一筆ずつ描かれるホワイトボード手描きアニメを作るスキル。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -629,7 +1077,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 62681,
+          "stars": 62683,
           "last_commit": "2026-10-08",
           "archived": false,
           "model_weights": false,
@@ -663,7 +1111,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 38963,
+          "stars": 38969,
           "last_commit": "2026-10-07",
           "archived": false,
           "model_weights": true,
@@ -697,7 +1145,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 26859,
+          "stars": 26860,
           "last_commit": "2026-07-21",
           "archived": false,
           "model_weights": true,
@@ -731,7 +1179,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 23921,
+          "stars": 23920,
           "last_commit": "2026-05-25",
           "archived": false,
           "model_weights": true,
@@ -765,7 +1213,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11614,
+          "stars": 11623,
           "last_commit": "2026-10-06",
           "archived": false,
           "model_weights": true,
@@ -796,6 +1244,147 @@
             "zh-CN": "代码为 Apache-2.0，但模型权重为 CC BY-NC 4.0（个人用户和音乐人另有许可）；公司商用需单独取得商业授权。",
             "ja": "コードは Apache-2.0 ですが、モデル重みは CC BY-NC 4.0（個人ユーザー・ミュージシャン向けの追加許諾あり）です。企業の商用利用には別途商用ライセンスが必要です。"
           }
+        },
+        {
+          "id": "jamiepine--voicebox",
+          "type": "repo",
+          "title": "jamiepine/voicebox",
+          "url": "https://github.com/jamiepine/voicebox",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 56905,
+          "last_commit": "2026-10-06",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Local, open-source voice studio for cloning voices and generating speech, built on Qwen3-TTS and Whisper.",
+            "zh-CN": "本地开源的语音工作室：声音克隆与语音合成，基于 Qwen3-TTS 和 Whisper。",
+            "ja": "Qwen3-TTS と Whisper をベースにした、ローカルで動くオープンソースの音声スタジオ。声のクローンと音声合成ができます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "remsky--kokoro-fastapi",
+          "type": "repo",
+          "title": "remsky/Kokoro-FastAPI",
+          "url": "https://github.com/remsky/Kokoro-FastAPI",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5530,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Dockerized, OpenAI-compatible speech API for the Kokoro-82M TTS model that runs on CPU or GPU.",
+            "zh-CN": "Kokoro-82M 的 Docker 化 TTS 服务，接口兼容 OpenAI，CPU 和 GPU 都能跑。",
+            "ja": "Kokoro-82M TTS を OpenAI 互換 API として動かす Docker 構成。CPU でも GPU でも動作します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "drewthomasson--ebook2audiobook",
+          "type": "repo",
+          "title": "DrewThomasson/ebook2audiobook",
+          "url": "https://github.com/DrewThomasson/ebook2audiobook",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 20332,
+          "last_commit": "2026-10-05",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Converts e-books into audiobooks with chapters and voice cloning, in 1,100+ languages.",
+            "zh-CN": "把电子书转成带章节的有声书，支持声音克隆和 1100 多种语言。",
+            "ja": "電子書籍を章立て付きのオーディオブックに変換。声のクローンと 1,100 以上の言語に対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Code is Apache-2.0, but some supported engines ship weights under their own terms (e.g. XTTSv2 under the non-commercial Coqui Public Model License); pick the engine accordingly for commercial use.",
+            "zh-CN": "代码为 Apache-2.0，但部分可选引擎的权重另有许可（如 XTTSv2 为非商用的 Coqui Public Model License），商用时请选对引擎。",
+            "ja": "コードは Apache-2.0 ですが、一部のエンジンの重みは別ライセンスです（例：XTTSv2 は非商用の Coqui Public Model License）。商用ではエンジンを選んでください。"
+          }
+        },
+        {
+          "id": "openmoss--moss-tts",
+          "type": "repo",
+          "title": "OpenMOSS/MOSS-TTS",
+          "url": "https://github.com/OpenMOSS/MOSS-TTS",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4196,
+          "last_commit": "2026-09-05",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Open model family for long-form speech, multi-speaker dialogue, voice design, sound effects and real-time TTS, with strong Chinese support.",
+            "zh-CN": "开源语音模型家族：长文本朗读、多人对话合成、声音设计、音效和实时 TTS，中文表现突出。",
+            "ja": "長文読み上げ、複数話者の対話、ボイスデザイン、効果音、リアルタイム TTS を扱うオープンモデル群。中国語に強いのが特長。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -815,7 +1404,7 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 18751,
+          "stars": 18752,
           "last_commit": "2026-09-30",
           "archived": false,
           "model_weights": false,
@@ -849,7 +1438,7 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 19323,
+          "stars": 19322,
           "last_commit": "2026-10-07",
           "archived": false,
           "model_weights": false,
@@ -883,7 +1472,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5649,
+          "stars": 5648,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
@@ -936,6 +1525,152 @@
             "en": "Speech recognition with word-level timestamps and speaker diarization.",
             "zh-CN": "带词级时间戳和说话人分离的语音识别。",
             "ja": "単語単位のタイムスタンプと話者分離付きの音声認識。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "liuzhao1225--youdub-webui",
+          "type": "repo",
+          "title": "liuzhao1225/YouDub-webui",
+          "url": "https://github.com/liuzhao1225/YouDub-webui",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5643,
+          "last_commit": "2026-09-21",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "End-to-end video localization for YouTube and Bilibili: speech recognition, subtitle translation, voice-cloned dubbing and final mux.",
+            "zh-CN": "YouTube/B 站视频本地化全流程：语音识别、字幕翻译、克隆配音到合成成片。",
+            "ja": "YouTube や Bilibili 動画のローカライズを一括処理。音声認識、字幕翻訳、声をクローンした吹き替え、最終合成まで。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "tmoroney--auto-subs",
+          "type": "repo",
+          "title": "tmoroney/auto-subs",
+          "url": "https://github.com/tmoroney/auto-subs",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 4344,
+          "last_commit": "2026-10-04",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "On-device subtitle generation that plugs straight into DaVinci Resolve, Premiere Pro and After Effects.",
+            "zh-CN": "本地生成字幕，直接接入 DaVinci Resolve、Premiere Pro 和 After Effects。",
+            "ja": "端末上で字幕を生成し、DaVinci Resolve・Premiere Pro・After Effects に直接連携します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "The optional MMS forced-alignment weights for word-level timestamps are CC BY-NC 4.0 (non-commercial).",
+            "zh-CN": "用于逐词时间戳的可选 MMS 强制对齐权重为 CC BY-NC 4.0（非商用）。",
+            "ja": "単語単位タイムスタンプ用のオプションの MMS 強制アライメント重みは CC BY-NC 4.0（非商用）です。"
+          }
+        },
+        {
+          "id": "r3gm--sonitranslate",
+          "type": "repo",
+          "title": "R3gm/SoniTranslate",
+          "url": "https://github.com/R3gm/SoniTranslate",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1417,
+          "last_commit": "2026-08-28",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Web UI for synchronized video translation and dubbing, with speaker diarization and a choice of TTS engines.",
+            "zh-CN": "视频同步翻译配音 WebUI，支持说话人分离和多种 TTS 引擎。",
+            "ja": "話者分離と複数の TTS エンジンに対応した、動画の同期翻訳・吹き替え Web UI。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Code is Apache-2.0, but the README warns that some models it uses (e.g. pyannote diarization) carry commercial restrictions.",
+            "zh-CN": "代码为 Apache-2.0，但 README 提示部分所用模型（如 pyannote 说话人分离）有商用限制。",
+            "ja": "コードは Apache-2.0 ですが、README によると使用する一部のモデル（pyannote の話者分離など）には商用制限があります。"
+          }
+        },
+        {
+          "id": "shang-zhu--violin",
+          "type": "skill",
+          "title": "shang-zhu/violin",
+          "url": "https://github.com/shang-zhu/violin",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1077,
+          "last_commit": "2026-09-03",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Open-source agent skill that translates a video and dubs it into another language end to end.",
+            "zh-CN": "开源视频翻译 Skill：把一段视频端到端翻译并配音成另一种语言。",
+            "ja": "動画を別の言語へ翻訳・吹き替えまで一気に行うオープンソースのエージェントスキル。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -995,7 +1730,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 19206,
+          "stars": 19207,
           "last_commit": "2026-06-01",
           "archived": false,
           "model_weights": true,
@@ -1035,7 +1770,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1050,
+          "stars": 1049,
           "last_commit": "2026-07-16",
           "archived": false,
           "model_weights": false,
@@ -1054,6 +1789,230 @@
             "en": "Codex skill for authorized talking-head videos: asset checks, a short preview first, and an approval gate before the full render.",
             "zh-CN": "制作经授权的数字人口播视频的 Codex Skill：先校验素材、先出短预览，确认后才生成完整视频。",
             "ja": "許諾を得たトーキングヘッド動画を作る Codex スキル。素材チェック、短いプレビュー、承認後に本番レンダリングという流れです。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "lipku--livetalking",
+          "type": "repo",
+          "title": "lipku/LiveTalking",
+          "url": "https://github.com/lipku/LiveTalking",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 9841,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Real-time interactive streaming digital human with synchronized audio and video, a common base for live-stream avatars.",
+            "zh-CN": "实时交互流式数字人，音视频同步对话，常用于直播数字人。",
+            "ja": "音声と映像を同期させて会話できるリアルタイム配信型デジタルヒューマン。ライブ配信アバターの土台として定番です。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "modstart-lib--aigcpanel",
+          "type": "repo",
+          "title": "modstart-lib/aigcpanel",
+          "url": "https://github.com/modstart-lib/aigcpanel",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5623,
+          "last_commit": "2026-10-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "All-in-one desktop digital-human app: lip-synced video, speech synthesis and voice cloning with one-click local model import.",
+            "zh-CN": "一站式 AI 数字人桌面系统：视频合成、声音合成与克隆，一键导入本地模型。",
+            "ja": "口パク動画の合成、音声合成、声のクローンをまとめたデスクトップのデジタルヒューマンアプリ。ローカルモデルをワンクリックで導入できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "gvclab--personalive",
+          "type": "repo",
+          "title": "GVCLab/PersonaLive",
+          "url": "https://github.com/GVCLab/PersonaLive",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3970,
+          "last_commit": "2026-08-27",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Expressive real-time portrait animation for live streaming, driven by a single photo (CVPR 2026).",
+            "zh-CN": "面向直播的实时表情肖像动画，一张照片即可驱动（CVPR 2026）。",
+            "ja": "1 枚の写真から表情豊かに動かせる、ライブ配信向けのリアルタイム肖像アニメーション（CVPR 2026）。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "The LICENSE file is Apache-2.0, but the README states the project is released for academic research only; confirm with the authors before commercial use.",
+            "zh-CN": "LICENSE 文件为 Apache-2.0，但 README 声明仅供学术研究使用；商用前请先与作者确认。",
+            "ja": "LICENSE ファイルは Apache-2.0 ですが、README では学術研究目的のみの公開とされています。商用利用の前に作者へ確認してください。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "title": {
+        "en": "Ads & marketing video",
+        "zh-CN": "广告与营销视频",
+        "ja": "広告・マーケティング動画"
+      },
+      "items": [
+        {
+          "id": "latent-spaces--brag",
+          "type": "repo",
+          "title": "latent-spaces/brag",
+          "url": "https://github.com/latent-spaces/brag",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 15237,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "One command turns the project you just built into a short, shareable launch video.",
+            "zh-CN": "一条命令，把刚做好的项目变成一支可分享的发布宣传短片。",
+            "ja": "作ったばかりのプロジェクトを、コマンド一つでシェアできるローンチ動画にします。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "op7418--guizang-product-video-skill",
+          "type": "skill",
+          "title": "op7418/guizang-product-video-skill",
+          "url": "https://github.com/op7418/guizang-product-video-skill",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 770,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Skill for software promo videos rendered in code from your real product components: storyboard copy, original music, sound effects and render.",
+            "zh-CN": "归藏的产品宣传片 Skill：复用真实产品组件，用代码做软件更新宣传片，包含分镜文案、原创配乐、音效和渲染。",
+            "ja": "実際のプロダクトのコンポーネントを使い、コードでソフトウェアの紹介動画を作るスキル。絵コンテ、オリジナル BGM、効果音、レンダリングまで。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "AGPL-3.0 overall, but the default styles adapted from CodePilot stay under their original BSL terms.",
+            "zh-CN": "整体为 AGPL-3.0，但默认样式中改编自 CodePilot 的组件仍保留原 BSL 授权。",
+            "ja": "全体は AGPL-3.0 ですが、CodePilot 由来のデフォルトスタイルは元の BSL ライセンスのままです。"
+          }
+        },
+        {
+          "id": "kianzzz--book-sales-video",
+          "type": "skill",
+          "title": "Kianzzz/book-sales-video",
+          "url": "https://github.com/Kianzzz/book-sales-video",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 223,
+          "last_commit": "2026-08-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Chinese book-promotion video skill: pulls the script, checks the book, then voice-over, images, bilingual subtitles and auto-edit.",
+            "zh-CN": "中文图书带货视频 Skill：取稿、核验书籍，再配音、配图、加双语字幕并自动剪辑。",
+            "ja": "中国語の書籍 PR 動画を作るスキル。原稿取得と書籍確認のあと、ナレーション、画像、二言語字幕、自動編集まで行います。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -1079,7 +2038,7 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 136944,
+          "stars": 136949,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
@@ -1210,6 +2169,182 @@
             "en": "machine-draft",
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "samuelgursky--davinci-resolve-mcp",
+          "type": "mcp",
+          "title": "samuelgursky/davinci-resolve-mcp",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3473,
+          "last_commit": "2026-10-10",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "MCP server that lets an agent drive DaVinci Resolve Studio projects: timelines, markers and renders.",
+            "zh-CN": "让 Agent 操控 DaVinci Resolve Studio 项目的 MCP server：时间线、标记和渲染。",
+            "ja": "エージェントから DaVinci Resolve Studio のタイムライン、マーカー、レンダリングを操作できる MCP サーバー。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "minimax-ai--minimax-mcp",
+          "type": "mcp",
+          "title": "MiniMax-AI/MiniMax-MCP",
+          "url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1583,
+          "last_commit": "2026-08-20",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Official MiniMax MCP server for text-to-speech, voice cloning, video and music generation.",
+            "zh-CN": "MiniMax 官方 MCP server：语音合成、声音克隆、视频和音乐生成。",
+            "ja": "MiniMax 公式の MCP サーバー。音声合成、声のクローン、動画・音楽生成に対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "comfy-org--comfy-mcp",
+          "type": "mcp",
+          "title": "Comfy-Org/comfy-mcp",
+          "url": "https://github.com/Comfy-Org/comfy-mcp",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 270,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Official local MCP server from Comfy Org that lets agents run and inspect your local ComfyUI workflows.",
+            "zh-CN": "Comfy Org 官方本地 MCP server，让 Agent 运行和查看本地 ComfyUI 工作流。",
+            "ja": "Comfy Org 公式のローカル MCP サーバー。エージェントからローカルの ComfyUI ワークフローを実行・確認できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE offers AGPL-3.0-or-later or a commercial license from Comfy Org. Checked by hand 2026-10-11."
+        },
+        {
+          "id": "ahujasid--ableton-mcp",
+          "type": "mcp",
+          "title": "ahujasid/ableton-mcp",
+          "url": "https://github.com/ahujasid/ableton-mcp",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3174,
+          "last_commit": "2026-09-22",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "MCP server that lets an LLM control Ableton Live to create tracks, arrange clips and compose music.",
+            "zh-CN": "让大模型控制 Ableton Live 的 MCP server：建轨、编排片段、作曲。",
+            "ja": "LLM から Ableton Live を操作してトラック作成、クリップの配置、作曲ができる MCP サーバー。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "aimixer--comfyui_minimaxh3_director",
+          "type": "node",
+          "title": "AIMixer/ComfyUI_MiniMaxH3_Director",
+          "url": "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2289,
+          "last_commit": "2026-10-09",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Multi-segment director node for the official ComfyUI MiniMax H3 nodes, with example workflows.",
+            "zh-CN": "基于 ComfyUI 官方 MiniMax H3 节点的多段导演节点，附示例工作流。",
+            "ja": "ComfyUI 公式の MiniMax H3 ノード向けの、複数セグメントを演出するディレクターノード。サンプルワークフロー付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Code is Apache-2.0, but the MiniMax H3 weights use the custom MiniMax H3 Community License (users in the US/EU/UK/South Korea must apply); read it before commercial use.",
+            "zh-CN": "代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。",
+            "ja": "コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。"
           }
         }
       ]
@@ -1343,6 +2478,198 @@
             "en": "Long-form X article (Chinese) on a short-video pipeline: Codex as the controller, Hyperframes for motion, HeyGen for avatars and IndexTTS for voice.",
             "zh-CN": "X 长文：Codex 主控、Hyperframes 做动效、HeyGen 做数字人、IndexTTS 做配音的短视频全流程。",
             "ja": "X の長文記事（中国語）。Codex を司令塔に、Hyperframes でモーション、HeyGen でアバター、IndexTTS で音声を作るショート動画の全工程。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2104216919033192746",
+          "type": "post",
+          "title": "How to build a motion design studio with Opus 5.5 (full course)",
+          "title_i18n": {
+            "zh-CN": "用 Opus 5.5 搭建动效设计工作室（完整课程）",
+            "ja": "Opus 5.5 でモーションデザインスタジオを作る（フルコース）"
+          },
+          "url": "https://x.com/0xMovez/status/2104216919033192746",
+          "author": "0xMovez",
+          "posted_at": "2026-09-27",
+          "likes": 9049,
+          "bookmarks": 27115,
+          "metrics_at": "2026-10-11",
+          "use_case": "editing",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "blurb": {
+            "en": "A 12-step long-form course: install the studio, prompt like a director, build a seek(t) renderer, tune spring motion, score sound to the beat, have Opus critique its own frames, then ship every format and package it as a skill.",
+            "zh-CN": "12 步长文课程：10 分钟装好工作室，像导演一样写提示词，搭 seek(t) 渲染引擎，调弹簧动效，按节拍配乐，让 Opus 自查画面，最后一条时间线导出多格式并封装成 Skill。",
+            "ja": "12 ステップの長文講座。スタジオの導入、監督のようなプロンプト、seek(t) レンダラーの構築、スプリングでの動きの調整、ビートに合わせた音付け、Opus による自己チェック、多フォーマット書き出しとスキル化まで。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2075372048994672994",
+          "type": "post",
+          "title": "Fully automated book-review shorts with Codex + HyperFrames",
+          "title_i18n": {
+            "zh-CN": "Codex + HyperFrames 全自动生成图书号短视频",
+            "ja": "Codex + HyperFrames で書籍紹介ショートを全自動生成"
+          },
+          "url": "https://x.com/Bytec99/status/2075372048994672994",
+          "author": "Bytec99",
+          "posted_at": "2026-07-09",
+          "likes": 668,
+          "bookmarks": 1290,
+          "metrics_at": "2026-10-11",
+          "use_case": "editing",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "blurb": {
+            "en": "Long-form breakdown: Codex picks a book, writes a 30-second narration, VoxCPM voices it, faster-whisper aligns subtitles, FFmpeg ducks the music and HyperFrames renders; packaged as a reusable skill.",
+            "zh-CN": "长文拆解：Codex 选书写 30 秒旁白，VoxCPM 本地配音，faster-whisper 对齐字幕，FFmpeg 做 BGM 闪避，HyperFrames 渲染，并封装成可复用 Skill。",
+            "ja": "長文解説：Codex が本を選んで 30 秒のナレーションを書き、VoxCPM で音声化、faster-whisper で字幕合わせ、FFmpeg で BGM を調整し、HyperFrames でレンダリング。再利用できるスキルにまとめています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2085365652509040768",
+          "type": "post",
+          "title": "How to make a short film with Grok Imagine, start to finish",
+          "title_i18n": {
+            "zh-CN": "用 Grok Imagine 从零完成一部短片",
+            "ja": "Grok Imagine で短編映画を最初から最後まで作る"
+          },
+          "url": "https://x.com/tetsuoai/status/2085365652509040768",
+          "author": "tetsuoai",
+          "posted_at": "2026-08-06",
+          "likes": 1677,
+          "bookmarks": 1369,
+          "metrics_at": "2026-10-11",
+          "use_case": "video-gen",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "blurb": {
+            "en": "Long-form guide: turn one line into a beat script, build character sheets and location/prop references, load them into Grok Imagine, write one sealed prompt per beat, then assemble in post; all prompts included.",
+            "zh-CN": "长文教程：一句话扩成节拍脚本，做角色设定图和场景/道具参考，导入 Grok Imagine，每个节拍写一条独立提示词，最后后期拼接；提示词全部给出。",
+            "ja": "長文ガイド：一行のアイデアをビート台本にし、キャラクターシートと場所・小道具の参照を作って Grok Imagine に読み込み、ビートごとに独立したプロンプトで生成、最後に編集でつなぎます。プロンプトは全文掲載。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2107170117243310471",
+          "type": "post",
+          "title": "8 explainer-video prompts for Claude Code, 8 styles",
+          "title_i18n": {
+            "zh-CN": "8 种风格的 Claude Code 讲解视频提示词",
+            "ja": "Claude Code で作る解説動画プロンプト 8 種"
+          },
+          "url": "https://x.com/claudeskills101/status/2107170117243310471",
+          "author": "claudeskills101",
+          "posted_at": "2026-10-05",
+          "likes": 2083,
+          "bookmarks": 8205,
+          "metrics_at": "2026-10-11",
+          "use_case": "editing",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "blurb": {
+            "en": "Thread with eight full prompts (kinetic type, whiteboard, isometric, data chart, Manim, app walkthrough, paper collage, talking-head auto edit), each with an Avoid line and a done-means check.",
+            "zh-CN": "推文串给出 8 套完整提示词（动态文字、白板、等距流程、数据图表、Manim、App 演示、纸拼贴、口播自动剪辑），每套都有“避免”项和完成标准。",
+            "ja": "スレッドで 8 種類の完全なプロンプト（キネティックタイポ、ホワイトボード、アイソメ、データチャート、Manim、アプリ紹介、紙コラージュ、トーキングヘッド自動編集）を公開。それぞれ「避けること」と完成条件付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2109112248832503895",
+          "type": "post",
+          "title": "Camera-move and transition names to use in AI video prompts",
+          "title_i18n": {
+            "zh-CN": "给 AI 视频下指令用的运镜与转场名称",
+            "ja": "AI に指示するための動画のカメラワークと切り替えの名前"
+          },
+          "url": "https://x.com/showheyohtaki/status/2109112248832503895",
+          "author": "showheyohtaki",
+          "posted_at": "2026-10-10",
+          "likes": 5375,
+          "bookmarks": 8214,
+          "metrics_at": "2026-10-11",
+          "use_case": "video-gen",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "blurb": {
+            "en": "Japanese cheat sheet of named camera moves and transitions (FPV, rack focus, whip pan and more) so prompts to Claude, Codex or video models get the intended shot.",
+            "zh-CN": "日文速查表：整理 FPV、移焦、甩镜等运镜和转场名称，给 Claude、Codex 或视频模型下指令时能精准出效果。",
+            "ja": "FPV、ラックフォーカス、ホイップパンなどカメラワークと切り替えの名前をまとめた早見表。Claude や Codex、動画モデルに狙いどおりの演出を指示できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "x-2096513305930297353",
+          "type": "post",
+          "title": "Subway outfit-change video on MiniMax H3",
+          "title_i18n": {
+            "zh-CN": "用 MiniMax H3 做地铁变装视频",
+            "ja": "MiniMax H3 で作る地下鉄お着替え動画"
+          },
+          "url": "https://x.com/GeekCatX/status/2096513305930297353",
+          "author": "GeekCatX",
+          "posted_at": "2026-09-06",
+          "likes": 2156,
+          "bookmarks": 2121,
+          "metrics_at": "2026-10-11",
+          "use_case": "video-gen",
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "blurb": {
+            "en": "Recreates the viral subway outfit-change clip with MiniMax H3 image-to-video and a reverse-prompt skill; the full prompt is in the thread.",
+            "zh-CN": "用反推 Skill + MiniMax H3 图生视频复刻爆火的地铁变装视频，完整提示词在串里。",
+            "ja": "話題の地下鉄お着替え動画を、逆算プロンプト用スキルと MiniMax H3 の画像から動画モードで再現。完全なプロンプトはスレッド内にあります。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -1518,7 +2845,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1965,
+          "stars": 1966,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
@@ -1552,7 +2879,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2671,
+          "stars": 2672,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
@@ -1586,7 +2913,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 34297,
+          "stars": 34296,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
@@ -1611,6 +2938,41 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "youmind-openlab--awesome-seedance-2-prompts",
+          "type": "list",
+          "title": "YouMind-OpenLab/awesome-seedance-2-prompts",
+          "url": "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts",
+          "license": "CC-BY-4.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2112,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-11",
+          "added_at": "2026-10-11",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "2,000+ curated Seedance 2.0 video prompts across cinematic, anime, UGC, ad and meme styles, with API guides and character-consistency tips.",
+            "zh-CN": "2000+ 条精选 Seedance 2.0 视频提示词，覆盖电影感、动漫、UGC、广告、梗视频等风格，附 API 指南和角色一致性技巧。",
+            "ja": "映画風、アニメ、UGC、広告、ミームなど 2,000 以上の Seedance 2.0 動画プロンプトを厳選。API ガイドとキャラクター一貫性のコツ付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE is CC BY 4.0, an open content license that allows commercial use (OSI does not review content licenses). Checked by hand 2026-10-11."
         }
       ]
     }
