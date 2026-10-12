@@ -1,7 +1,7 @@
 {
   "name": "awesome-video-audio-hacks",
   "repo": "https://github.com/token360-community/awesome-video-audio-hacks",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "langs": [
     "en",
     "zh-CN",
@@ -83,11 +83,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 12629,
+          "stars": 12640,
           "last_commit": "2026-09-30",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark",
@@ -117,11 +117,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 129745,
-          "last_commit": "2026-10-10",
+          "stars": 130240,
+          "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -151,11 +151,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 7587,
+          "stars": 7609,
           "last_commit": "2026-09-26",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -185,11 +185,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 617,
+          "stars": 623,
           "last_commit": "2026-08-26",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -223,7 +223,7 @@
           "last_commit": "2026-08-10",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -253,11 +253,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 12700,
+          "stars": 12787,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -287,11 +287,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4252,
+          "stars": 4265,
           "last_commit": "2026-09-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -322,10 +322,10 @@
           "license_class": "osi",
           "link_only": false,
           "stars": 0,
-          "last_commit": "2026-10-11",
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "token360-edition",
@@ -337,7 +337,7 @@
               "title": "dexhunter/seedance2-skill",
               "url": "https://github.com/dexhunter/seedance2-skill",
               "author": "Dex (dexhunter)",
-              "stars": 4252,
+              "stars": 4265,
               "last_commit": "2026-09-19",
               "license": "MIT",
               "catalog_id": "dexhunter--seedance2-skill"
@@ -367,11 +367,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1703,
-          "last_commit": "2026-10-11",
+          "stars": 1769,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -397,6 +397,40 @@
             "zh-CN": "代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。",
             "ja": "コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。"
           }
+        },
+        {
+          "id": "edenfunf--reelmimic",
+          "type": "repo",
+          "title": "edenfunf/reelmimic",
+          "url": "https://github.com/edenfunf/reelmimic",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2393,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Point it at a video you like and a multi-agent crew in Claude Code or Codex plans, builds and reviews a new video in the same style with you.",
+            "zh-CN": "给它一条你喜欢的视频，Claude Code / Codex 里的多 Agent 小组会和你一起拆解、重建、互评，产出同风格的新视频。",
+            "ja": "好きな動画を渡すと、Claude Code や Codex 上のマルチエージェント班が同じスタイルの新しい動画を一緒に設計・制作・レビューします。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -416,11 +450,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 17249,
+          "stars": 17385,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -450,11 +484,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4695,
+          "stars": 4704,
           "last_commit": "2026-08-27",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -484,11 +518,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2017,
+          "stars": 2032,
           "last_commit": "2026-10-02",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -518,11 +552,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2735,
+          "stars": 2789,
           "last_commit": "2026-10-03",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -552,11 +586,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4391,
+          "stars": 4456,
           "last_commit": "2026-10-08",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "x-search",
@@ -586,11 +620,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5433,
-          "last_commit": "2026-10-10",
+          "stars": 5452,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -620,11 +654,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3476,
+          "stars": 3480,
           "last_commit": "2026-07-30",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -654,11 +688,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1351,
+          "stars": 1356,
           "last_commit": "2026-08-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -688,11 +722,11 @@
           "license": "CC-BY-NC-SA-4.0",
           "license_class": "non-commercial",
           "link_only": true,
-          "stars": 16062,
+          "stars": 16108,
           "last_commit": "2026-10-05",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -733,11 +767,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 66962,
-          "last_commit": "2026-10-03",
+          "stars": 67510,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -767,11 +801,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 60962,
-          "last_commit": "2026-10-11",
+          "stars": 61733,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark",
@@ -801,11 +835,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11301,
+          "stars": 11485,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark",
@@ -840,11 +874,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 93619,
+          "stars": 93819,
           "last_commit": "2026-09-24",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -874,11 +908,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3900,
+          "stars": 3935,
           "last_commit": "2026-09-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -909,11 +943,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 28634,
+          "stars": 28793,
           "last_commit": "2026-10-08",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -943,11 +977,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11361,
+          "stars": 11377,
           "last_commit": "2026-09-16",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -977,11 +1011,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 9329,
-          "last_commit": "2026-10-11",
+          "stars": 9357,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1011,11 +1045,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4528,
+          "stars": 4539,
           "last_commit": "2026-09-26",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1045,11 +1079,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3053,
+          "stars": 3056,
           "last_commit": "2026-09-20",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1079,11 +1113,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4258,
+          "stars": 4321,
           "last_commit": "2026-07-27",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1104,6 +1138,188 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "jub0t--concat",
+          "type": "repo",
+          "title": "jub0t/concat",
+          "url": "https://github.com/jub0t/concat",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5036,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Local cross-platform video editor on a native Rust engine with offline Whisper captions, text-to-speech and voice cloning, background removal and a JSON-RPC, gRPC and MCP API so agents can cut video too.",
+            "zh-CN": "原生 Rust 引擎的跨平台本地剪辑器：离线 Whisper 自动字幕、TTS 与声音克隆、人物抠像，并开放 JSON-RPC / gRPC / MCP 接口，让 Agent 也能直接剪片。",
+            "ja": "ネイティブ Rust エンジンのクロスプラットフォーム動画エディタ。オフライン Whisper の自動字幕、TTS と音声クローン、背景除去を備え、JSON-RPC・gRPC・MCP API からエージェントでも編集できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Still labelled beta by the author; the README also carries a paid sponsor slot with an affiliate code for an unrelated proxy service.",
+            "zh-CN": "作者标注仍为 beta；README 里有一个付费赞助位，带无关代理服务的返利码。",
+            "ja": "作者はまだベータと明記しています。README には無関係なプロキシサービスのアフィリエイトコード付き有料スポンサー枠があります。"
+          }
+        },
+        {
+          "id": "alchaincyf--huashu-art-motion",
+          "type": "skill",
+          "title": "alchaincyf/huashu-art-motion",
+          "url": "https://github.com/alchaincyf/huashu-art-motion",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3596,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-12-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill that writes art-styled animation as code: 35 painting styles, 9 narration grammars, 8 parametric segment types and a full voiced-film reference, installed with one npx command.",
+            "zh-CN": "用代码写艺术风格动画的 Agent Skill：35 种艺术风格、9 种解说语法、8 种参数化片段，另附整支口播片的参考代码，一条 npx 命令装好。",
+            "ja": "アート調のアニメーションをコードで書くエージェントスキル。35 の画風、9 種類のナレーション文法、8 種類のパラメトリック素材、ナレーション付き完成作のリファレンスコードを同梱し、npx 一行で導入できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "nateherkai--hyperframes-student-kit",
+          "type": "skill",
+          "title": "nateherkai/hyperframes-student-kit",
+          "url": "https://github.com/nateherkai/hyperframes-student-kit",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1356,
+          "last_commit": "2026-09-28",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-12-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Fourteen Codex and Claude Code skills for cutting reels and YouTube Shorts from a transcript, with 406 motion-graphics cards and HyperFrames templates, and a fixture that renders without footage or an API key.",
+            "zh-CN": "14 个 Codex / Claude Code Skill，按转写稿剪 Reels 和 YouTube Shorts，自带 406 张动效卡片和 HyperFrames 模板，还有一个不用素材、不用 API key 就能渲的测试工程。",
+            "ja": "文字起こしから Reels や YouTube Shorts を編集する Codex / Claude Code スキル 14 本。406 枚のモーショングラフィックスカードと HyperFrames テンプレート、素材も API キーも不要で描画できるフィクスチャ付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; the LICENSE file is the MIT text plus a note reserving the author's AIS brand assets. Opened by hand 2026-10-12.",
+          "caveat": {
+            "en": "The author's own setup uses ElevenLabs Scribe and the Kie.ai model API; both are optional (local Whisper or an existing transcript works) and generated assets are not required.",
+            "zh-CN": "作者本人的配置用 ElevenLabs Scribe 和 Kie.ai 模型 API，但两者都可选（本地 Whisper 或现成转写稿即可），生成素材不是必需项。",
+            "ja": "作者自身の構成では ElevenLabs Scribe と Kie.ai のモデル API を使いますが、どちらも任意で（ローカル Whisper や既存の文字起こしでも可）、生成素材も必須ではありません。"
+          }
+        },
+        {
+          "id": "glanderness--beeftv",
+          "type": "repo",
+          "title": "glanderness/BeefTV",
+          "url": "https://github.com/glanderness/BeefTV",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1126,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Lightweight local-first video workspace where an infinite canvas wires prompts, models and footage together, so an agent and a human can iterate on the same board.",
+            "zh-CN": "轻量、本地优先的视频创作工作台：无限画布上把提示词、模型和素材连起来，人和 Agent 在同一张板子上来回改。",
+            "ja": "ローカルファーストの軽量な動画制作ワークスペース。無限キャンバス上でプロンプト・モデル・素材をつなぎ、人とエージェントが同じボードで反復できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "barty-bart--motion-graphics",
+          "type": "skill",
+          "title": "Barty-Bart/motion-graphics",
+          "url": "https://github.com/Barty-Bart/motion-graphics",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 634,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-12-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Motion-graphics skills for Claude Code and Codex, including a b-roll engine with bundled fonts, committed to daily.",
+            "zh-CN": "给 Claude Code 和 Codex 用的动效 Skill 合集，含自带字体的 b-roll 引擎，每天都在提交。",
+            "ja": "Claude Code と Codex 向けのモーショングラフィックススキル集。フォント同梱の b-roll エンジンを含み、毎日更新されています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; the LICENSE file is the MIT text plus a note that the bundled Geist fonts are SIL OFL-1.1. Opened by hand 2026-10-12."
         }
       ]
     },
@@ -1123,11 +1339,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 62683,
+          "stars": 62726,
           "last_commit": "2026-10-08",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1157,11 +1373,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 38969,
+          "stars": 39164,
           "last_commit": "2026-10-07",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -1191,11 +1407,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 26860,
+          "stars": 26874,
           "last_commit": "2026-07-21",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1225,11 +1441,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 23920,
+          "stars": 23931,
           "last_commit": "2026-05-25",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1259,11 +1475,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11623,
+          "stars": 11792,
           "last_commit": "2026-10-06",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1299,11 +1515,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 56905,
+          "stars": 57112,
           "last_commit": "2026-10-06",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1333,11 +1549,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5530,
+          "stars": 5534,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1367,11 +1583,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 20332,
+          "stars": 20340,
           "last_commit": "2026-10-05",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1406,11 +1622,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4196,
+          "stars": 4201,
           "last_commit": "2026-09-05",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1425,6 +1641,153 @@
             "en": "Open model family for long-form speech, multi-speaker dialogue, voice design, sound effects and real-time TTS, with strong Chinese support.",
             "zh-CN": "开源语音模型家族：长文本朗读、多人对话合成、声音设计、音效和实时 TTS，中文表现突出。",
             "ja": "長文読み上げ、複数話者の対話、ボイスデザイン、効果音、リアルタイム TTS を扱うオープンモデル群。中国語に強いのが特長。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "k2-fsa--omnivoice",
+          "type": "repo",
+          "title": "k2-fsa/OmniVoice",
+          "url": "https://github.com/k2-fsa/OmniVoice",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 14480,
+          "last_commit": "2026-08-23",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-12-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Zero-shot voice-cloning TTS for 600+ languages from the next-gen Kaldi (k2-fsa) team, with a pip install, a Python quick start and a Hugging Face demo space.",
+            "zh-CN": "next-gen Kaldi（k2-fsa）团队出品的零样本声音克隆 TTS，覆盖 600+ 语言，pip 可装、README 有 Python 快速上手，另有 Hugging Face 在线 demo。",
+            "ja": "next-gen Kaldi（k2-fsa）チームによる 600 以上の言語に対応したゼロショット音声クローン TTS。pip で導入でき、Python のクイックスタートと Hugging Face デモが用意されています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Repo LICENSE is Apache-2.0; the weights live on Hugging Face (k2-fsa/OmniVoice) and no separate weights licence was published there as of 2026-10-12 — check before commercial use.",
+            "zh-CN": "仓库 LICENSE 为 Apache-2.0；权重在 Hugging Face（k2-fsa/OmniVoice），截至 2026-10-12 该页未单独声明权重许可，商用前请自行确认。",
+            "ja": "リポジトリの LICENSE は Apache-2.0 ですが、重みは Hugging Face（k2-fsa/OmniVoice）にあり、2026-10-12 時点で重み単体のライセンス表記はありません。商用前に確認してください。"
+          }
+        },
+        {
+          "id": "debpalash--voicestudio",
+          "type": "repo",
+          "title": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 60242,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-12-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Fully local desktop studio for voice cloning, voice design, video dubbing, dictation, transcription and audiobooks in 646 languages, with a local HTTP API and an MCP server.",
+            "zh-CN": "完全本地运行的桌面语音工作台：声音克隆、音色设计、视频配音、听写、转写、有声书，支持 646 种语言，自带本地 HTTP API 和 MCP server。",
+            "ja": "完全ローカルで動くデスクトップ音声スタジオ。音声クローン、ボイスデザイン、動画の吹き替え、ディクテーション、文字起こし、オーディオブックを 646 言語で扱え、ローカル HTTP API と MCP サーバーも同梱。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "App code is AGPL-3.0 but each bundled model keeps its own licence; also check the per-model terms before commercial use.",
+            "zh-CN": "应用代码为 AGPL-3.0，但内置的每个模型各自带许可；商用前请逐一确认模型条款。",
+            "ja": "アプリ本体は AGPL-3.0 ですが、同梱モデルはそれぞれ独自のライセンスです。商用前にモデルごとの条項も確認してください。"
+          }
+        },
+        {
+          "id": "0xshug0--audio.cpp",
+          "type": "repo",
+          "title": "0xShug0/audio.cpp",
+          "url": "https://github.com/0xShug0/audio.cpp",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3488,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "One ggml-based C++ engine for all the audio models in a video pipeline: TTS, speech-to-text, VAD, voice conversion and music generation, with CPU, CUDA, Vulkan, AMD and Apple Silicon backends.",
+            "zh-CN": "基于 ggml 的纯 C++ 音频推理引擎，一个包跑完视频流水线要的全部音频模型：TTS、语音识别、VAD、变声、音乐生成，支持 CPU/CUDA/Vulkan/AMD/Apple Silicon。",
+            "ja": "ggml ベースの純 C++ 音声推論エンジン。TTS、音声認識、VAD、ボイスコンバージョン、音楽生成をひとつでカバーし、CPU・CUDA・Vulkan・AMD・Apple Silicon に対応します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; the LICENSE file is the Apache-2.0 text with a ShugoAI LLC copyright header prepended. Opened by hand 2026-10-12."
+        },
+        {
+          "id": "leemysw--yovoice",
+          "type": "repo",
+          "title": "leemysw/yovoice",
+          "url": "https://github.com/leemysw/yovoice",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1050,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Desktop app for macOS and Windows that does local text-to-speech, voice cloning and emotion control with no cloud API and no per-character fees.",
+            "zh-CN": "macOS / Windows 桌面应用，本地跑 TTS、声音克隆和情绪控制，不走云 API，也没有按字计费。",
+            "ja": "macOS と Windows 向けのデスクトップアプリ。クラウド API も文字課金もなしで、ローカルの TTS・音声クローン・感情コントロールを行います。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -1450,11 +1813,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 18752,
+          "stars": 18772,
           "last_commit": "2026-09-30",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1484,11 +1847,11 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 19322,
+          "stars": 19342,
           "last_commit": "2026-10-07",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1518,11 +1881,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5648,
-          "last_commit": "2026-10-09",
+          "stars": 5664,
+          "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1552,11 +1915,11 @@
           "license": "BSD-2-Clause",
           "license_class": "osi",
           "link_only": false,
-          "stars": 24478,
+          "stars": 24504,
           "last_commit": "2026-09-26",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1586,11 +1949,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5643,
+          "stars": 5649,
           "last_commit": "2026-09-21",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1620,11 +1983,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4344,
+          "stars": 4348,
           "last_commit": "2026-10-04",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1659,11 +2022,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1417,
+          "stars": 1418,
           "last_commit": "2026-08-28",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1702,7 +2065,7 @@
           "last_commit": "2026-09-03",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1742,11 +2105,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 8041,
+          "stars": 8046,
           "last_commit": "2026-05-21",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1776,11 +2139,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 19207,
+          "stars": 19212,
           "last_commit": "2026-06-01",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1809,40 +2172,6 @@
           }
         },
         {
-          "id": "jingyi-wu-richael--rachel-digital-human-production",
-          "type": "skill",
-          "title": "Jingyi-Wu-Richael/rachel-digital-human-production",
-          "url": "https://github.com/Jingyi-Wu-Richael/rachel-digital-human-production",
-          "license": "MIT",
-          "license_class": "osi",
-          "link_only": false,
-          "stars": 1049,
-          "last_commit": "2026-07-16",
-          "archived": false,
-          "model_weights": false,
-          "last_checked": "2026-10-11",
-          "added_at": "2026-10-11",
-          "source": {
-            "kind": "bei-bookmark-post",
-            "ref": "x.com/bit_sister/status/2079776222544900557"
-          },
-          "token360": {
-            "ready": false,
-            "status": "untested",
-            "guide": null
-          },
-          "blurb": {
-            "en": "Codex skill for authorized talking-head videos: asset checks, a short preview first, and an approval gate before the full render.",
-            "zh-CN": "制作经授权的数字人口播视频的 Codex Skill：先校验素材、先出短预览，确认后才生成完整视频。",
-            "ja": "許諾を得たトーキングヘッド動画を作る Codex スキル。素材チェック、短いプレビュー、承認後に本番レンダリングという流れです。"
-          },
-          "blurb_status": {
-            "en": "machine-draft",
-            "zh-CN": "machine-draft",
-            "ja": "machine-draft"
-          }
-        },
-        {
           "id": "lipku--livetalking",
           "type": "repo",
           "title": "lipku/LiveTalking",
@@ -1850,11 +2179,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 9841,
+          "stars": 9859,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1884,11 +2213,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5623,
-          "last_commit": "2026-10-10",
+          "stars": 5628,
+          "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1918,11 +2247,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3970,
+          "stars": 3976,
           "last_commit": "2026-08-27",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1948,6 +2277,40 @@
             "zh-CN": "LICENSE 文件为 Apache-2.0，但 README 声明仅供学术研究使用；商用前请先与作者确认。",
             "ja": "LICENSE ファイルは Apache-2.0 ですが、README では学術研究目的のみの公開とされています。商用利用の前に作者へ確認してください。"
           }
+        },
+        {
+          "id": "cclank--lanshu-create-ai-presenter-video",
+          "type": "skill",
+          "title": "cclank/lanshu-create-ai-presenter-video",
+          "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2647,
+          "last_commit": "2026-10-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-12-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Provider-neutral Codex and Claude Code skill that turns a script plus one authorised presenter photo into a finished talking-head video with TTS, lip-sync and subtitles, and verifies each step.",
+            "zh-CN": "不绑定供应商的 Codex / Claude Code Skill：一份文案加一张已授权的真人照片，走完 TTS、口型、字幕，产出可交付的口播视频，每一步都有校验。",
+            "ja": "ベンダー非依存の Codex / Claude Code スキル。台本と許諾済みの人物写真 1 枚から、TTS・リップシンク・字幕を通して完成した語り手動画を作り、各工程を検証します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -1967,11 +2330,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 15237,
+          "stars": 15484,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2001,11 +2364,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 770,
+          "stars": 780,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2044,7 +2407,7 @@
           "last_commit": "2026-08-10",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2075,10 +2438,10 @@
           "license_class": "osi",
           "link_only": false,
           "stars": 0,
-          "last_commit": "2026-10-11",
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "token360-edition",
@@ -2090,7 +2453,7 @@
               "title": "buluslan/gpt-image2-ecommerce",
               "url": "https://github.com/buluslan/gpt-image2-ecommerce",
               "author": "buluslan",
-              "stars": 410,
+              "stars": 411,
               "last_commit": "2026-09-17",
               "license": "MIT",
               "catalog_id": null
@@ -2130,11 +2493,11 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 136949,
-          "last_commit": "2026-10-11",
+          "stars": 137139,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -2164,11 +2527,11 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1213,
+          "stars": 1220,
           "last_commit": "2026-09-06",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "x-search",
@@ -2198,11 +2561,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 811,
+          "stars": 816,
           "last_commit": "2026-10-01",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "github-search",
@@ -2237,11 +2600,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1277,
+          "stars": 1280,
           "last_commit": "2026-09-18",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "github-search",
@@ -2271,11 +2634,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3473,
-          "last_commit": "2026-10-10",
+          "stars": 3496,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2305,11 +2668,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1583,
+          "stars": 1584,
           "last_commit": "2026-08-20",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2339,11 +2702,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 270,
+          "stars": 272,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2374,11 +2737,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3174,
+          "stars": 3177,
           "last_commit": "2026-09-22",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2408,11 +2771,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2289,
-          "last_commit": "2026-10-09",
+          "stars": 2311,
+          "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2437,6 +2800,40 @@
             "en": "Code is Apache-2.0, but the MiniMax H3 weights use the custom MiniMax H3 Community License (users in the US/EU/UK/South Korea must apply); read it before commercial use.",
             "zh-CN": "代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。",
             "ja": "コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。"
+          }
+        },
+        {
+          "id": "carasibana--comfyui-h3-facerefine",
+          "type": "node",
+          "title": "Carasibana/ComfyUI-H3-FaceRefine",
+          "url": "https://github.com/Carasibana/ComfyUI-H3-FaceRefine",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 464,
+          "last_commit": "2026-09-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-12",
+          "added_at": "2026-10-12",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "ComfyUI nodes that fix the small blurry faces MiniMax H3 produces: per-frame face tracking, crop, re-refine with H3, stitch back, with two example workflows.",
+            "zh-CN": "专治 MiniMax H3 出片里小脸糊的 ComfyUI 节点：逐帧人脸追踪、裁切、用 H3 重绘再贴回，附两个示例工作流。",
+            "ja": "MiniMax H3 の出力でぼやけがちな小さい顔を直す ComfyUI ノード。フレームごとの顔追跡、切り出し、H3 での再生成、貼り戻しまで行い、サンプルワークフロー 2 本付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
           }
         }
       ]
@@ -2937,11 +3334,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1966,
-          "last_commit": "2026-10-11",
+          "stars": 1995,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -2971,11 +3368,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2672,
-          "last_commit": "2026-10-11",
+          "stars": 2681,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -3005,11 +3402,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 34296,
+          "stars": 34359,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -3039,11 +3436,11 @@
           "license": "CC-BY-4.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2112,
-          "last_commit": "2026-10-11",
+          "stars": 2117,
+          "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-11",
+          "last_checked": "2026-10-12",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
