@@ -54,7 +54,7 @@ CHROME = {
         "banner_alt": "Awesome Video & Audio Hacks, by Token360",
         "tagline": "A strictly curated list of open-source workflows, agent skills, MCP servers and reproducible posts for AI **video, voice, music, dubbing, lip-sync and editing**. Every entry must meet a written bar (see [Contributing](#contributing)) and is re-checked at least every 30 days. Maintained by the [Token360]({site}) developer community.",
         "legend": "**Tags:** {tags} · ⛔ link-only (non-commercial or source-available license) · ⚠️ read the note before using commercially",
-        "legend_ready": "A ⚡ mark will mean \"verified to run on Token360 by changing `base_url` and key\". No entry carries it yet: nothing has been tested.",
+        "legend_ready": "⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.",
         "qs_title": "Token360 quickstart",
         "qs_intro": "Token360 serves text, image and video models behind one OpenAI-compatible `base_url`.",
         "qs_table": ["Modality", "Endpoint", "Example model ids"],
@@ -67,6 +67,7 @@ CHROME = {
         "license_line": "List content is released under [CC0 1.0](./LICENSE). Linked projects, posts and trademarks belong to their owners; inclusion is not an endorsement by them or of Token360.",
         "ja_note": None,
         "stars": "⭐ {n}",
+        "edition": "🔷 Token360 edition of [{title}]({url})",
         "via": "Example",
         "via_post": "post",
         "use_case": {"video-gen": "Video generation", "editing": "Editing & motion", "voice": "Voice & TTS",
@@ -79,7 +80,7 @@ CHROME = {
         "banner_alt": "Awesome Video & Audio Hacks，Token360 出品",
         "tagline": "一份严格筛选、逐条核验的 AI **视频、配音、音乐、翻译配音、对口型、剪辑**清单，收录开源工作流、Agent Skill、MCP server，以及可以照着复现的帖子。每一条都要过书面门槛（见[参与贡献](#参与贡献)），并且至少每 30 天复查一次。由 [Token360]({site}) 开发者社区维护。",
         "legend": "**标签：** {tags} · ⛔ 仅链接（非商用或 source-available 许可） · ⚠️ 商用前请先看备注",
-        "legend_ready": "⚡ 表示“只改 `base_url` 和 key 就能在 Token360 上跑通，并已验证”。目前还没有任何条目带 ⚡：都还没测过。",
+        "legend_ready": "⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。",
         "qs_title": "Token360 快速上手",
         "qs_intro": "Token360 用一个 OpenAI 兼容的 `base_url` 提供文本、图像和视频模型。",
         "qs_table": ["模态", "接口", "模型 id 示例"],
@@ -92,6 +93,7 @@ CHROME = {
         "license_line": "列表内容以 [CC0 1.0](./LICENSE) 发布。所链接的项目、帖子和商标归各自所有者；收录不代表对方背书，也不代表 Token360 背书。",
         "ja_note": None,
         "stars": "⭐ {n}",
+        "edition": "🔷 Token360 版，原项目 [{title}]({url})",
         "via": "代表作",
         "via_post": "帖子",
         "use_case": {"video-gen": "视频生成", "editing": "剪辑与动效", "voice": "配音与 TTS",
@@ -104,7 +106,7 @@ CHROME = {
         "banner_alt": "Awesome Video & Audio Hacks（Token360）",
         "tagline": "AI の**動画・音声合成・音楽・吹き替え・リップシンク・編集**向けに、オープンソースのワークフロー、エージェントスキル、MCP サーバー、再現できる投稿を厳選したリストです。すべての項目は書面の基準（[コントリビュート](#コントリビュート)）を満たす必要があり、少なくとも 30 日ごとに再確認しています。メンテナンスは [Token360]({site}) 開発者コミュニティ。",
         "legend": "**タグ：** {tags} · ⛔ リンクのみ（非商用または source-available ライセンス） · ⚠️ 商用利用の前に注記を確認",
-        "legend_ready": "⚡ は「`base_url` とキーを変えるだけで Token360 で動くことを確認済み」を表します。現時点では未検証のため、⚡ の付いた項目はありません。",
+        "legend_ready": "⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。",
         "qs_title": "Token360 クイックスタート",
         "qs_intro": "Token360 は OpenAI 互換の `base_url` ひとつで、テキスト・画像・動画モデルを提供しています。",
         "qs_table": ["モダリティ", "エンドポイント", "モデル ID の例"],
@@ -117,6 +119,7 @@ CHROME = {
         "license_line": "リストの内容は [CC0 1.0](./LICENSE) で公開しています。リンク先のプロジェクト・投稿・商標は各権利者に帰属し、掲載は権利者や Token360 による推奨を意味しません。",
         "ja_note": "この日本語版は機械翻訳による下書きで、ネイティブスピーカーのレビュー前です。誤りに気づいたら Issue でお知らせください。",
         "stars": "⭐ {n}",
+        "edition": "🔷 Token360 版（元: [{title}]({url})）",
         "via": "例",
         "via_post": "投稿",
         "use_case": {"video-gen": "動画生成", "editing": "編集・モーション", "voice": "音声・TTS",
@@ -195,11 +198,30 @@ def validate(cat: dict, today: str, models_snapshot: set[str] | None) -> list[st
             if (it.get("token360") or {}).get("ready") and not it["token360"].get("guide"):
                 errs.append(f"{where} token360.ready=true requires a guide link (no unverified ⚡)")
             bar = BAR[typ] if typ in BAR else None
+            ed = it.get("edition")
+            if ed is not None:
+                # Token360 edition: a fork kept by the Token360 community. The bar is checked on the
+                # upstream project (stars, activity, license); the fork itself must carry a tested guide.
+                up = ed.get("upstream") or {}
+                if ed.get("kind") != "token360":
+                    errs.append(f"{where} edition.kind must be 'token360'")
+                for f in ("title", "url", "author", "stars", "last_commit", "license"):
+                    if up.get(f) in (None, ""):
+                        errs.append(f"{where} edition.upstream missing '{f}'")
+                if up.get("license") and up.get("license") != it.get("license"):
+                    errs.append(f"{where} edition license {it.get('license')} differs from upstream {up.get('license')}")
+                if not (it.get("token360") or {}).get("ready"):
+                    errs.append(f"{where} a Token360 edition must ship a tested guide (token360.ready + guide)")
+                if typ in GITHUB_TYPES and lc and up.get("last_commit"):
+                    if up.get("stars", 0) < bar["min_stars"]:
+                        errs.append(f"{where} upstream {up.get('stars')} stars < {bar['min_stars']}")
+                    if days(up["last_commit"], lc) > bar["max_inactive_days"]:
+                        errs.append(f"{where} upstream last commit {up['last_commit']} older than {bar['max_inactive_days']} days")
             if typ in GITHUB_TYPES and lc and it.get("last_commit"):
                 if it.get("archived"):
                     errs.append(f"{where} repository is archived")
                 need = bar["min_stars"]
-                if it.get("stars", 0) < need and not it.get("bar_exception"):
+                if it.get("stars", 0) < need and not it.get("bar_exception") and ed is None:
                     errs.append(f"{where} {it.get('stars')} stars < {need}")
                 lim = bar.get("max_inactive_days_model") if it.get("model_weights") and "max_inactive_days_model" in bar else bar["max_inactive_days"]
                 idle = days(it["last_commit"], lc)
@@ -282,6 +304,10 @@ def entry_line(it: dict, lang: str, cat: dict) -> str:
         head = f"- [{it['title']}]({it['url']}) - "
         marks = (" ⛔" if it.get("link_only") else "") + (" ⚡" if (it.get("token360") or {}).get("ready") else "")
         meta = [tag + marks, C["stars"].format(n=fmt_stars(it["stars"])), it["license"]]
+        if it.get("edition"):
+            up = it["edition"]["upstream"]
+            meta = [tag + marks, C["edition"].format(title=up["title"], url=up["url"]),
+                    C["stars"].format(n=fmt_stars(up["stars"])), it["license"]]
     line = head + " · ".join(meta) + " · " + blurb
     if it["type"] == "person":
         sep = " " if lang == "en" else ""

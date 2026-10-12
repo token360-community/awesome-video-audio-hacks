@@ -4,6 +4,7 @@
 Updates stars, last_commit (default branch, America/Los_Angeles date), archived, and last_checked.
 License is reported but NOT overwritten: a change must be reviewed by a human (GitHub reports
 NOASSERTION for some valid licenses). Posts and people are not touched (check them on X by hand).
+For Token360 editions (`edition.upstream`), the upstream repo's stars and last commit are refreshed too.
 
 Auth: GITHUB_TOKEN / GH_TOKEN env var, or falls back to `gh api` if the gh CLI is logged in.
 Run `python3 scripts/generate_readme.py` afterwards; it fails if an entry dropped below the bar.
@@ -54,6 +55,16 @@ def main() -> int:
                 if it.get(k) != v:
                     changes.append(f"{k} {it.get(k)} -> {v}")
                     it[k] = v
+            up = (it.get("edition") or {}).get("upstream")
+            if up:  # Token360 edition: the bar is checked on the upstream repo, so refresh it too
+                ufull = up["url"].split("github.com/", 1)[1].strip("/")
+                ur = gh(f"repos/{ufull}")
+                uc = gh(f"repos/{ur['full_name']}/commits?per_page=1&sha={ur['default_branch']}")
+                ulast = dt.datetime.fromisoformat(uc[0]["commit"]["committer"]["date"].replace("Z", "+00:00")).astimezone(LA).date().isoformat()
+                for k, v in (("stars", ur["stargazers_count"]), ("last_commit", ulast)):
+                    if up.get(k) != v:
+                        changes.append(f"upstream {k} {up.get(k)} -> {v}")
+                        up[k] = v
             it["last_checked"] = today
             print(f"{full}: " + ("; ".join(changes) if changes else "no change"))
     cat["updated"] = today

@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-81-9633af" alt="条目: 81" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-83-9633af" alt="条目: 83" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -21,9 +21,9 @@
 
 **标签：** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ 仅链接（非商用或 source-available 许可） · ⚠️ 商用前请先看备注
 
-⚡ 表示“只改 `base_url` 和 key 就能在 Token360 上跑通，并已验证”。目前还没有任何条目带 ⚡：都还没测过。
+⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 81 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 83 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -55,19 +55,19 @@ curl https://api.token360.ai/v1/videos \
 | 视频 | `POST /videos → GET /videos/{id}` | `seedance-2.5`, `veo-3.1-generate-001`, `wan3.0-video`, `minimax-h3` |
 | 音频 | _待验证_                          | `seed-audio-1.0`, `glm-asr-2512`                                     |
 
-<sub>模型 id 取自 2026-10-11 公开的 `GET /v1/models`。不带 key 请求时这些路由返回鉴权错误；本列表里的项目都还没在 Token360 上端到端跑过。</sub>
+<sub>模型 id 取自 2026-10-11 公开的 `GET /v1/models`。不带 key 请求时这些路由返回鉴权错误。带 ⚡ 的条目已在 Token360 上端到端跑通（见各自教程）；其余条目都还没测过。</sub>
 
 完整模型列表和每个模型的请求示例：[token360.ai/models](https://www.token360.ai/zh-CN/models?utm_source=github&utm_medium=awesome&utm_campaign=avah)。
 
 ## 目录
 
-- [视频生成与提示词](#视频生成与提示词) (8)
+- [视频生成与提示词](#视频生成与提示词) (9)
 - [短剧与叙事](#短剧与叙事) (9)
 - [剪辑与动效 Agent](#剪辑与动效-agent) (11)
 - [配音、TTS 与音乐](#配音tts-与音乐) (9)
 - [翻译配音与字幕](#翻译配音与字幕) (8)
 - [对口型与数字人](#对口型与数字人) (6)
-- [广告与营销视频](#广告与营销视频) (3)
+- [广告与营销视频](#广告与营销视频) (4)
 - [ComfyUI 与 MCP 连接器](#comfyui-与-mcp-连接器) (9)
 - [工作流拆解（帖子）](#工作流拆解帖子) (10)
 - [值得关注的作者](#值得关注的作者) (4)
@@ -82,6 +82,7 @@ curl https://api.token360.ai/v1/videos \
 - [s1dashu/director](https://github.com/s1dashu/director) - `Skill` · ⭐ 801 · MIT · 从调研、脚本、视觉设定、镜头设计、素材生成到交付，端到端“导演”一条完整视频的 Skill。
 - [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) - `Repo` · ⭐ 12.7k · Apache-2.0 · 桌面端 AI 视频工作室：从脚本到生成、配音、本地化一条龙，内置 Agent Skills。
 - [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) - `Skill` · ⭐ 4.3k · MIT · 把一句想法写成可直接投喂 Seedance 2.x 的视频提示词的 Agent Skill。
+- [token360-community/seedance-prompt-skill](https://github.com/token360-community/seedance-prompt-skill) - `Skill` ⚡ · 🔷 Token360 版，原项目 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) · ⭐ 4.3k · MIT · Dex 的 Seedance 提示词写作 Skill，外加一个只用标准库的 Python 脚本，在 Token360 上用 Seedance 2.5 把提示词直接渲染成视频，并附示例片段。
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) - `Repo` · ⭐ 1.7k · Apache-2.0 · 在消费级显卡和 Mac 上本地运行开源 MiniMax H3 音视频模型，附社区各型号显卡实测速度。 ⚠️ 代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。
 
 ## 短剧与叙事
@@ -147,6 +148,7 @@ curl https://api.token360.ai/v1/videos \
 - [latent-spaces/brag](https://github.com/latent-spaces/brag) - `Repo` · ⭐ 15.2k · MIT · 一条命令，把刚做好的项目变成一支可分享的发布宣传短片。
 - [op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) - `Skill` · ⭐ 770 · AGPL-3.0 · 归藏的产品宣传片 Skill：复用真实产品组件，用代码做软件更新宣传片，包含分镜文案、原创配乐、音效和渲染。 ⚠️ 整体为 AGPL-3.0，但默认样式中改编自 CodePilot 的组件仍保留原 BSL 授权。
 - [Kianzzz/book-sales-video](https://github.com/Kianzzz/book-sales-video) - `Skill` · ⭐ 223 · MIT · 中文图书带货视频 Skill：取稿、核验书籍，再配音、配图、加双语字幕并自动剪辑。
+- [token360-community/ecom-image-skill](https://github.com/token360-community/ecom-image-skill) - `Skill` ⚡ · 🔷 Token360 版，原项目 [buluslan/gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce) · ⭐ 410 · MIT · buluslan 的电商做图 Skill（39 个主图与广告模板，外加 16 帧产品动图），已配好 Token360 图像模型并附实测样图；产出是静图和循环动图，不是视频。
 
 ## ComfyUI 与 MCP 连接器
 

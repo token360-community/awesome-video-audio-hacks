@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-81-9633af" alt="entries: 81" />
+  <img src="https://img.shields.io/badge/entries-83-9633af" alt="entries: 83" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -21,9 +21,9 @@
 
 **Tags:** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ link-only (non-commercial or source-available license) · ⚠️ read the note before using commercially
 
-A ⚡ mark will mean "verified to run on Token360 by changing `base_url` and key". No entry carries it yet: nothing has been tested.
+⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>81 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>83 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -55,19 +55,19 @@ curl https://api.token360.ai/v1/videos \
 | Video    | `POST /videos → GET /videos/{id}` | `seedance-2.5`, `veo-3.1-generate-001`, `wan3.0-video`, `minimax-h3` |
 | Audio    | _pending verification_            | `seed-audio-1.0`, `glm-asr-2512`                                     |
 
-<sub>Model ids from the public `GET /v1/models` on 2026-10-11. Routes answer with an auth error without a key; nothing in this list has been run end to end on Token360 yet.</sub>
+<sub>Model ids from the public `GET /v1/models` on 2026-10-11. Routes answer with an auth error without a key. Entries marked ⚡ were run end to end on Token360 (see their guides); everything else has not been tested yet.</sub>
 
 Full model list and per-model request examples: [token360.ai/models](https://www.token360.ai/models?utm_source=github&utm_medium=awesome&utm_campaign=avah).
 
 ## Contents
 
-- [Video generation & prompting](#video-generation--prompting) (8)
+- [Video generation & prompting](#video-generation--prompting) (9)
 - [Short drama & storytelling](#short-drama--storytelling) (9)
 - [Editing & motion agents](#editing--motion-agents) (11)
 - [Voice, TTS & music](#voice-tts--music) (9)
 - [Dubbing & subtitles](#dubbing--subtitles) (8)
 - [Lip-sync & digital humans](#lip-sync--digital-humans) (6)
-- [Ads & marketing video](#ads--marketing-video) (3)
+- [Ads & marketing video](#ads--marketing-video) (4)
 - [ComfyUI & MCP connectors](#comfyui--mcp-connectors) (9)
 - [Workflow breakdowns (posts)](#workflow-breakdowns-posts) (10)
 - [People to follow](#people-to-follow) (4)
@@ -82,6 +82,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [s1dashu/director](https://github.com/s1dashu/director) - `Skill` · ⭐ 801 · MIT · Skill that directs a complete video end to end: research, script, visual development, shot design, media generation and delivery.
 - [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) - `Repo` · ⭐ 12.7k · Apache-2.0 · Desktop AI video studio that goes from script to generated, dubbed and localized video, with built-in agent skills.
 - [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) - `Skill` · ⭐ 4.3k · MIT · Agent skill that writes model-ready Seedance 2.x video prompts from a plain idea.
+- [token360-community/seedance-prompt-skill](https://github.com/token360-community/seedance-prompt-skill) - `Skill` ⚡ · 🔷 Token360 edition of [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) · ⭐ 4.3k · MIT · Dex's Seedance prompt-writing skill plus a standard-library Python script that renders the prompts as Seedance 2.5 clips on Token360, with sample clips.
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) - `Repo` · ⭐ 1.7k · Apache-2.0 · Runs the open MiniMax H3 audio-video model on consumer GPUs and Macs, with community speed reports per card. ⚠️ Code is Apache-2.0, but the MiniMax H3 weights use the custom MiniMax H3 Community License (users in the US/EU/UK/South Korea must apply); read it before commercial use.
 
 ## Short drama & storytelling
@@ -147,6 +148,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [latent-spaces/brag](https://github.com/latent-spaces/brag) - `Repo` · ⭐ 15.2k · MIT · One command turns the project you just built into a short, shareable launch video.
 - [op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) - `Skill` · ⭐ 770 · AGPL-3.0 · Skill for software promo videos rendered in code from your real product components: storyboard copy, original music, sound effects and render. ⚠️ AGPL-3.0 overall, but the default styles adapted from CodePilot stay under their original BSL terms.
 - [Kianzzz/book-sales-video](https://github.com/Kianzzz/book-sales-video) - `Skill` · ⭐ 223 · MIT · Chinese book-promotion video skill: pulls the script, checks the book, then voice-over, images, bilingual subtitles and auto-edit.
+- [token360-community/ecom-image-skill](https://github.com/token360-community/ecom-image-skill) - `Skill` ⚡ · 🔷 Token360 edition of [buluslan/gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce) · ⭐ 410 · MIT · buluslan's e-commerce visual skill (39 listing and ad templates plus 16-frame product motion GIFs) preconfigured for Token360 image models, with a tested sample gallery; output is stills and looping GIFs, not video.
 
 ## ComfyUI & MCP connectors
 

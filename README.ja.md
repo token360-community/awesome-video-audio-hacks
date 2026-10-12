@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-81-9633af" alt="entries: 81" />
+  <img src="https://img.shields.io/badge/entries-83-9633af" alt="entries: 83" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -21,9 +21,9 @@
 
 **タグ：** `Repo` `Skill` `MCP` `Node` `Post` `Person` `List` · ⛔ リンクのみ（非商用または source-available ライセンス） · ⚠️ 商用利用の前に注記を確認
 
-⚡ は「`base_url` とキーを変えるだけで Token360 で動くことを確認済み」を表します。現時点では未検証のため、⚡ の付いた項目はありません。
+⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 81 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 83 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -55,19 +55,19 @@ curl https://api.token360.ai/v1/videos \
 | 動画       | `POST /videos → GET /videos/{id}` | `seedance-2.5`, `veo-3.1-generate-001`, `wan3.0-video`, `minimax-h3` |
 | 音声       | _検証待ち_                        | `seed-audio-1.0`, `glm-asr-2512`                                     |
 
-<sub>モデル ID は 2026-10-11 時点の公開 `GET /v1/models` から取得。キーなしのリクエストには認証エラーを返すことを確認済みですが、このリストの項目はまだ Token360 上でエンドツーエンドに試していません。</sub>
+<sub>モデル ID は 2026-10-11 時点の公開 `GET /v1/models` から取得。キーなしのリクエストには認証エラーを返します。⚡ の付いた項目は Token360 上でエンドツーエンドに確認済み（各ガイド参照）で、それ以外はまだ試していません。</sub>
 
 全モデルの一覧とモデルごとのリクエスト例：[token360.ai/models](https://www.token360.ai/models?utm_source=github&utm_medium=awesome&utm_campaign=avah)。
 
 ## 目次
 
-- [動画生成とプロンプト](#動画生成とプロンプト) (8)
+- [動画生成とプロンプト](#動画生成とプロンプト) (9)
 - [ショートドラマとストーリー](#ショートドラマとストーリー) (9)
 - [編集・モーションエージェント](#編集モーションエージェント) (11)
 - [音声・TTS・音楽](#音声tts音楽) (9)
 - [吹き替えと字幕](#吹き替えと字幕) (8)
 - [リップシンクとデジタルヒューマン](#リップシンクとデジタルヒューマン) (6)
-- [広告・マーケティング動画](#広告マーケティング動画) (3)
+- [広告・マーケティング動画](#広告マーケティング動画) (4)
 - [ComfyUI と MCP コネクタ](#comfyui-と-mcp-コネクタ) (9)
 - [ワークフロー解説（投稿）](#ワークフロー解説投稿) (10)
 - [注目の作り手](#注目の作り手) (4)
@@ -82,6 +82,7 @@ curl https://api.token360.ai/v1/videos \
 - [s1dashu/director](https://github.com/s1dashu/director) - `Skill` · ⭐ 801 · MIT · リサーチ、脚本、ビジュアル開発、ショット設計、素材生成、納品まで、1 本の動画を通しで「監督」するスキル。
 - [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) - `Repo` · ⭐ 12.7k · Apache-2.0 · 台本から生成・吹き替え・ローカライズまでを一つで行うデスクトップ AI 動画スタジオ。エージェントスキル内蔵。
 - [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) - `Skill` · ⭐ 4.3k · MIT · ざっくりしたアイデアから、そのまま使える Seedance 2.x 用の動画プロンプトを書くエージェントスキル。
+- [token360-community/seedance-prompt-skill](https://github.com/token360-community/seedance-prompt-skill) - `Skill` ⚡ · 🔷 Token360 版（元: [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill)） · ⭐ 4.3k · MIT · Dex による Seedance プロンプト作成スキルに、Token360 上の Seedance 2.5 でプロンプトをそのまま動画にする標準ライブラリだけの Python スクリプトとサンプル動画を加えたもの。
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) - `Repo` · ⭐ 1.7k · Apache-2.0 · オープンな MiniMax H3 音声付き動画モデルを一般向け GPU や Mac で動かすローカル推論ツール。GPU ごとのコミュニティ実測あり。 ⚠️ コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。
 
 ## ショートドラマとストーリー
@@ -147,6 +148,7 @@ curl https://api.token360.ai/v1/videos \
 - [latent-spaces/brag](https://github.com/latent-spaces/brag) - `Repo` · ⭐ 15.2k · MIT · 作ったばかりのプロジェクトを、コマンド一つでシェアできるローンチ動画にします。
 - [op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) - `Skill` · ⭐ 770 · AGPL-3.0 · 実際のプロダクトのコンポーネントを使い、コードでソフトウェアの紹介動画を作るスキル。絵コンテ、オリジナル BGM、効果音、レンダリングまで。 ⚠️ 全体は AGPL-3.0 ですが、CodePilot 由来のデフォルトスタイルは元の BSL ライセンスのままです。
 - [Kianzzz/book-sales-video](https://github.com/Kianzzz/book-sales-video) - `Skill` · ⭐ 223 · MIT · 中国語の書籍 PR 動画を作るスキル。原稿取得と書籍確認のあと、ナレーション、画像、二言語字幕、自動編集まで行います。
+- [token360-community/ecom-image-skill](https://github.com/token360-community/ecom-image-skill) - `Skill` ⚡ · 🔷 Token360 版（元: [buluslan/gpt-image2-ecommerce](https://github.com/buluslan/gpt-image2-ecommerce)） · ⭐ 410 · MIT · buluslan による EC 向けビジュアル生成スキル（商品ページ・広告用テンプレート 39 種と 16 フレームの商品モーション GIF）を Token360 の画像モデル向けに設定済みで、検証済みサンプル付き。出力は静止画とループ GIF で、動画ではありません。
 
 ## ComfyUI と MCP コネクタ
 

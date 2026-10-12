@@ -25,6 +25,7 @@ Every rule must hold. `scripts/generate_readme.py` enforces the numeric ones; re
 - Non-commercial, source-available or unlicensed repos may appear **link-only (⛔)**, only with ≥ 5,000★ and only if they are the reference project in their category.
 - `last_checked` must be within the last **30 days**. Entries that are not re-checked fail CI until refreshed or removed.
 - ⚡ ("runs on Token360") only with a published, tested guide (`token360.guide`). Never on assumption.
+- 🔷 **Token360 editions.** A fork kept in [token360-community](https://github.com/token360-community) may be listed when the upstream project meets the bar for its type (stars and activity are checked on `edition.upstream`), the license and copyright are unchanged, the fork's README credits the original author at the top, and it ships a tested Token360 quick start (so it carries ⚡). It sits next to the original, which stays listed if it qualifies on its own. An edition may cover stills for ad and listing workflows (for example product motion GIFs); third-party image-only resources remain out of scope.
 
 | Type | Hard requirements |
 |---|---|
