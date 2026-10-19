@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-94-9633af" alt="条目: 94" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-95-9633af" alt="条目: 95" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 94 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 95 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -64,7 +64,7 @@ curl https://api.token360.ai/v1/videos \
 - [视频生成与提示词](#视频生成与提示词) (10)
 - [短剧与叙事](#短剧与叙事) (9)
 - [剪辑与动效 Agent](#剪辑与动效-agent) (16)
-- [配音、TTS 与音乐](#配音tts-与音乐) (13)
+- [配音、TTS 与音乐](#配音tts-与音乐) (14)
 - [翻译配音与字幕](#翻译配音与字幕) (8)
 - [对口型与数字人](#对口型与数字人) (6)
 - [广告与营销视频](#广告与营销视频) (4)
@@ -132,6 +132,7 @@ curl https://api.token360.ai/v1/videos \
 - [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - `Repo` · ⭐ 60.2k · AGPL-3.0 · 完全本地运行的桌面语音工作台：声音克隆、音色设计、视频配音、听写、转写、有声书，支持 646 种语言，自带本地 HTTP API 和 MCP server。 ⚠️ 应用代码为 AGPL-3.0，但内置的每个模型各自带许可；商用前请逐一确认模型条款。
 - [0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - `Repo` · ⭐ 3.5k · Apache-2.0 · 基于 ggml 的纯 C++ 音频推理引擎，一个包跑完视频流水线要的全部音频模型：TTS、语音识别、VAD、变声、音乐生成，支持 CPU/CUDA/Vulkan/AMD/Apple Silicon。
 - [leemysw/yovoice](https://github.com/leemysw/yovoice) - `Repo` · ⭐ 1.1k · Apache-2.0 · macOS / Windows 桌面应用，本地跑 TTS、声音克隆和情绪控制，不走云 API，也没有按字计费。
+- [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) - `Skill` · ⭐ 983 · MIT · 给编程 Agent 装上耳朵，纯 CPU 运行：描述、匹配和审听音效与影片配乐，还能从 201 个用代码生成的音效库里按帧对齐渲染音效，提供 CLI、MCP server 和 Claude Code Skill。
 
 ## 翻译配音与字幕
 

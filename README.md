@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-94-9633af" alt="entries: 94" />
+  <img src="https://img.shields.io/badge/entries-95-9633af" alt="entries: 95" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>94 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>95 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -64,7 +64,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [Video generation & prompting](#video-generation--prompting) (10)
 - [Short drama & storytelling](#short-drama--storytelling) (9)
 - [Editing & motion agents](#editing--motion-agents) (16)
-- [Voice, TTS & music](#voice-tts--music) (13)
+- [Voice, TTS & music](#voice-tts--music) (14)
 - [Dubbing & subtitles](#dubbing--subtitles) (8)
 - [Lip-sync & digital humans](#lip-sync--digital-humans) (6)
 - [Ads & marketing video](#ads--marketing-video) (4)
@@ -132,6 +132,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - `Repo` · ⭐ 60.2k · AGPL-3.0 · Fully local desktop studio for voice cloning, voice design, video dubbing, dictation, transcription and audiobooks in 646 languages, with a local HTTP API and an MCP server. ⚠️ App code is AGPL-3.0 but each bundled model keeps its own licence; also check the per-model terms before commercial use.
 - [0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - `Repo` · ⭐ 3.5k · Apache-2.0 · One ggml-based C++ engine for all the audio models in a video pipeline: TTS, speech-to-text, VAD, voice conversion and music generation, with CPU, CUDA, Vulkan, AMD and Apple Silicon backends.
 - [leemysw/yovoice](https://github.com/leemysw/yovoice) - `Repo` · ⭐ 1.1k · Apache-2.0 · Desktop app for macOS and Windows that does local text-to-speech, voice cloning and emotion control with no cloud API and no per-character fees.
+- [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) - `Skill` · ⭐ 983 · MIT · Ears for coding agents on CPU: describe, match and review sounds and film soundtracks, and render frame-timed effects from a 201-sound library made in code, via CLI, MCP server or Claude Code skills.
 
 ## Dubbing & subtitles
 

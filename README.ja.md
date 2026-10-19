@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-94-9633af" alt="entries: 94" />
+  <img src="https://img.shields.io/badge/entries-95-9633af" alt="entries: 95" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 94 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 95 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -64,7 +64,7 @@ curl https://api.token360.ai/v1/videos \
 - [動画生成とプロンプト](#動画生成とプロンプト) (10)
 - [ショートドラマとストーリー](#ショートドラマとストーリー) (9)
 - [編集・モーションエージェント](#編集モーションエージェント) (16)
-- [音声・TTS・音楽](#音声tts音楽) (13)
+- [音声・TTS・音楽](#音声tts音楽) (14)
 - [吹き替えと字幕](#吹き替えと字幕) (8)
 - [リップシンクとデジタルヒューマン](#リップシンクとデジタルヒューマン) (6)
 - [広告・マーケティング動画](#広告マーケティング動画) (4)
@@ -132,6 +132,7 @@ curl https://api.token360.ai/v1/videos \
 - [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) - `Repo` · ⭐ 60.2k · AGPL-3.0 · 完全ローカルで動くデスクトップ音声スタジオ。音声クローン、ボイスデザイン、動画の吹き替え、ディクテーション、文字起こし、オーディオブックを 646 言語で扱え、ローカル HTTP API と MCP サーバーも同梱。 ⚠️ アプリ本体は AGPL-3.0 ですが、同梱モデルはそれぞれ独自のライセンスです。商用前にモデルごとの条項も確認してください。
 - [0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) - `Repo` · ⭐ 3.5k · Apache-2.0 · ggml ベースの純 C++ 音声推論エンジン。TTS、音声認識、VAD、ボイスコンバージョン、音楽生成をひとつでカバーし、CPU・CUDA・Vulkan・AMD・Apple Silicon に対応します。
 - [leemysw/yovoice](https://github.com/leemysw/yovoice) - `Repo` · ⭐ 1.1k · Apache-2.0 · macOS と Windows 向けのデスクトップアプリ。クラウド API も文字課金もなしで、ローカルの TTS・音声クローン・感情コントロールを行います。
+- [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) - `Skill` · ⭐ 983 · MIT · コーディングエージェントに「耳」を与える CPU 専用ツール。効果音や動画のサウンドトラックを説明・照合・レビューし、コードで作った 201 種の効果音ライブラリからフレーム単位でタイミングを合わせた SFX を書き出せます（CLI、MCP サーバー、Claude Code スキル対応）。
 
 ## 吹き替えと字幕
 

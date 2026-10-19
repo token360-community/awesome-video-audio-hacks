@@ -1,7 +1,7 @@
 {
   "name": "awesome-video-audio-hacks",
   "repo": "https://github.com/token360-community/awesome-video-audio-hacks",
-  "updated": "2026-10-12",
+  "updated": "2026-10-19",
   "langs": [
     "en",
     "zh-CN",
@@ -1788,6 +1788,40 @@
             "en": "Desktop app for macOS and Windows that does local text-to-speech, voice cloning and emotion control with no cloud API and no per-character fees.",
             "zh-CN": "macOS / Windows 桌面应用，本地跑 TTS、声音克隆和情绪控制，不走云 API，也没有按字计费。",
             "ja": "macOS と Windows 向けのデスクトップアプリ。クラウド API も文字課金もなしで、ローカルの TTS・音声クローン・感情コントロールを行います。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "leonxlnx--earshot",
+          "type": "skill",
+          "title": "Leonxlnx/earshot",
+          "url": "https://github.com/Leonxlnx/earshot",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 983,
+          "last_commit": "2026-10-18",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "x-search",
+            "ref": "x.com/LexnLin/status/2111927727318245426 (earshot v0.3 announcement; approved by Bei 2026-10-19)"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Ears for coding agents on CPU: describe, match and review sounds and film soundtracks, and render frame-timed effects from a 201-sound library made in code, via CLI, MCP server or Claude Code skills.",
+            "zh-CN": "给编程 Agent 装上耳朵，纯 CPU 运行：描述、匹配和审听音效与影片配乐，还能从 201 个用代码生成的音效库里按帧对齐渲染音效，提供 CLI、MCP server 和 Claude Code Skill。",
+            "ja": "コーディングエージェントに「耳」を与える CPU 専用ツール。効果音や動画のサウンドトラックを説明・照合・レビューし、コードで作った 201 種の効果音ライブラリからフレーム単位でタイミングを合わせた SFX を書き出せます（CLI、MCP サーバー、Claude Code スキル対応）。"
           },
           "blurb_status": {
             "en": "machine-draft",
