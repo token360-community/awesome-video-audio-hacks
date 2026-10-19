@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-95-9633af" alt="条目: 95" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-96-9633af" alt="条目: 96" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 95 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 96 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -63,7 +63,7 @@ curl https://api.token360.ai/v1/videos \
 
 - [视频生成与提示词](#视频生成与提示词) (10)
 - [短剧与叙事](#短剧与叙事) (9)
-- [剪辑与动效 Agent](#剪辑与动效-agent) (16)
+- [剪辑与动效 Agent](#剪辑与动效-agent) (17)
 - [配音、TTS 与音乐](#配音tts-与音乐) (14)
 - [翻译配音与字幕](#翻译配音与字幕) (8)
 - [对口型与数字人](#对口型与数字人) (6)
@@ -116,6 +116,7 @@ curl https://api.token360.ai/v1/videos \
 - [nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit) - `Skill` · ⭐ 1.4k · MIT · 14 个 Codex / Claude Code Skill，按转写稿剪 Reels 和 YouTube Shorts，自带 406 张动效卡片和 HyperFrames 模板，还有一个不用素材、不用 API key 就能渲的测试工程。 ⚠️ 作者本人的配置用 ElevenLabs Scribe 和 Kie.ai 模型 API，但两者都可选（本地 Whisper 或现成转写稿即可），生成素材不是必需项。
 - [glanderness/BeefTV](https://github.com/glanderness/BeefTV) - `Repo` · ⭐ 1.1k · MIT · 轻量、本地优先的视频创作工作台：无限画布上把提示词、模型和素材连起来，人和 Agent 在同一张板子上来回改。
 - [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) - `Skill` · ⭐ 634 · MIT · 给 Claude Code 和 Codex 用的动效 Skill 合集，含自带字体的 b-roll 引擎，每天都在提交。
+- [hypit-ai/hypit](https://github.com/hypit-ai/hypit) - `Repo` ⛔ · ⭐ 23.9k · Modified Apache-2.0 · 让 Agent 把爆款视频拆成可编辑、按字词对齐的工作流（素材、字幕、B-roll、特效），再批量渲染出多个变体的 Skill 与 CLI，作为品类参考收录。 ⚠️ 源码可见：修改版 Apache-2.0，禁止做成多租户 / SaaS 服务或商业再分发（生成内容归用户）；文档默认推荐 Hypit 自家托管的 HypiHub 和合作模型 API，部分为推广链接，也可改用本地或自带的服务。
 
 ## 配音、TTS 与音乐
 

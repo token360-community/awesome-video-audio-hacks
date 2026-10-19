@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-95-9633af" alt="entries: 95" />
+  <img src="https://img.shields.io/badge/entries-96-9633af" alt="entries: 96" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>95 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>96 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -63,7 +63,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 
 - [Video generation & prompting](#video-generation--prompting) (10)
 - [Short drama & storytelling](#short-drama--storytelling) (9)
-- [Editing & motion agents](#editing--motion-agents) (16)
+- [Editing & motion agents](#editing--motion-agents) (17)
 - [Voice, TTS & music](#voice-tts--music) (14)
 - [Dubbing & subtitles](#dubbing--subtitles) (8)
 - [Lip-sync & digital humans](#lip-sync--digital-humans) (6)
@@ -116,6 +116,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit) - `Skill` · ⭐ 1.4k · MIT · Fourteen Codex and Claude Code skills for cutting reels and YouTube Shorts from a transcript, with 406 motion-graphics cards and HyperFrames templates, and a fixture that renders without footage or an API key. ⚠️ The author's own setup uses ElevenLabs Scribe and the Kie.ai model API; both are optional (local Whisper or an existing transcript works) and generated assets are not required.
 - [glanderness/BeefTV](https://github.com/glanderness/BeefTV) - `Repo` · ⭐ 1.1k · MIT · Lightweight local-first video workspace where an infinite canvas wires prompts, models and footage together, so an agent and a human can iterate on the same board.
 - [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) - `Skill` · ⭐ 634 · MIT · Motion-graphics skills for Claude Code and Codex, including a b-roll engine with bundled fonts, committed to daily.
+- [hypit-ai/hypit](https://github.com/hypit-ai/hypit) - `Repo` ⛔ · ⭐ 23.9k · Modified Apache-2.0 · Agent skill and CLI that clone a viral video into an editable, word-timed workflow (footage, captions, B-roll and effects) and re-render it as many variants; listed as the category reference. ⚠️ Source-available: a modified Apache-2.0 that bars offering it as a multi-tenant or SaaS service and redistributing it commercially (outputs are yours); the docs default to Hypit's own hosted HypiHub and partner model APIs, some via referral links, though local and bring-your-own providers also work.
 
 ## Voice, TTS & music
 

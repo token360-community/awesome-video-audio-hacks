@@ -1320,6 +1320,47 @@
             "ja": "machine-draft"
           },
           "license_note": "GitHub reports NOASSERTION; the LICENSE file is the MIT text plus a note that the bundled Geist fonts are SIL OFL-1.1. Opened by hand 2026-10-12."
+        },
+        {
+          "id": "hypit-ai--hypit",
+          "type": "repo",
+          "title": "hypit-ai/hypit",
+          "url": "https://github.com/hypit-ai/hypit",
+          "license": "Modified Apache-2.0",
+          "license_class": "source-available",
+          "link_only": true,
+          "stars": 23859,
+          "last_commit": "2026-10-18",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "deep-research",
+            "ref": "content-team/06-analysis/awesome-deep-research-2026-10-11.md",
+            "note": "Bei override 2026-10-19; re-check fork/star growth 2026-11-02"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill and CLI that clone a viral video into an editable, word-timed workflow (footage, captions, B-roll and effects) and re-render it as many variants; listed as the category reference.",
+            "zh-CN": "让 Agent 把爆款视频拆成可编辑、按字词对齐的工作流（素材、字幕、B-roll、特效），再批量渲染出多个变体的 Skill 与 CLI，作为品类参考收录。",
+            "ja": "バズった動画を、素材・字幕・B ロール・エフェクトを単語単位で揃えた編集可能なワークフローとしてエージェントに複製させ、多数のバリエーションを書き出せるスキルと CLI。カテゴリの参照先として掲載。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE is Apache-2.0 with added conditions (no multi-tenant/SaaS use, no commercial redistribution, keep the Hypit name/logo/copyright; outputs belong to the user). Checked by hand 2026-10-19.",
+          "caveat": {
+            "en": "Source-available: a modified Apache-2.0 that bars offering it as a multi-tenant or SaaS service and redistributing it commercially (outputs are yours); the docs default to Hypit's own hosted HypiHub and partner model APIs, some via referral links, though local and bring-your-own providers also work.",
+            "zh-CN": "源码可见：修改版 Apache-2.0，禁止做成多租户 / SaaS 服务或商业再分发（生成内容归用户）；文档默认推荐 Hypit 自家托管的 HypiHub 和合作模型 API，部分为推广链接，也可改用本地或自带的服务。",
+            "ja": "ソース公開型：改変版 Apache-2.0 で、マルチテナント / SaaS としての提供と商用再配布は禁止です（生成物はユーザーのもの）。ドキュメントは Hypit 自社のホスティング HypiHub と提携モデル API（一部は紹介リンク）を既定としていますが、ローカルや自前のプロバイダーも使えます。"
+          }
         }
       ]
     },

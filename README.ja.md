@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-95-9633af" alt="entries: 95" />
+  <img src="https://img.shields.io/badge/entries-96-9633af" alt="entries: 96" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 95 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 96 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -63,7 +63,7 @@ curl https://api.token360.ai/v1/videos \
 
 - [動画生成とプロンプト](#動画生成とプロンプト) (10)
 - [ショートドラマとストーリー](#ショートドラマとストーリー) (9)
-- [編集・モーションエージェント](#編集モーションエージェント) (16)
+- [編集・モーションエージェント](#編集モーションエージェント) (17)
 - [音声・TTS・音楽](#音声tts音楽) (14)
 - [吹き替えと字幕](#吹き替えと字幕) (8)
 - [リップシンクとデジタルヒューマン](#リップシンクとデジタルヒューマン) (6)
@@ -116,6 +116,7 @@ curl https://api.token360.ai/v1/videos \
 - [nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit) - `Skill` · ⭐ 1.4k · MIT · 文字起こしから Reels や YouTube Shorts を編集する Codex / Claude Code スキル 14 本。406 枚のモーショングラフィックスカードと HyperFrames テンプレート、素材も API キーも不要で描画できるフィクスチャ付き。 ⚠️ 作者自身の構成では ElevenLabs Scribe と Kie.ai のモデル API を使いますが、どちらも任意で（ローカル Whisper や既存の文字起こしでも可）、生成素材も必須ではありません。
 - [glanderness/BeefTV](https://github.com/glanderness/BeefTV) - `Repo` · ⭐ 1.1k · MIT · ローカルファーストの軽量な動画制作ワークスペース。無限キャンバス上でプロンプト・モデル・素材をつなぎ、人とエージェントが同じボードで反復できます。
 - [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) - `Skill` · ⭐ 634 · MIT · Claude Code と Codex 向けのモーショングラフィックススキル集。フォント同梱の b-roll エンジンを含み、毎日更新されています。
+- [hypit-ai/hypit](https://github.com/hypit-ai/hypit) - `Repo` ⛔ · ⭐ 23.9k · Modified Apache-2.0 · バズった動画を、素材・字幕・B ロール・エフェクトを単語単位で揃えた編集可能なワークフローとしてエージェントに複製させ、多数のバリエーションを書き出せるスキルと CLI。カテゴリの参照先として掲載。 ⚠️ ソース公開型：改変版 Apache-2.0 で、マルチテナント / SaaS としての提供と商用再配布は禁止です（生成物はユーザーのもの）。ドキュメントは Hypit 自社のホスティング HypiHub と提携モデル API（一部は紹介リンク）を既定としていますが、ローカルや自前のプロバイダーも使えます。
 
 ## 音声・TTS・音楽
 
