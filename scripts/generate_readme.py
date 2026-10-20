@@ -233,7 +233,7 @@ def validate(cat: dict, today: str, models_snapshot: set[str] | None) -> list[st
                 if lic_class != "osi":
                     if not it.get("link_only"):
                         errs.append(f"{where} non-OSI license must be link_only")
-                    if it.get("stars", 0) < LINK_ONLY_MIN_STARS:
+                    if it.get("stars", 0) < LINK_ONLY_MIN_STARS and not it.get("bar_exception"):
                         errs.append(f"{where} link-only entries need >= {LINK_ONLY_MIN_STARS} stars")
                 elif it.get("link_only"):
                     errs.append(f"{where} link_only set on an OSI-licensed entry")

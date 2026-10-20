@@ -1325,9 +1325,9 @@
           "type": "repo",
           "title": "glanderness/BeefTV",
           "url": "https://github.com/glanderness/BeefTV",
-          "license": "MIT",
-          "license_class": "osi",
-          "link_only": false,
+          "license": "BeefTV Source Available License 1.0 (source-available; pre-change code MIT)",
+          "license_class": "source-available",
+          "link_only": true,
           "stars": 1576,
           "last_commit": "2026-10-19",
           "archived": false,
@@ -1337,6 +1337,11 @@
           "source": {
             "kind": "github-search",
             "ref": "GitHub search + gh api 2026-10-12"
+          },
+          "license_note": "License changed 2026-10-19 from MIT to the BeefTV Source Available License 1.0 (source-available, not OSI); code released before the change remains MIT. Check the license terms before commercial use or redistribution.",
+          "bar_exception": {
+            "rule": "link-only >= 5000 stars",
+            "note": "Bei override 2026-10-19: keep despite license change and < 5,000 stars"
           },
           "token360": {
             "ready": false,
