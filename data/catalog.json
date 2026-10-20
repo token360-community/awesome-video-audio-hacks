@@ -83,11 +83,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 12640,
+          "stars": 12700,
           "last_commit": "2026-09-30",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark",
@@ -117,11 +117,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 130240,
-          "last_commit": "2026-10-11",
+          "stars": 133170,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -151,11 +151,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 7609,
+          "stars": 7790,
           "last_commit": "2026-09-26",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -185,11 +185,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 623,
+          "stars": 715,
           "last_commit": "2026-08-26",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -219,11 +219,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 801,
+          "stars": 814,
           "last_commit": "2026-08-10",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -253,11 +253,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 12787,
-          "last_commit": "2026-10-11",
+          "stars": 13733,
+          "last_commit": "2026-10-18",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -287,11 +287,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4265,
+          "stars": 4352,
           "last_commit": "2026-09-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -325,7 +325,7 @@
           "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "token360-edition",
@@ -337,7 +337,7 @@
               "title": "dexhunter/seedance2-skill",
               "url": "https://github.com/dexhunter/seedance2-skill",
               "author": "Dex (dexhunter)",
-              "stars": 4265,
+              "stars": 4352,
               "last_commit": "2026-09-19",
               "license": "MIT",
               "catalog_id": "dexhunter--seedance2-skill"
@@ -367,11 +367,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1769,
-          "last_commit": "2026-10-12",
+          "stars": 2154,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -406,11 +406,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2393,
-          "last_commit": "2026-10-12",
+          "stars": 3662,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "github-search",
@@ -425,6 +425,74 @@
             "en": "Point it at a video you like and a multi-agent crew in Claude Code or Codex plans, builds and reviews a new video in the same style with you.",
             "zh-CN": "给它一条你喜欢的视频，Claude Code / Codex 里的多 Agent 小组会和你一起拆解、重建、互评，产出同风格的新视频。",
             "ja": "好きな動画を渡すと、Claude Code や Codex 上のマルチエージェント班が同じスタイルの新しい動画を一緒に設計・制作・レビューします。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "kaomei--stickman-video-director",
+          "type": "skill",
+          "title": "kaomei/stickman-video-director",
+          "url": "https://github.com/kaomei/stickman-video-director",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2387,
+          "last_commit": "2026-10-16",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "A tested library of stick-figure animation styles turned into a director skill: give it a topic and it returns a director's proposal for your approval, then one standalone prompt per ten-second clip with voice-over and sound-effect cues, in four visual styles and any length in ten-second steps.",
+            "zh-CN": "把实测过的火柴人动画画风整理成一个导演 skill：给一个话题，它先出一份待你确认的导演方案，再按每十秒一条拆出独立的视频提示词，附旁白和音效提示；四种画风，时长按十秒为单位任选。",
+            "ja": "実際に試した棒人間アニメの画風を集め、ディレクタースキルに仕立てたもの。テーマを渡すと、まず承認用の演出プランを返し、その後 10 秒クリップごとに独立したプロンプト（ナレーションと効果音の指示付き）を出力します。画風は 4 種類、尺は 10 秒単位で自由に設定できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "agents365-ai--video-podcast-maker",
+          "type": "skill",
+          "title": "Agents365-ai/video-podcast-maker",
+          "url": "https://github.com/Agents365-ai/video-podcast-maker",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1689,
+          "last_commit": "2026-09-14",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "A topic becomes a 4K narrated video podcast in one pipeline: research, script, local Edge or Azure TTS with no external engine, a per-video asset manifest that records each clip's licence, Remotion-native subtitles, a 9:16 highlight cut and per-platform publishing copy.",
+            "zh-CN": "一个主题一条流水线出 4K 解说播客视频：查资料、写稿、用本地 EdgeTTS 或 Azure 配音（不依赖外部引擎），每支片子都有记录素材许可来源的 manifest，字幕用 Remotion 原生渲染，另出 9:16 高光短片和各平台发布文案。",
+            "ja": "テーマひとつから 4K のナレーション付きビデオポッドキャストまでを一本のパイプラインで。リサーチ、台本、外部エンジン不要のローカル TTS（Edge / Azure）、素材ごとのライセンスを記録するマニフェスト、Remotion ネイティブ字幕、9:16 のハイライト、プラットフォーム別の投稿文まで生成します。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -450,11 +518,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 17385,
-          "last_commit": "2026-10-09",
+          "stars": 18413,
+          "last_commit": "2026-10-13",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -484,11 +552,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4704,
+          "stars": 4731,
           "last_commit": "2026-08-27",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -518,11 +586,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2032,
-          "last_commit": "2026-10-02",
+          "stars": 2148,
+          "last_commit": "2026-10-16",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -552,11 +620,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2789,
-          "last_commit": "2026-10-03",
+          "stars": 3073,
+          "last_commit": "2026-10-15",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -586,11 +654,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4456,
-          "last_commit": "2026-10-08",
+          "stars": 4825,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "x-search",
@@ -620,11 +688,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5452,
-          "last_commit": "2026-10-12",
+          "stars": 5595,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -654,11 +722,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3480,
+          "stars": 3537,
           "last_commit": "2026-07-30",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -688,11 +756,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1356,
+          "stars": 1393,
           "last_commit": "2026-08-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -722,11 +790,11 @@
           "license": "CC-BY-NC-SA-4.0",
           "license_class": "non-commercial",
           "link_only": true,
-          "stars": 16108,
+          "stars": 16378,
           "last_commit": "2026-10-05",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -767,11 +835,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 67510,
-          "last_commit": "2026-10-12",
+          "stars": 69928,
+          "last_commit": "2026-10-16",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -801,11 +869,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 61733,
-          "last_commit": "2026-10-12",
+          "stars": 67666,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark",
@@ -835,11 +903,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11485,
-          "last_commit": "2026-10-11",
+          "stars": 12528,
+          "last_commit": "2026-10-17",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark",
@@ -874,11 +942,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 93819,
+          "stars": 95387,
           "last_commit": "2026-09-24",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -908,11 +976,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3935,
+          "stars": 4304,
           "last_commit": "2026-09-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -943,11 +1011,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 28793,
+          "stars": 29359,
           "last_commit": "2026-10-08",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -977,11 +1045,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11377,
-          "last_commit": "2026-09-16",
+          "stars": 11465,
+          "last_commit": "2026-10-18",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1011,11 +1079,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 9357,
-          "last_commit": "2026-10-12",
+          "stars": 9573,
+          "last_commit": "2026-10-15",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1045,11 +1113,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4539,
-          "last_commit": "2026-09-26",
+          "stars": 4606,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1079,11 +1147,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3056,
+          "stars": 3104,
           "last_commit": "2026-09-20",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1113,11 +1181,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4321,
+          "stars": 4631,
           "last_commit": "2026-07-27",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1142,16 +1210,16 @@
         {
           "id": "jub0t--concat",
           "type": "repo",
-          "title": "jub0t/concat",
-          "url": "https://github.com/jub0t/concat",
+          "title": "jub0t/Concat",
+          "url": "https://github.com/jub0t/Concat",
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5036,
-          "last_commit": "2026-10-12",
+          "stars": 9480,
+          "last_commit": "2026-10-18",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "github-search",
@@ -1186,11 +1254,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3596,
-          "last_commit": "2026-10-12",
+          "stars": 4501,
+          "last_commit": "2026-10-16",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "x-search",
@@ -1215,16 +1283,16 @@
         {
           "id": "nateherkai--hyperframes-student-kit",
           "type": "skill",
-          "title": "nateherkai/hyperframes-student-kit",
-          "url": "https://github.com/nateherkai/hyperframes-student-kit",
+          "title": "nateherkai/herk-edit-kit",
+          "url": "https://github.com/nateherkai/herk-edit-kit",
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1356,
-          "last_commit": "2026-09-28",
+          "stars": 1862,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "x-search",
@@ -1260,11 +1328,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1126,
-          "last_commit": "2026-10-12",
+          "stars": 1576,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "github-search",
@@ -1294,11 +1362,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 634,
-          "last_commit": "2026-10-12",
+          "stars": 752,
+          "last_commit": "2026-10-13",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "x-search",
@@ -1329,7 +1397,7 @@
           "license": "Modified Apache-2.0",
           "license_class": "source-available",
           "link_only": true,
-          "stars": 23859,
+          "stars": 23998,
           "last_commit": "2026-10-18",
           "archived": false,
           "model_weights": false,
@@ -1361,6 +1429,396 @@
             "zh-CN": "源码可见：修改版 Apache-2.0，禁止做成多租户 / SaaS 服务或商业再分发（生成内容归用户）；文档默认推荐 Hypit 自家托管的 HypiHub 和合作模型 API，部分为推广链接，也可改用本地或自带的服务。",
             "ja": "ソース公開型：改変版 Apache-2.0 で、マルチテナント / SaaS としての提供と商用再配布は禁止です（生成物はユーザーのもの）。ドキュメントは Hypit 自社のホスティング HypiHub と提携モデル API（一部は紹介リンク）を既定としていますが、ローカルや自前のプロバイダーも使えます。"
           }
+        },
+        {
+          "id": "threerocks--sweety-handdraw-video",
+          "type": "skill",
+          "title": "threerocks/sweety-handdraw-video",
+          "url": "https://github.com/threerocks/sweety-handdraw-video",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 723,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-14-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Codex / Claude Code skill that turns a topic or article into a finished hand-drawn explainer video: part-by-part line drawing, word-by-word handwriting and a voiceover, with its production dependencies bundled.",
+            "zh-CN": "把一个主题或一篇文章做成完整手绘讲解视频的 Codex / Claude Code Skill：按部位描线、逐字书写、自动配音，五项制作依赖内置。",
+            "ja": "テーマや記事から手描き解説動画を一本仕上げる Codex / Claude Code スキル。パーツごとの線画、一文字ずつの手書き、ナレーションまで対応し、制作に必要な依存ツールを同梱。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Very new (created 2026-10-12, single maintainer); the default voiceover goes through VoiceStudio, whose bundled models carry their own licences.",
+            "zh-CN": "项目很新（2026-10-12 建仓，单人维护）；默认配音走 VoiceStudio，其内置模型各有许可，商用前请确认。",
+            "ja": "新しいプロジェクト（2026-10-12 作成、メンテナー 1 名）です。既定のナレーションは VoiceStudio 経由で、同梱モデルはそれぞれ独自のライセンスです。"
+          }
+        },
+        {
+          "id": "alexgreensh--anidoodle",
+          "type": "skill",
+          "title": "alexgreensh/anidoodle",
+          "url": "https://github.com/alexgreensh/anidoodle",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1007,
+          "last_commit": "2026-10-17",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-14"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Claude Code / Codex plugin that writes art and animation as code: hand-drawn illustrations, loops, launch videos and scored short films in dozens of styles, rendered deterministically.",
+            "zh-CN": "以代码生成美术与动画的 Claude Code / Codex 插件：手绘插画、循环动画、产品发布视频、配乐短片，几十种风格，渲染结果可复现。",
+            "ja": "アートとアニメーションをコードで描く Claude Code / Codex プラグイン。手描きイラスト、ループ、ローンチ動画、音楽付き短編を数十のスタイルで決定的にレンダリング。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "academa-labs--manimgx",
+          "type": "repo",
+          "title": "academa-labs/manimgx",
+          "url": "https://github.com/academa-labs/manimgx",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1887,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-14"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent-friendly animation engine that keeps Manim's Python API on a Rust GPU core, rendering math and 3D explainer videos to MP4 far faster; pip install, with an llms.txt your coding agent can follow.",
+            "zh-CN": "面向 Agent 的动画引擎：保留 Manim 的 Python API、底层换成 Rust GPU 内核，数学与 3D 讲解视频直出 MP4 且快很多；pip 即装，附 llms.txt 让编码 Agent 自己完成安装。",
+            "ja": "Manim の Python API はそのままに Rust の GPU コアで動く、エージェント向けアニメーションエンジン。数式・3D 解説動画を高速に MP4 へ書き出せ、pip で導入でき、コーディングエージェント用の llms.txt も用意。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Created 2026-10-05; early releases (v0.1.x).",
+            "zh-CN": "2026-10-05 才建仓，目前是 v0.1.x 早期版本。",
+            "ja": "2026-10-05 作成の初期版（v0.1.x）です。"
+          }
+        },
+        {
+          "id": "remotion-dev--remotion",
+          "type": "repo",
+          "title": "remotion-dev/remotion",
+          "url": "https://github.com/remotion-dev/remotion",
+          "license": "Remotion License",
+          "license_class": "source-available",
+          "link_only": true,
+          "stars": 65319,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "plan",
+            "ref": "content-team/06-analysis/awesome-video-audio-hacks-plan-2026-10-08.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "The reference framework for making videos programmatically with React; most coding-agent video skills (HyperFrames-style templates, motion-design skills) build on it.",
+            "zh-CN": "用 React 以代码做视频的参考框架；大多数编码 Agent 视频 Skill（动效、模板类）都建在它之上。",
+            "ja": "React でプログラム的に動画を作るための定番フレームワーク。コーディングエージェント向けの動画スキルの多くがこれを土台にしています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE.md is the Remotion License: free for individuals and small companies (including commercial videos), a paid company license for larger for-profit organisations. Opened by hand 2026-10-14."
+        },
+        {
+          "id": "kajisho5--ffmpeg-skill",
+          "type": "skill",
+          "title": "kajisho5/ffmpeg-skill",
+          "url": "https://github.com/kajisho5/ffmpeg-skill",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2019,
+          "last_commit": "2026-10-17",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-16"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Turns FFmpeg into 42 contract-checked tools a coding agent can drive: cuts, burned-in captions, reframing, loudness normalisation and per-platform exports, as a skill and an MCP server, with no cloud and no API keys.",
+            "zh-CN": "把 FFmpeg 变成 42 个有机器可读契约的工具给编码 Agent 调用：剪切、烧字幕、重构图、响度统一、各平台导出；同时提供 skill 和 MCP server，全本地、不要 API key。",
+            "ja": "FFmpeg を機械可読な契約付きの 42 ツールにまとめ、コーディングエージェントから操作可能に。カット、焼き込み字幕、リフレーム、ラウドネス調整、プラットフォーム別書き出しに対応し、スキルと MCP サーバーの両方を同梱。クラウドも API キーも不要。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "0xsline--openchatcut",
+          "type": "repo",
+          "title": "0xsline/OpenChatCut",
+          "url": "https://github.com/0xsline/OpenChatCut",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2535,
+          "last_commit": "2026-10-18",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-16"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Local-first conversational video editor: tell it the edit in chat and it works a professional multi-track timeline, renders through Remotion, and exposes the same pipeline as Agent Skills and an MCP server.",
+            "zh-CN": "本地优先的对话式剪辑器：在聊天里说出要怎么剪，它操作专业多轨时间线并用 Remotion 渲染，同一套流程也以 Agent Skill 和 MCP server 暴露出来。",
+            "ja": "ローカル優先の対話型ビデオエディター。チャットで編集を伝えるとプロ仕様のマルチトラックタイムラインを操作し、Remotion でレンダリング。同じパイプラインをエージェントスキルと MCP サーバーとしても公開。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Image and video generation providers are bring-your-own-key (OpenAI, Gemini, Seedance, Kling, optionally Fal); generation is billed to your own provider account.",
+            "zh-CN": "图像/视频生成走自带 key 的供应商（OpenAI、Gemini、Seedance、Kling，Fal 可选），生成费用记在你自己的供应商账户上。",
+            "ja": "画像・動画生成は自分の API キーを使うプロバイダー方式（OpenAI、Gemini、Seedance、Kling、任意で Fal）で、生成費用は各自のアカウントに課金されます。"
+          }
+        },
+        {
+          "id": "openfilm--openfilm",
+          "type": "repo",
+          "title": "openfilm/openfilm",
+          "url": "https://github.com/openfilm/openfilm",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1322,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Your coding agent writes a film as plain web pages, one `frame(t)` function per shot, and Studio, a local browser editor, lets you move, restyle, trim and recut anything it made before rendering the MP4; no framework and no account.",
+            "zh-CN": "让编码 Agent 把片子写成普通网页，每个镜头一个 `frame(t)` 函数，再用本地浏览器里的 Studio 编辑器把它做出来的东西逐个挪位、改样式、裁剪和重剪，最后导出 MP4；不用框架、不用账号。",
+            "ja": "コーディングエージェントが映像をただの Web ページとして書き、各ショットは `frame(t)` 関数ひとつ。ブラウザで動くローカルエディタ Studio で位置・スタイル・トリミング・カットを自由に直してから MP4 に書き出せます。フレームワークもアカウントも不要。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "leonxlnx--cinetic",
+          "type": "skill",
+          "title": "Leonxlnx/cinetic",
+          "url": "https://github.com/Leonxlnx/cinetic",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 677,
+          "last_commit": "2026-10-17",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill that directs a launch film instead of arranging components: it writes three concepts, draws a shot plan from 273 timed techniques, derives a brand from three personality words, scores it with code-rendered sound, and ships only after motion-blur, sync and critic gates, on Remotion or HyperFrames.",
+            "zh-CN": "让 Agent 真正去「导」一支发布片而不是拼动效组件：先写三个概念，再从 273 个带时长配方的手法里抽出分镜计划，用三个性格词推导品牌视觉，配上代码生成的音效，过完运动模糊、音画同步和影评关卡才算交片；底层可选 Remotion 或 HyperFrames。",
+            "ja": "コンポーネントを並べるのではなく、ローンチ映像を「演出」させるエージェントスキル。3 つのコンセプトを書き、尺付き 273 技法からショット計画を引き、3 つの性格語からブランドを導き、コードで作った音を当て、モーションブラー・同期・批評のゲートを通してから書き出します。Remotion と HyperFrames に対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "zenstory-ai--video-recap-skills",
+          "type": "skill",
+          "title": "zenstory-ai/video-recap-skills",
+          "url": "https://github.com/zenstory-ai/video-recap-skills",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 582,
+          "last_commit": "2026-10-15",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Seven agent skills that turn one or more source videos into a finished Chinese narration recap: the agent reads picture and dialogue, plans the story, cuts, writes, voices, mixes and subtitles it, needing only ffmpeg locally, and can export the result as a Jianying draft to keep editing.",
+            "zh-CN": "七个 skill 把一段或几段视频做成中文解说成片：Agent 看懂画面与对白，定故事和视听方案，再剪辑、写稿、配音、混音、上字幕；本地只要 ffmpeg，成片还能一键导成剪映草稿继续改。",
+            "ja": "7 つのスキルで、1 本または複数の動画を中国語ナレーションの完成尺に仕上げます。エージェントが映像とセリフを読み、構成を決め、編集・原稿・音声・ミックス・字幕まで担当。ローカルに必要なのは ffmpeg だけで、成果物は剪映（CapCut 中国版）の下書きとして書き出して続きを編集できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "faviovazquez--showtime",
+          "type": "skill",
+          "title": "FavioVazquez/showtime",
+          "url": "https://github.com/FavioVazquez/showtime",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 267,
+          "last_commit": "2026-10-16",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Describe a video in one sentence and a crew of agent skills directs it while your own machine renders it, no GPU required; the project's 55-second showreel was rendered in 2 min 23 s on CPU, and it ships as a skill pack, an MCP server and a plugin.",
+            "zh-CN": "一句话说清要什么片，一组 Agent skill 负责导，渲染全在你自己的机器上，不需要 GPU；项目自己的 55 秒合集片就是在纯 CPU 上 2 分 23 秒渲出来的。同时提供 skill 包、MCP server 和插件三种接法。",
+            "ja": "作りたい映像を一文で伝えると、エージェントスキルの「クルー」が演出し、レンダリングは手元のマシンで完結します（GPU 不要）。公式の 55 秒ショーリールは CPU のみで 2 分 23 秒で書き出されました。スキルパック・MCP サーバー・プラグインの 3 形態を同梱。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "orkas-ai--orkas-videostudio",
+          "type": "skill",
+          "title": "Orkas-AI/Orkas-VideoStudio",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 331,
+          "last_commit": "2026-10-12",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Not a black-box video agent: a video is a readable, diffable `plan.json` that you and your agent can edit line by line, with only the changed piece re-rendering, over thin deterministic wrappers around HyperFrames, ffmpeg and whisper.cpp, driven from a shell or over MCP.",
+            "zh-CN": "不做黑盒视频 Agent：一支片子就是一份可读、可 diff 的 `plan.json`，你和 Agent 都能逐行改，改哪段只重渲哪段；底层是 HyperFrames、ffmpeg 和 whisper.cpp 的确定性薄封装，命令行或 MCP 都能驱动。",
+            "ja": "ブラックボックスの動画エージェントではありません。1 本の動画は読める・差分が取れる `plan.json` で、あなたもエージェントも 1 行ずつ編集でき、変えた部分だけ再レンダリングされます。中身は HyperFrames・ffmpeg・whisper.cpp の決定的な薄いラッパーで、シェルからも MCP からも操作できます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -1380,11 +1838,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 62726,
-          "last_commit": "2026-10-08",
+          "stars": 63216,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1414,11 +1872,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 39164,
+          "stars": 39594,
           "last_commit": "2026-10-07",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -1448,11 +1906,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 26874,
+          "stars": 27090,
           "last_commit": "2026-07-21",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1482,11 +1940,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 23931,
+          "stars": 24056,
           "last_commit": "2026-05-25",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1516,11 +1974,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 11792,
+          "stars": 12313,
           "last_commit": "2026-10-06",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1556,11 +2014,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 57112,
+          "stars": 58034,
           "last_commit": "2026-10-06",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1590,11 +2048,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5534,
-          "last_commit": "2026-10-11",
+          "stars": 5561,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1624,11 +2082,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 20340,
+          "stars": 20378,
           "last_commit": "2026-10-05",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1663,11 +2121,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4201,
+          "stars": 4229,
           "last_commit": "2026-09-05",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -1697,11 +2155,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 14480,
+          "stars": 15030,
           "last_commit": "2026-08-23",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "x-search",
@@ -1736,11 +2194,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 60242,
-          "last_commit": "2026-10-12",
+          "stars": 77495,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "x-search",
@@ -1775,11 +2233,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3488,
-          "last_commit": "2026-10-12",
+          "stars": 3646,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "github-search",
@@ -1810,11 +2268,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1050,
-          "last_commit": "2026-10-12",
+          "stars": 1709,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "github-search",
@@ -1844,7 +2302,7 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 983,
+          "stars": 1533,
           "last_commit": "2026-10-18",
           "archived": false,
           "model_weights": false,
@@ -1863,6 +2321,221 @@
             "en": "Ears for coding agents on CPU: describe, match and review sounds and film soundtracks, and render frame-timed effects from a 201-sound library made in code, via CLI, MCP server or Claude Code skills.",
             "zh-CN": "给编程 Agent 装上耳朵，纯 CPU 运行：描述、匹配和审听音效与影片配乐，还能从 201 个用代码生成的音效库里按帧对齐渲染音效，提供 CLI、MCP server 和 Claude Code Skill。",
             "ja": "コーディングエージェントに「耳」を与える CPU 専用ツール。効果音や動画のサウンドトラックを説明・照合・レビューし、コードで作った 201 種の効果音ライブラリからフレーム単位でタイミングを合わせた SFX を書き出せます（CLI、MCP サーバー、Claude Code スキル対応）。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "fluidinference--fluidaudio",
+          "type": "repo",
+          "title": "FluidInference/FluidAudio",
+          "url": "https://github.com/FluidInference/FluidAudio",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3132,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-14-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Swift SDK that runs CoreML audio models on Apple devices: text-to-speech, speech-to-text (Parakeet), voice activity detection and speaker diarization, fully on-device.",
+            "zh-CN": "在 Apple 设备上跑 CoreML 音频模型的 Swift SDK：TTS、语音转写（Parakeet）、人声检测与说话人分离，全部本地运行。",
+            "ja": "Apple デバイス上で CoreML 音声モデルを動かす Swift SDK。TTS、文字起こし（Parakeet）、音声区間検出、話者分離をすべてオンデバイスで。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "ace-step--ace-step-1-5",
+          "type": "repo",
+          "title": "ace-step/ACE-Step-1.5",
+          "url": "https://github.com/ace-step/ACE-Step-1.5",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 13814,
+          "last_commit": "2026-08-29",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-16"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Local music-generation model and CLI that writes full songs with vocals from a prompt and lyrics, running on CUDA, ROCm, Intel XPU, Apple MPS or plain CPU.",
+            "zh-CN": "本地音乐生成模型和命令行工具：给提示词和歌词就出带人声的完整歌曲，CUDA、ROCm、Intel XPU、Apple MPS 和纯 CPU 都能跑。",
+            "ja": "プロンプトと歌詞からボーカル入りのフルソングを生成するローカル音楽生成モデルと CLI。CUDA、ROCm、Intel XPU、Apple MPS、CPU のみでも動作します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "sgl-project--sglang-omni",
+          "type": "repo",
+          "title": "sgl-project/sglang-omni",
+          "url": "https://github.com/sgl-project/sglang-omni",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1559,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-16"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Serving runtime that puts open speech, TTS and music models behind one OpenAI-compatible API, with streaming speech, uploaded voices, transcription with speaker labels, and a multi-worker router.",
+            "zh-CN": "把开源语音、TTS 和音乐模型统一放到一个兼容 OpenAI 的接口后面的推理服务：支持流式语音、上传音色、带说话人标注的转写，以及多 worker 路由。",
+            "ja": "オープンな音声・TTS・音楽モデルを OpenAI 互換の単一 API で提供するサービングランタイム。ストリーミング音声、音声アップロード、話者ラベル付き文字起こし、マルチワーカールーターに対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "fishaudio--fish-speech",
+          "type": "repo",
+          "title": "fishaudio/fish-speech",
+          "url": "https://github.com/fishaudio/fish-speech",
+          "license": "Fish Audio Community License 1.0",
+          "license_class": "source-available",
+          "link_only": true,
+          "stars": 33298,
+          "last_commit": "2026-10-13",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-16-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "The reference open-weights TTS stack for multilingual, multi-speaker speech with voice cloning, shipped with a web UI, a serving API and Docker images.",
+            "zh-CN": "多语言、多说话人语音合成与音色克隆的权重开放参考项目，自带 Web UI、推理 API 和 Docker 镜像。",
+            "ja": "多言語・複数話者の音声合成と音声クローンにおける、重み公開型のリファレンス TTS スタック。Web UI、推論 API、Docker イメージを同梱。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "GitHub reports NOASSERTION; LICENSE is the Fish Audio Community License 1.0 (dated 2026-10-13), opened by hand 2026-10-16: research and non-commercial use free; commercial use free only while annual revenue is under USD 500,000; offering a hosted TTS/voice-cloning service needs a separate written licence. Delivering finished audio to clients as an agency or studio is explicitly allowed.",
+          "caveat": {
+            "en": "Not an OSI licence: commercial use is capped at USD 500,000 annual revenue and running it as a hosted text-to-speech or voice-cloning service requires a separate agreement with Fish Audio.",
+            "zh-CN": "非 OSI 许可：商用只在年营收低于 50 万美元时免费，把它做成对外的 TTS / 音色克隆托管服务需要单独向 Fish Audio 取得书面授权。",
+            "ja": "OSI ライセンスではありません。商用利用は年間売上 50 万米ドル未満の場合のみ無償で、ホスティング型の TTS・音声クローンサービスとして提供するには Fish Audio との個別契約が必要です。"
+          }
+        },
+        {
+          "id": "tencent-hunyuan--auk",
+          "type": "repo",
+          "title": "Tencent-Hunyuan/AuK",
+          "url": "https://github.com/Tencent-Hunyuan/AuK",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1528,
+          "last_commit": "2026-10-14",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Open weights for speech generation and, unusually, speech editing: zero-shot TTS, voice cloning, enhancement, separation and speaker extraction in one model, with a distillation pipeline for the faster Flash variant, ComfyUI nodes, MLX on Apple Silicon and GGUF offline inference through audio.cpp.",
+            "zh-CN": "权重公开的语音生成模型，难得的是还能做语音编辑：零样本 TTS、音色克隆、增强、分离和目标说话人提取在一个模型里，附带蒸馏出更快的 Flash 版的训练流程、ComfyUI 节点、Apple Silicon 上的 MLX 推理，以及通过 audio.cpp 的 GGUF 离线推理。",
+            "ja": "重みが公開された音声生成モデルで、珍しく音声編集にも対応。ゼロショット TTS、声のクローン、強調、分離、話者抽出を 1 つのモデルで行えます。高速版 Flash を自前で蒸留する学習パイプライン、ComfyUI ノード、Apple Silicon 向け MLX 推論、audio.cpp 経由の GGUF オフライン推論も用意されています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "bitwize-music-studio--claude-ai-music-skills",
+          "type": "skill",
+          "title": "bitwize-music-studio/claude-ai-music-skills",
+          "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+          "license": "CC0-1.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 572,
+          "last_commit": "2026-10-13",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-19",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-19"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "caveat": {
+            "en": "The generation step goes through your own paid Suno account; the repo ships the workflow, prompts and mastering, not a local model.",
+            "zh-CN": "出歌这一步走你自己的付费 Suno 账号；仓库给的是工作流、提示词和母带处理，不含本地模型。",
+            "ja": "生成そのものは自分の有料 Suno アカウント経由です。リポジトリが提供するのはワークフロー・プロンプト・マスタリングで、ローカルモデルは含まれません。"
+          },
+          "blurb": {
+            "en": "Turns a conversation into a full album production line: concept planning, parallel research with cross-verified sources, lyrics, Suno prompts, audio mastering and release prep, with a quality gate at every stage.",
+            "zh-CN": "把一段对话变成整张专辑的生产线：概念策划、并行查证（交叉核对来源）、写词、生成 Suno 提示词、母带处理到发行准备，每个阶段都有质量关卡。",
+            "ja": "会話をアルバム 1 枚分の制作ラインに変えるスキル。コンセプト設計、出典を相互検証する並列リサーチ、作詞、Suno 用プロンプト、マスタリング、リリース準備までを各段階の品質ゲート付きで進めます。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -1888,11 +2561,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 18772,
+          "stars": 18848,
           "last_commit": "2026-09-30",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1922,11 +2595,11 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 19342,
-          "last_commit": "2026-10-07",
+          "stars": 19459,
+          "last_commit": "2026-10-15",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1956,11 +2629,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5664,
-          "last_commit": "2026-10-11",
+          "stars": 5774,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -1990,11 +2663,11 @@
           "license": "BSD-2-Clause",
           "license_class": "osi",
           "link_only": false,
-          "stars": 24504,
-          "last_commit": "2026-09-26",
+          "stars": 24689,
+          "last_commit": "2026-10-18",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -2024,11 +2697,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5649,
-          "last_commit": "2026-09-21",
+          "stars": 5692,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2058,11 +2731,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 4348,
+          "stars": 4404,
           "last_commit": "2026-10-04",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2097,11 +2770,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1418,
+          "stars": 1421,
           "last_commit": "2026-08-28",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2136,11 +2809,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1077,
+          "stars": 1080,
           "last_commit": "2026-09-03",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2180,11 +2853,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 8046,
+          "stars": 8110,
           "last_commit": "2026-05-21",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -2214,11 +2887,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 19212,
+          "stars": 19265,
           "last_commit": "2026-06-01",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -2254,11 +2927,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 9859,
+          "stars": 9965,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2288,11 +2961,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 5628,
-          "last_commit": "2026-10-11",
+          "stars": 5665,
+          "last_commit": "2026-10-15",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2322,11 +2995,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3976,
+          "stars": 4012,
           "last_commit": "2026-08-27",
           "archived": false,
           "model_weights": true,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2361,11 +3034,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2647,
+          "stars": 2754,
           "last_commit": "2026-10-11",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "x-search",
@@ -2386,6 +3059,45 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "lynpoint--cyberverse",
+          "type": "repo",
+          "title": "Lynpoint/CyberVerse",
+          "url": "https://github.com/Lynpoint/CyberVerse",
+          "license": "GPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1715,
+          "last_commit": "2026-09-11",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-16"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Self-hosted framework for real-time digital humans: one photo becomes a full-duplex video caller you can interrupt, driven over WebRTC with swappable ASR, LLM, TTS and local avatar models (FlashHead, LiveAct).",
+            "zh-CN": "可自部署的实时数字人框架：一张照片做成能随时打断的全双工视频通话对象，走 WebRTC，ASR、LLM、TTS 和本地口型模型（FlashHead、LiveAct）都能替换。",
+            "ja": "リアルタイム・デジタルヒューマンのセルフホスト型フレームワーク。写真 1 枚から、いつでも割り込める全二重のビデオ通話相手を作成。WebRTC で動作し、ASR・LLM・TTS・ローカルアバターモデル（FlashHead、LiveAct）を差し替えられます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Commits have slowed (last one 2026-09-11, 35 days before this check) and the only release is v0.1.0; the avatar video path needs a CUDA GPU and downloaded model weights, while voice-only sessions do not.",
+            "zh-CN": "提交已明显放缓（最后一次 2026-09-11，距本次核验 35 天），且只有 v0.1.0 一个 release；数字人视频需要 CUDA 显卡和下载模型权重，纯语音模式不需要。",
+            "ja": "コミットのペースが落ちており（最終コミットは 2026-09-11、本確認の 35 日前）、リリースは v0.1.0 のみです。アバター映像には CUDA GPU とモデル重みのダウンロードが必要ですが、音声のみのセッションには不要です。"
+          }
         }
       ]
     },
@@ -2405,11 +3117,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 15484,
-          "last_commit": "2026-10-09",
+          "stars": 16985,
+          "last_commit": "2026-10-13",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2439,11 +3151,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 780,
+          "stars": 830,
           "last_commit": "2026-10-09",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2478,11 +3190,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 223,
+          "stars": 226,
           "last_commit": "2026-08-10",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2516,7 +3228,7 @@
           "last_commit": "2026-10-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "token360-edition",
@@ -2528,7 +3240,7 @@
               "title": "buluslan/gpt-image2-ecommerce",
               "url": "https://github.com/buluslan/gpt-image2-ecommerce",
               "author": "buluslan",
-              "stars": 411,
+              "stars": 422,
               "last_commit": "2026-09-17",
               "license": "MIT",
               "catalog_id": null
@@ -2543,6 +3255,108 @@
             "en": "buluslan's e-commerce visual skill (39 listing and ad templates plus 16-frame product motion GIFs) preconfigured for Token360 image models, with a tested sample gallery; output is stills and looping GIFs, not video.",
             "zh-CN": "buluslan 的电商做图 Skill（39 个主图与广告模板，外加 16 帧产品动图），已配好 Token360 图像模型并附实测样图；产出是静图和循环动图，不是视频。",
             "ja": "buluslan による EC 向けビジュアル生成スキル（商品ページ・広告用テンプレート 39 種と 16 フレームの商品モーション GIF）を Token360 の画像モデル向けに設定済みで、検証済みサンプル付き。出力は静止画とループ GIF で、動画ではありません。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "abubakrchan--product-launch-motion",
+          "type": "skill",
+          "title": "AbubakrChan/product-launch-motion",
+          "url": "https://github.com/AbubakrChan/product-launch-motion",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 323,
+          "last_commit": "2026-10-15",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-14-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Claude Code skill for polished product-launch videos straight from code (HTML/CSS/GSAP rendered with Playwright and FFmpeg), with a cursor that drives every change and voiceover sync.",
+            "zh-CN": "直接用代码做高质感产品发布视频的 Claude Code Skill（HTML/CSS/GSAP，经 Playwright + FFmpeg 渲染），光标驱动每个变化，支持配音对齐。",
+            "ja": "コードから洗練されたプロダクトローンチ動画を作る Claude Code スキル（HTML/CSS/GSAP を Playwright と FFmpeg でレンダリング）。カーソルが変化を導き、ナレーション同期にも対応。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "xixihhhh--clipforge",
+          "type": "repo",
+          "title": "xixihhhh/clipforge",
+          "url": "https://github.com/xixihhhh/clipforge",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1034,
+          "last_commit": "2026-10-07",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-16"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Self-hosted commerce video factory: a product photo, link or topic becomes a scripted short with voiceover, either as a free no-key cut from public-domain stock or as an AI-generated film, and it ships an MCP server and an agent skill so an assistant can run the whole pipeline.",
+            "zh-CN": "可自部署的带货短视频工厂：一张产品图、一个链接或一个主题出成片，免费路径用公共领域素材加免费配音（不用任何 key），AI 路径出生成式影片；自带 MCP server 和 agent skill，整条流程可以交给助手跑。",
+            "ja": "セルフホストのコマース動画工房。商品写真・リンク・テーマから台本とナレーション付きのショート動画を生成し、キー不要のパブリックドメイン素材を使う無料ルートと AI 生成ルートを選べます。MCP サーバーとエージェントスキルを同梱し、アシスタントに全工程を任せられます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "yils-lin--short-video-factory",
+          "type": "repo",
+          "title": "YILS-LIN/short-video-factory",
+          "url": "https://github.com/YILS-LIN/short-video-factory",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 5787,
+          "last_commit": "2026-10-16",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-16-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Cross-platform desktop app that batch-produces marketing shorts: it writes the script through any OpenAI-compatible endpoint, voices it with Edge-TTS, then auto-cuts your footage against the narration and burns in subtitles, preset by preset.",
+            "zh-CN": "跨平台桌面应用，批量产出营销短视频：文案走任意兼容 OpenAI 的接口，配音用 EdgeTTS，再按旁白自动混剪你的分镜素材并烧上字幕，可按预设持续跑。",
+            "ja": "マーケティング用ショート動画を一括生成するクロスプラットフォームのデスクトップアプリ。台本は OpenAI 互換エンドポイントで生成し、Edge-TTS で読み上げ、ナレーションに合わせて素材を自動編集して字幕を焼き込みます。プリセット単位での連続処理に対応。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -2568,11 +3382,11 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 137139,
-          "last_commit": "2026-10-12",
+          "stars": 139714,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -2602,11 +3416,11 @@
           "license": "GPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1220,
-          "last_commit": "2026-09-06",
+          "stars": 1275,
+          "last_commit": "2026-10-17",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "x-search",
@@ -2636,11 +3450,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 816,
-          "last_commit": "2026-10-01",
+          "stars": 843,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "github-search",
@@ -2675,11 +3489,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1280,
+          "stars": 1307,
           "last_commit": "2026-09-18",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "github-search",
@@ -2709,11 +3523,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3496,
-          "last_commit": "2026-10-12",
+          "stars": 3651,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2743,11 +3557,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1584,
+          "stars": 1593,
           "last_commit": "2026-08-20",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2777,11 +3591,11 @@
           "license": "AGPL-3.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 272,
-          "last_commit": "2026-10-09",
+          "stars": 289,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2812,11 +3626,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 3177,
+          "stars": 3210,
           "last_commit": "2026-09-22",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2846,11 +3660,11 @@
           "license": "Apache-2.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2311,
-          "last_commit": "2026-10-11",
+          "stars": 2466,
+          "last_commit": "2026-10-13",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
@@ -2885,11 +3699,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 464,
+          "stars": 524,
           "last_commit": "2026-09-12",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-12",
           "source": {
             "kind": "github-search",
@@ -2904,6 +3718,40 @@
             "en": "ComfyUI nodes that fix the small blurry faces MiniMax H3 produces: per-frame face tracking, crop, re-refine with H3, stitch back, with two example workflows.",
             "zh-CN": "专治 MiniMax H3 出片里小脸糊的 ComfyUI 节点：逐帧人脸追踪、裁切、用 H3 重绘再贴回，附两个示例工作流。",
             "ja": "MiniMax H3 の出力でぼやけがちな小さい顔を直す ComfyUI ノード。フレームごとの顔追跡、切り出し、H3 での再生成、貼り戻しまで行い、サンプルワークフロー 2 本付き。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "songssx--comfyui-minimaxh3-timelinedirector",
+          "type": "node",
+          "title": "Songssx/ComfyUI-MiniMaxH3-TimelineDirector",
+          "url": "https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector",
+          "license": "GPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 659,
+          "last_commit": "2026-10-13",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-19",
+          "added_at": "2026-10-14",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search + gh api 2026-10-14"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "ComfyUI node that adds an editable reference-media timeline for MiniMax H3 reference-to-video, with four importable example workflows (including a low-VRAM one).",
+            "zh-CN": "给 ComfyUI 的 MiniMax H3 参考生视频加上可编辑参考素材时间线的节点，附 4 个可直接导入的示例工作流（含低显存版）。",
+            "ja": "ComfyUI の MiniMax H3 参照動画生成に、編集可能な参照素材タイムラインを追加するノード。低 VRAM 版を含むインポート可能なサンプルワークフロー 4 本付き。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -3240,6 +4088,43 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "x-2110587546271191166",
+          "type": "post",
+          "title": "Turn an open-source explainer skill into a narrated 5-minute science video",
+          "title_i18n": {
+            "zh-CN": "把开源讲解 Skill 做成 5 分钟带旁白的科普视频",
+            "ja": "オープンソースの解説スキルからナレーション付き 5 分科学動画を作る"
+          },
+          "url": "https://x.com/Khazix0918/status/2110587546271191166",
+          "author": "Khazix0918",
+          "posted_at": "2026-10-15",
+          "likes": 1920,
+          "bookmarks": 3025,
+          "metrics_at": "2026-10-16",
+          "use_case": "editing",
+          "last_checked": "2026-10-16",
+          "added_at": "2026-10-16",
+          "source": {
+            "kind": "x-search",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-16-x-leads.md"
+          },
+          "blurb": {
+            "en": "Long-form walkthrough that takes the open-source Anatomy skill from install prompt to a narrated five-minute explainer video, with the exact slash command, the render-and-voiceover steps and measured cost and runtime.",
+            "zh-CN": "长文教程：从安装提示词开始，把开源 Anatomy skill 一路做成 5 分钟带旁白的科普视频，附具体斜杠命令、渲染与配音步骤，以及实测成本和出片时长。",
+            "ja": "オープンソースの Anatomy スキルをインストール用プロンプトから、ナレーション付き 5 分の解説動画に仕上げるまでの長編解説。スラッシュコマンド、レンダリングと吹き替えの手順、実測のコストと所要時間まで記載。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "The author notes the figures are not fact-checked, and the quoted generation cost and runtime are their own single measurement on a Claude Max plan.",
+            "zh-CN": "作者自己提醒生成内容的准确性无保证；文中的成本和出片时间是他在 Claude Max 套餐下的单次实测值。",
+            "ja": "図の正確性は保証されないと著者自身が注意しており、記載のコストと生成時間は Claude Max プランでの著者 1 回分の実測値です。"
+          }
         }
       ]
     },
@@ -3409,11 +4294,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 1995,
-          "last_commit": "2026-10-12",
+          "stars": 2160,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -3443,11 +4328,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2681,
-          "last_commit": "2026-10-12",
+          "stars": 2753,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "plan-v1",
@@ -3477,11 +4362,11 @@
           "license": "MIT",
           "license_class": "osi",
           "link_only": false,
-          "stars": 34359,
-          "last_commit": "2026-10-09",
+          "stars": 34726,
+          "last_commit": "2026-10-14",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "bei-bookmark-post",
@@ -3511,11 +4396,11 @@
           "license": "CC-BY-4.0",
           "license_class": "osi",
           "link_only": false,
-          "stars": 2117,
-          "last_commit": "2026-10-12",
+          "stars": 2159,
+          "last_commit": "2026-10-19",
           "archived": false,
           "model_weights": false,
-          "last_checked": "2026-10-12",
+          "last_checked": "2026-10-19",
           "added_at": "2026-10-11",
           "source": {
             "kind": "deep-research",
