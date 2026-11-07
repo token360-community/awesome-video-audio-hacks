@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-137-9633af" alt="条目: 137" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-138-9633af" alt="条目: 138" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 137 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 138 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -68,7 +68,7 @@ curl https://api.token360.ai/v1/videos \
 - [翻译配音与字幕](#翻译配音与字幕) (8)
 - [对口型与数字人](#对口型与数字人) (7)
 - [广告与营销视频](#广告与营销视频) (7)
-- [ComfyUI 与 MCP 连接器](#comfyui-与-mcp-连接器) (14)
+- [ComfyUI 与 MCP 连接器](#comfyui-与-mcp-连接器) (15)
 - [工作流拆解（帖子）](#工作流拆解帖子) (11)
 - [值得关注的作者](#值得关注的作者) (4)
 - [相关列表](#相关列表) (5)
@@ -213,6 +213,7 @@ curl https://api.token360.ai/v1/videos \
 - [KyaniteLabs/kinocut](https://github.com/KyaniteLabs/kinocut) - `MCP` · ⭐ 222 · Apache-2.0 · 把本地采访或播客裁成带字幕的竖屏短片，并提供编辑记录与质量检查，适合 Agent 可复核的剪辑链路。
 - [js713-lab/sonic-match-mcp](https://github.com/js713-lab/sonic-match-mcp) - `MCP` · ⭐ 153 · MIT · 分析本地视频、推荐附许可信息的背景音乐，并导出音量避让与混音指令的 MCP 服务。
 - [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) - `MCP` · ⭐ 501 · MIT · 用本地 Stable Audio 3 生成背景音乐和音效的 MCP 服务，并能做无缝循环、响度归一化，导出给剪辑软件或游戏引擎。 ⚠️ 2026-10-18 建仓、单人维护；实际生成需要 Apple Silicon（MLX）或 NVIDIA 显卡，Stable Audio 3 运行时由安装脚本另行克隆。
+- [Valmera MCP](https://github.com/ABO3SKRALMASAOODI/valmera-mcp) - `MCP` · ⭐ 0 · MIT · 官方托管 MCP 连接器，通过对话剪辑已录制的视频，支持字幕、画面重构、版本化预览和 MP4 导出。 ⚠️ MIT 许可证适用于公开的技能和文档，不适用于托管剪辑引擎；剪辑需要经过身份验证的付费 Valmera 账户，该仓库不能作为服务器自行部署，且未声称完成 Token360 集成测试。
 
 ## 工作流拆解（帖子）
 

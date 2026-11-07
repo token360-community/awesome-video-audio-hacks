@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-137-9633af" alt="entries: 137" />
+  <img src="https://img.shields.io/badge/entries-138-9633af" alt="entries: 138" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 137 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 138 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -68,7 +68,7 @@ curl https://api.token360.ai/v1/videos \
 - [吹き替えと字幕](#吹き替えと字幕) (8)
 - [リップシンクとデジタルヒューマン](#リップシンクとデジタルヒューマン) (7)
 - [広告・マーケティング動画](#広告マーケティング動画) (7)
-- [ComfyUI と MCP コネクタ](#comfyui-と-mcp-コネクタ) (14)
+- [ComfyUI と MCP コネクタ](#comfyui-と-mcp-コネクタ) (15)
 - [ワークフロー解説（投稿）](#ワークフロー解説投稿) (11)
 - [注目の作り手](#注目の作り手) (4)
 - [関連リスト](#関連リスト) (5)
@@ -213,6 +213,7 @@ curl https://api.token360.ai/v1/videos \
 - [KyaniteLabs/kinocut](https://github.com/KyaniteLabs/kinocut) - `MCP` · ⭐ 222 · Apache-2.0 · ローカル動画を切り抜き、字幕と縦型版を作り、編集記録と品質チェックを返す MCP サーバー。
 - [js713-lab/sonic-match-mcp](https://github.com/js713-lab/sonic-match-mcp) - `MCP` · ⭐ 153 · MIT · ローカル動画を分析し、ライセンス情報付きのBGM候補とダッキング・ミキシング指示を返すMCPサーバー。
 - [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) - `MCP` · ⭐ 501 · MIT · ローカルのStable Audio 3でBGMと効果音を生成し、シームレスループ化・ラウドネス調整・書き出しまで行うMCPサーバー。動画編集ソフトやゲームエンジンにそのまま渡せます。 ⚠️ 2026-10-18作成、メンテナー1名。生成にはApple Silicon（MLX）かNVIDIA GPUが必要で、Stable Audio 3ランタイムはインストーラーが別途取得します。
+- [Valmera MCP](https://github.com/ABO3SKRALMASAOODI/valmera-mcp) - `MCP` · ⭐ 0 · MIT · 収録済みの動画を会話で編集する公式ホスト型 MCP コネクタで、カット、字幕、リフレーミング、バージョン付きプレビュー、MP4 書き出しに対応します。 ⚠️ MIT ライセンスの対象は公開スキルとドキュメントで、ホスト型編集エンジンではありません。編集には認証済みの有料 Valmera アカウントが必要で、このリポジトリはセルフホスト可能なサーバーではなく、Token360 との統合テストも主張していません。
 
 ## ワークフロー解説（投稿）
 

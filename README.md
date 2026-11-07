@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-137-9633af" alt="entries: 137" />
+  <img src="https://img.shields.io/badge/entries-138-9633af" alt="entries: 138" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>137 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>138 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -68,7 +68,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [Dubbing & subtitles](#dubbing--subtitles) (8)
 - [Lip-sync & digital humans](#lip-sync--digital-humans) (7)
 - [Ads & marketing video](#ads--marketing-video) (7)
-- [ComfyUI & MCP connectors](#comfyui--mcp-connectors) (14)
+- [ComfyUI & MCP connectors](#comfyui--mcp-connectors) (15)
 - [Workflow breakdowns (posts)](#workflow-breakdowns-posts) (11)
 - [People to follow](#people-to-follow) (4)
 - [Related lists](#related-lists) (5)
@@ -213,6 +213,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [KyaniteLabs/kinocut](https://github.com/KyaniteLabs/kinocut) - `MCP` · ⭐ 222 · Apache-2.0 · A local video-editing MCP server that trims, captions and repurposes recordings with edit receipts and quality checks.
 - [js713-lab/sonic-match-mcp](https://github.com/js713-lab/sonic-match-mcp) - `MCP` · ⭐ 153 · MIT · An MCP server that analyzes local video, recommends licensed background music, and exports ducking and mixing instructions.
 - [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) - `MCP` · ⭐ 501 · MIT · MCP server that generates background music and sound effects locally with Stable Audio 3, then loops, normalizes and exports them for a video editor or game engine. ⚠️ Created 2026-10-18 with one maintainer; generation needs Apple Silicon (MLX) or an NVIDIA GPU, and the installer clones the Stable Audio 3 runtime separately.
+- [Valmera MCP](https://github.com/ABO3SKRALMASAOODI/valmera-mcp) - `MCP` · ⭐ 0 · MIT · Official hosted MCP connector for editing recorded footage with conversational cuts, captions, reframing, versioned previews and MP4 export. ⚠️ MIT covers the public skills and documentation, not the hosted editing engine; editing requires an authenticated paid Valmera account, and this repository is not a self-hostable server. No Token360 integration test is claimed.
 
 ## Workflow breakdowns (posts)
 

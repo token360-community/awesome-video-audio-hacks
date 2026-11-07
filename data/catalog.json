@@ -4279,6 +4279,49 @@
             "zh-CN": "2026-10-18 建仓、单人维护；实际生成需要 Apple Silicon（MLX）或 NVIDIA 显卡，Stable Audio 3 运行时由安装脚本另行克隆。",
             "ja": "2026-10-18作成、メンテナー1名。生成にはApple Silicon（MLX）かNVIDIA GPUが必要で、Stable Audio 3ランタイムはインストーラーが別途取得します。"
           }
+        },
+        {
+          "id": "abo3skralmasaoodi--valmera-mcp",
+          "type": "mcp",
+          "title": "Valmera MCP",
+          "url": "https://github.com/ABO3SKRALMASAOODI/valmera-mcp",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 0,
+          "last_commit": "2026-11-07",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-11-07",
+          "added_at": "2026-11-07",
+          "source": {
+            "kind": "vendor-submission",
+            "ref": "GitHub API and https://valmera.io/.well-known/mcp/server-card.json checked 2026-11-07; submitted by the Valmera team."
+          },
+          "bar_exception": {
+            "rule": "MCP: >= 100 stars or vendor-official",
+            "note": "Submitted under the vendor-official alternative in CONTRIBUTING.md, not an approved maintainer override; the repository and https://valmera.io/mcp/setup document the official hosted endpoint."
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Official hosted MCP connector for editing recorded footage with conversational cuts, captions, reframing, versioned previews and MP4 export.",
+            "zh-CN": "官方托管 MCP 连接器，通过对话剪辑已录制的视频，支持字幕、画面重构、版本化预览和 MP4 导出。",
+            "ja": "収録済みの動画を会話で編集する公式ホスト型 MCP コネクタで、カット、字幕、リフレーミング、バージョン付きプレビュー、MP4 書き出しに対応します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "MIT covers the public skills and documentation, not the hosted editing engine; editing requires an authenticated paid Valmera account, and this repository is not a self-hostable server. No Token360 integration test is claimed.",
+            "zh-CN": "MIT 许可证适用于公开的技能和文档，不适用于托管剪辑引擎；剪辑需要经过身份验证的付费 Valmera 账户，该仓库不能作为服务器自行部署，且未声称完成 Token360 集成测试。",
+            "ja": "MIT ライセンスの対象は公開スキルとドキュメントで、ホスト型編集エンジンではありません。編集には認証済みの有料 Valmera アカウントが必要で、このリポジトリはセルフホスト可能なサーバーではなく、Token360 との統合テストも主張していません。"
+          }
         }
       ]
     },
